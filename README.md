@@ -1,3 +1,6 @@
+# LuZ-deepseek-flash-all-in-one-switch
+在LuZ-deepseek-flash-all-in-one的基础上完成的交换机方案，见/switch
+
 # LuZ-deepseek-flash-all-in-one
 
 **LuZ-0.3.1** —— DeepSeek-V4.1-Flash @ **4×NVIDIA DGX Spark（GB10，SM121）TP4
