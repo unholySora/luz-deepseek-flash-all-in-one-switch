@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scoring_cases": 6,
+  "duplicate_json_keys_rejected": true,
+  "cross_stream_value_detected": true,
+  "success_and_injected_http_failure_cleanup_verified": true,
+  "prepared_streams_checked": 16,
+  "prepared_input_tokens": 9550940,
+  "random_values_checked": 112,
+  "unique_first_token_pages": 16,
+  "expected_values_leaked_to_queries": false,
+  "scope": "CPU corpus/tokenization checks and loopback mock HTTP only. No GPU inference, actual streaming-session runtime or full KV residency validation."
+}

@@ -1,0 +1,330 @@
+{
+  "format": "luz-switch-kv-recall-v1",
+  "seed": "20261015-preparation-01",
+  "context": 600000,
+  "pool": 9600000,
+  "streams": 16,
+  "target_input_tokens": 597000,
+  "planned_prompt_tokens": 9550940,
+  "novel_source_sha256": "ed422e10c16c19af7ca7b09ca0320012e60776b3d7cb054769b8f7d9a19aea7d",
+  "novel_body_sha256": "7ddd3ea1ddc814a5271c9445a5f5fe230e8acb98d9c61a774d9cda339b554f3f",
+  "novel_body_chars": 643412,
+  "novel_body_tokens": 589267,
+  "tokenizer_sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+  "encoder_sha256": "2c5a01843332a99bdbfde7a87c651c78d1550db3ce2dbbb0bb6d763b0d883e4d",
+  "record_count": 112,
+  "records_per_stream": 7,
+  "cases": [
+    {
+      "stream": 0,
+      "nonce": "70053435e4c456096ebfeddb",
+      "input_tokens": 596924,
+      "text_chars": 652199,
+      "prompt_sha256": "d8e78e80b2b9d46e57b57cce9ba35fc6f6a4fdb3fb2ff768da24bd5aa4074f35",
+      "record_token_positions": [
+        6132,
+        60464,
+        149786,
+        297570,
+        447190,
+        536812,
+        590761
+      ],
+      "novel_body_repetitions": 1.0121850385134252,
+      "file": "stream00.json",
+      "sha256": "7258c2cadfd5909208dc0636a24e592e43d7c6977fd040dbb83b96da4e82eb8d"
+    },
+    {
+      "stream": 1,
+      "nonce": "8129778133a99a33c221098c",
+      "input_tokens": 596916,
+      "text_chars": 652211,
+      "prompt_sha256": "d833156e91f296cc1dde94f155206fba5c8d0103a77776526c8a5861ca5b2898",
+      "record_token_positions": [
+        6111,
+        60423,
+        149437,
+        297169,
+        446980,
+        536493,
+        590798
+      ],
+      "novel_body_repetitions": 1.0122036890825785,
+      "file": "stream01.json",
+      "sha256": "d15dec42a2b4c9bcd9b3cfbd2d3a7383ed71d6addab04a33cb57e2c3a8445a92"
+    },
+    {
+      "stream": 2,
+      "nonce": "9bfe87a3f9db21e9d1a0b377",
+      "input_tokens": 596926,
+      "text_chars": 652316,
+      "prompt_sha256": "afd90359f1d0235fa06df34b2f58493364289eb1904a4d3222077515644db225",
+      "record_token_positions": [
+        6033,
+        59609,
+        148646,
+        297071,
+        446494,
+        536383,
+        590949
+      ],
+      "novel_body_repetitions": 1.012366881562669,
+      "file": "stream02.json",
+      "sha256": "409105a9fcd0d2983dfd0c0454a0a9a4b99fd816de4f0abfa83929410caa2ded"
+    },
+    {
+      "stream": 3,
+      "nonce": "82a524d864032c4c15db6e8e",
+      "input_tokens": 596934,
+      "text_chars": 652442,
+      "prompt_sha256": "9bc02b5883fe6a4bcac5592dc7c3f1aca1c90ef984356a8164d36a19edf3f3ab",
+      "record_token_positions": [
+        5984,
+        59490,
+        147904,
+        297087,
+        446499,
+        536851,
+        590939
+      ],
+      "novel_body_repetitions": 1.0125627125387777,
+      "file": "stream03.json",
+      "sha256": "7cdfceb7650ace1c7bfec3fa0b1ffa54561faa9cea7a00317413c7dc4b558242"
+    },
+    {
+      "stream": 4,
+      "nonce": "f8e38182586fb31955c79af2",
+      "input_tokens": 596923,
+      "text_chars": 652219,
+      "prompt_sha256": "47cde8ac6080f01b1955717cdf9afb635569976def31ed04bffcfaeddbb0a5b6",
+      "record_token_positions": [
+        6108,
+        59783,
+        147965,
+        297492,
+        447149,
+        537679,
+        590834
+      ],
+      "novel_body_repetitions": 1.0122161227953472,
+      "file": "stream04.json",
+      "sha256": "ac5a50f362d37c1109c32597b82a6a1c43537a66f2963426daf4e3707b175378"
+    },
+    {
+      "stream": 5,
+      "nonce": "2da1cdc526054d2c89444051",
+      "input_tokens": 596952,
+      "text_chars": 652348,
+      "prompt_sha256": "954c4bd0fcaabe6cc8c94343c4f06c44546db915e298f08362ea42ee555b6a8e",
+      "record_token_positions": [
+        6093,
+        58865,
+        147794,
+        297691,
+        447508,
+        537288,
+        590885
+      ],
+      "novel_body_repetitions": 1.0124166164137443,
+      "file": "stream05.json",
+      "sha256": "513c9384df2a7cfd438151636e4a9fa970b03307574500e9cacaf57a3f880c0c"
+    },
+    {
+      "stream": 6,
+      "nonce": "889ca2c7a9b4da6ef3fbe712",
+      "input_tokens": 596929,
+      "text_chars": 652569,
+      "prompt_sha256": "fec7bdeec8204fd4dcba33579fcbdc89b0de6a1724d8146c5ea0ef6f3d5de822",
+      "record_token_positions": [
+        5860,
+        58880,
+        148540,
+        297991,
+        448422,
+        537888,
+        591100
+      ],
+      "novel_body_repetitions": 1.0127600977289823,
+      "file": "stream06.json",
+      "sha256": "5674d155a0128c24940bf46131e86d4a82cbcc657b4404459bf3d80d0a21d033"
+    },
+    {
+      "stream": 7,
+      "nonce": "73db74e9d3a21b64b085b4de",
+      "input_tokens": 596942,
+      "text_chars": 652561,
+      "prompt_sha256": "fa116f6756fa02e69eca5706a739249eb79ed67db161cf30ade53eedb7da6778",
+      "record_token_positions": [
+        5878,
+        59116,
+        149250,
+        298743,
+        449120,
+        538189,
+        591070
+      ],
+      "novel_body_repetitions": 1.0127476640162136,
+      "file": "stream07.json",
+      "sha256": "fc6aa00846f45894d27bfaa8ab90cd3c1b930d6b59705a3d96e91787489517d7"
+    },
+    {
+      "stream": 8,
+      "nonce": "794e09e6d3313235c045770b",
+      "input_tokens": 596948,
+      "text_chars": 652478,
+      "prompt_sha256": "772fc4f9f7d0afed9f43c3420d779e7c936472a772def09dea8a5bfb55db6877",
+      "record_token_positions": [
+        5947,
+        59890,
+        149578,
+        299327,
+        449062,
+        537813,
+        590999
+      ],
+      "novel_body_repetitions": 1.0126186642462371,
+      "file": "stream08.json",
+      "sha256": "9d375b0928859209117e85a72198f8b38a04ad62a9a8f36657d46c5d5b8065fc"
+    },
+    {
+      "stream": 9,
+      "nonce": "045f6e678bad6c763b210e31",
+      "input_tokens": 596933,
+      "text_chars": 652171,
+      "prompt_sha256": "829dc3a8793272a3a97e74595dea23325a983c01d2f6b9114b54c175a9fbe6e1",
+      "record_token_positions": [
+        6115,
+        60182,
+        149998,
+        299683,
+        449130,
+        537286,
+        590784
+      ],
+      "novel_body_repetitions": 1.0121415205187345,
+      "file": "stream09.json",
+      "sha256": "57ffeefa4f47f38c467679e2aa228d142dc5b46912490195baeda0a25cca18f5"
+    },
+    {
+      "stream": 10,
+      "nonce": "473d11b3ceb7a815b2cd774c",
+      "input_tokens": 596928,
+      "text_chars": 652291,
+      "prompt_sha256": "28e25befee6539b131c69e57f882999d412d4c2626841ab148f7be0daaeaba89",
+      "record_token_positions": [
+        6095,
+        59947,
+        149563,
+        299963,
+        448329,
+        536771,
+        590912
+      ],
+      "novel_body_repetitions": 1.0123280262102665,
+      "file": "stream10.json",
+      "sha256": "26a02dde5630819556d9212d80e54fc7a817e522b4e3469fa7b2f48de9b88b35"
+    },
+    {
+      "stream": 11,
+      "nonce": "9a7910401c807a0c9cf69df5",
+      "input_tokens": 596957,
+      "text_chars": 652333,
+      "prompt_sha256": "b45e190cb4ebf3df42218b2b715e83c8034c6e6b8d5f7c872ca614ed8233e5ad",
+      "record_token_positions": [
+        6057,
+        59912,
+        149529,
+        299885,
+        447594,
+        536924,
+        590923
+      ],
+      "novel_body_repetitions": 1.0123933032023027,
+      "file": "stream11.json",
+      "sha256": "e531e041071c97390a8966042c1084c41a25d14e4abdaad660989e44a72fa68a"
+    },
+    {
+      "stream": 12,
+      "nonce": "5a3d9b3cbe1570da208f2861",
+      "input_tokens": 596899,
+      "text_chars": 652148,
+      "prompt_sha256": "cd5fd63f0d49100bfa856d7e720afe463e61b4083acfb4e521a31fca1086b5c7",
+      "record_token_positions": [
+        6169,
+        59914,
+        149725,
+        299403,
+        447155,
+        537029,
+        590738
+      ],
+      "novel_body_repetitions": 1.0121057735945242,
+      "file": "stream12.json",
+      "sha256": "79ff65799450bff74447de3a7fed5007317cc60ea36fb5b54f44014baa9ae153"
+    },
+    {
+      "stream": 13,
+      "nonce": "1dbb55bb3f970bf86fc55bf7",
+      "input_tokens": 596948,
+      "text_chars": 652395,
+      "prompt_sha256": "f3924410c3510d5aecedbc8a459e6b806172db0b15e8455acc6787fe3c331a71",
+      "record_token_positions": [
+        5995,
+        59671,
+        149882,
+        299294,
+        447034,
+        536980,
+        590966
+      ],
+      "novel_body_repetitions": 1.0124896644762609,
+      "file": "stream13.json",
+      "sha256": "4d8ce52a4f276e14441c11ba5d9002fa2eee921390bd20f444e31a1d5532fe0c"
+    },
+    {
+      "stream": 14,
+      "nonce": "de10ab5bc226b55d4c21eb3e",
+      "input_tokens": 596941,
+      "text_chars": 652311,
+      "prompt_sha256": "718677453aeb1794e76d2fb56b2571e08a605a7e8a569c49b359d3d28d9299f7",
+      "record_token_positions": [
+        6043,
+        59917,
+        150480,
+        298865,
+        447395,
+        537179,
+        590866
+      ],
+      "novel_body_repetitions": 1.0123591104921885,
+      "file": "stream14.json",
+      "sha256": "34c28146d46abe1d509397f5eaa08e6541786ecf20d4fae7d5713ba5c5abeee7"
+    },
+    {
+      "stream": 15,
+      "nonce": "1c85efb15d76ce83537575f1",
+      "input_tokens": 596940,
+      "text_chars": 652350,
+      "prompt_sha256": "a1834b5b4bc268403148240f95663d432e4a16f9b2d72e29b43d58744bd02a6f",
+      "record_token_positions": [
+        6022,
+        60042,
+        150427,
+        298228,
+        447455,
+        537045,
+        590920
+      ],
+      "novel_body_repetitions": 1.0124197248419364,
+      "file": "stream15.json",
+      "sha256": "6f656cd2911ac580dd0c69d810c441d9e1e1c4a4e27b88ed810e6811dbda7e79"
+    }
+  ],
+  "inference_run": false,
+  "full_pool_qualified": false,
+  "note": "Synthetic unpredictable record recall in novel background; not plot QA, not exhaustive testing of all KV elements.",
+  "runtime_tokenizer_matched": true,
+  "planned_prompt_pool_fraction": 0.9948895833333333,
+  "scope": "Offline preparation only; no full-pool inference or residency test performed.",
+  "case_payloads_stored_locally_not_committed": true
+}

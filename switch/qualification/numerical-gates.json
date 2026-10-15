@@ -1,0 +1,1573 @@
+{
+  "scope": "Inherited numerical gates from round one; B20 retains these numerical source implementations. Node names and collective runtime stats omitted.",
+  "certified_head": [
+    {
+      "rank": 2,
+      "source_sha256": "1bf647f96ec1ab06074d16aea18008586810d4684ce18ce9b5bb82e3c1142449",
+      "head_tensor": "head.weight",
+      "shard_rows": [
+        64640,
+        96960
+      ],
+      "dtype": "torch.bfloat16",
+      "qualified_m": [
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48
+      ],
+      "rows": [
+        {
+          "m": 6,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        }
+      ],
+      "elapsed_s": 5.082515716552734,
+      "full_c16_serving_test": false
+    },
+    {
+      "rank": 0,
+      "source_sha256": "1bf647f96ec1ab06074d16aea18008586810d4684ce18ce9b5bb82e3c1142449",
+      "head_tensor": "head.weight",
+      "shard_rows": [
+        0,
+        32320
+      ],
+      "dtype": "torch.bfloat16",
+      "qualified_m": [
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48
+      ],
+      "rows": [
+        {
+          "m": 6,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        }
+      ],
+      "elapsed_s": 1.4441015720367432,
+      "full_c16_serving_test": false
+    },
+    {
+      "rank": 1,
+      "source_sha256": "1bf647f96ec1ab06074d16aea18008586810d4684ce18ce9b5bb82e3c1142449",
+      "head_tensor": "head.weight",
+      "shard_rows": [
+        32320,
+        64640
+      ],
+      "dtype": "torch.bfloat16",
+      "qualified_m": [
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48
+      ],
+      "rows": [
+        {
+          "m": 6,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        }
+      ],
+      "elapsed_s": 4.887211322784424,
+      "full_c16_serving_test": false
+    },
+    {
+      "rank": 3,
+      "source_sha256": "1bf647f96ec1ab06074d16aea18008586810d4684ce18ce9b5bb82e3c1142449",
+      "head_tensor": "head.weight",
+      "shard_rows": [
+        96960,
+        129280
+      ],
+      "dtype": "torch.bfloat16",
+      "qualified_m": [
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48
+      ],
+      "rows": [
+        {
+          "m": 6,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 6,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 12,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 18,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 24,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 30,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 36,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 42,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "normal",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "small",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        },
+        {
+          "m": 48,
+          "fixture": "zero",
+          "full_equal": true,
+          "computed_tiles_equal": true,
+          "argmax_equal": true,
+          "value_equal": true,
+          "stop_mask_argmax_equal": true,
+          "graph_equal": true
+        }
+      ],
+      "elapsed_s": 5.02818751335144,
+      "full_c16_serving_test": false
+    }
+  ],
+  "flat_collectives": [
+    {
+      "rank": 2,
+      "source_sha256": "de11c2557f82bd5f6fe11319e55e4f6ed6f57ec6770aebd85cb798306120edd1",
+      "tests": [
+        {
+          "dtype": "torch.bfloat16",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 193920,
+          "target_head_shard_gather_equal": true,
+          "graph_equal": true
+        }
+      ]
+    },
+    {
+      "rank": 0,
+      "source_sha256": "de11c2557f82bd5f6fe11319e55e4f6ed6f57ec6770aebd85cb798306120edd1",
+      "tests": [
+        {
+          "dtype": "torch.bfloat16",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 193920,
+          "target_head_shard_gather_equal": true,
+          "graph_equal": true
+        }
+      ]
+    },
+    {
+      "rank": 1,
+      "source_sha256": "de11c2557f82bd5f6fe11319e55e4f6ed6f57ec6770aebd85cb798306120edd1",
+      "tests": [
+        {
+          "dtype": "torch.bfloat16",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 193920,
+          "target_head_shard_gather_equal": true,
+          "graph_equal": true
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "source_sha256": "de11c2557f82bd5f6fe11319e55e4f6ed6f57ec6770aebd85cb798306120edd1",
+      "tests": [
+        {
+          "dtype": "torch.bfloat16",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 8,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 1024,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 25600,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 30720,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.float32",
+          "count": 65536,
+          "sum_equal": true,
+          "gather_equal": true,
+          "graph_equal": true
+        },
+        {
+          "dtype": "torch.bfloat16",
+          "count": 193920,
+          "target_head_shard_gather_equal": true,
+          "graph_equal": true
+        }
+      ]
+    }
+  ],
+  "index_k_score_oracle": {
+    "passed": true,
+    "cases": 16,
+    "rows": [
+      {
+        "batch": 6,
+        "width": 64,
+        "max_abs_error": 0.380615234375,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 0.0,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 12,
+        "width": 64,
+        "max_abs_error": 0.48931884765625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.9073486328125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 24,
+        "width": 64,
+        "max_abs_error": 0.5773391723632812,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 3.814697265625e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 48,
+        "width": 64,
+        "max_abs_error": 0.77984619140625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 6,
+        "width": 512,
+        "max_abs_error": 0.6695556640625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 0.0,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 12,
+        "width": 512,
+        "max_abs_error": 0.73651123046875,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 24,
+        "width": 512,
+        "max_abs_error": 1.16937255859375,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 48,
+        "width": 512,
+        "max_abs_error": 0.803192138671875,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 6,
+        "width": 2112,
+        "max_abs_error": 1.06829833984375,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 12,
+        "width": 2112,
+        "max_abs_error": 0.962158203125,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 24,
+        "width": 2112,
+        "max_abs_error": 1.0526885986328125,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 48,
+        "width": 2112,
+        "max_abs_error": 0.96978759765625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 6,
+        "width": 8192,
+        "max_abs_error": 0.9383544921875,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 7.62939453125e-06,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 12,
+        "width": 8192,
+        "max_abs_error": 1.117095947265625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 24,
+        "width": 8192,
+        "max_abs_error": 1.04644775390625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      },
+      {
+        "batch": 48,
+        "width": 8192,
+        "max_abs_error": 1.23297119140625,
+        "bit_equal_scores": false,
+        "actual_dtype": "torch.float32",
+        "reference_dtype": "torch.float32",
+        "native_vs_fp32_oracle_max_abs": 1.52587890625e-05,
+        "fallback_vs_bf16_oracle_max_abs": 0.0,
+        "native_invalid_tail_is_negative_inf": false
+      }
+    ]
+  }
+}

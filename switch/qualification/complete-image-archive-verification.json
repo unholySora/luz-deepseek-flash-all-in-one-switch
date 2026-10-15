@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "complete_archive_blob_hashes_verified": true,
+  "regular_members": 77,
+  "content_bytes": 14445085961,
+  "scope": "Full separate zstd archive decoded and every content-addressed blob SHA256 rechecked; no inference."
+}

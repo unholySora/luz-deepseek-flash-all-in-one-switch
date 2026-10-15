@@ -1,0 +1,32 @@
+[
+  {
+    "path": "overrides/b20/sitecustomize.py",
+    "sha256": "ade3ae5c40fb1160d4e12b3ee6d79761136fce3be581fe956ff71b956ceeaabc",
+    "qualification": "exact measured read-only mount bytes"
+  },
+  {
+    "path": "overrides/b20/l2_prefetch.py",
+    "sha256": "e1776d9f65e147cd5be89d14e9389178843942a0daf5e04edb15b93aa0dd8d49",
+    "qualification": "exact measured read-only mount bytes"
+  },
+  {
+    "path": "overrides/b20/wo_a_w8.py",
+    "sha256": "ce94d4d44acdb8f97777549bc5644a8c2bdd9941e1e4b4c0858d633db0da92b0",
+    "qualification": "exact measured read-only mount bytes"
+  },
+  {
+    "path": "overrides/b20/deepseek_v4_memory_pool.py",
+    "sha256": "37fe674ceebfc5f5b2f02d09c011045b391d378335f096932780949fb7581f3d",
+    "qualification": "exact measured read-only mount bytes"
+  },
+  {
+    "path": "overrides/b20/roce_ar.py",
+    "sha256": "d25b9e77a2352d0621ee89e625d47e2a3a45a0f4c6afdc704e9f8194d509bc32",
+    "qualification": "exact measured read-only mount bytes"
+  },
+  {
+    "path": "overrides/b32/kv_fp4_repack.py",
+    "sha256": "cb91f0d7c871b6d5035ff697e9ac03c79bea469aa60c1a8088699499ca1f8375",
+    "qualification": "optional B32 exact measured mount"
+  }
+]

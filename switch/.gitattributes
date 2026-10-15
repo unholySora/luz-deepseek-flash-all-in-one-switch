@@ -1,0 +1,7 @@
+# Preserve qualified source bytes and frozen prompts on every checkout.
+* text eol=lf
+overrides/** -text -whitespace
+image-context/** -text -whitespace
+bench/** -text -whitespace
+qualification/** -text -whitespace
+image-delta/blobs/** binary

@@ -1,0 +1,24 @@
+{
+  "file": "luz-switch-public-b20-20261015.tar.zst",
+  "bytes": 14204924951,
+  "sha256": "6f7aab2cf5c15ee3224cd4b418000629040d6f5920aa97e2484d4c4220124dfa",
+  "public_index_digest": "sha256:d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+  "public_config_digest": "sha256:ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092",
+  "measured_image_index_digest": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+  "same_digest_as_measured_image": false,
+  "contains_runtime_bind_mounts": false,
+  "image_archive_in_github": false,
+  "assembly": {
+    "format": "luz-switch-layer-delta-v1",
+    "public_index_digest": "sha256:d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+    "public_config_digest": "sha256:ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092",
+    "layer_count": 77,
+    "base_layer_count": 71,
+    "new_layer_count": 6,
+    "content_bytes_sha256_verified": 14445079266,
+    "passed": true,
+    "scope": "Archive assembly/checksum only; does not run inference or certify full KV recall."
+  },
+  "base_historical_key_bytes_erased": false,
+  "scope": "Complete base-plus-delta archive. Sanitized new layer delta; inherited base layers are reused, not comprehensively scrubbed. Do not describe as a fully scrubbed base image."
+}

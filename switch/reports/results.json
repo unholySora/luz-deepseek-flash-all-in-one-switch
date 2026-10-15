@@ -1,0 +1,3317 @@
+{
+  "release": "switch-v2026.10.15-b20",
+  "profile": "b20-throughput",
+  "capacities": {
+    "luz": {
+      "context": 600000,
+      "max_running": 16,
+      "kv_pool": 9600000
+    },
+    "hybrid_v2": {
+      "context": 800000,
+      "max_running": 10,
+      "kv_pool": 8000000
+    }
+  },
+  "decode_v1": {
+    "run": "b20-admit-interval1-final-matrix-20261015T112458",
+    "cells": [
+      {
+        "type": "prose",
+        "conc": 1,
+        "single": 83.77,
+        "aggregate": 83.8,
+        "full": 3,
+        "requested": 3,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "191681fa4da99edf88e12c90d4bf657d0631f2b0cc55d1226823cde43d1965fe",
+            "prompt_sha16": [
+              "37677320b51d0916"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              83.77
+            ],
+            "median_tps": 83.77,
+            "aggregate_tps": 83.8,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "ee5fd665de9d6cf87d11a262e7019a960a112cad28fe48e7cbdecf917b1733e5",
+            "prompt_sha16": [
+              "79adefc508432475"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              86.46
+            ],
+            "median_tps": 86.46,
+            "aggregate_tps": 86.5,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "0f3b9355133ca6ab831bbcf862d76e342cfec658abe8e9b412fea6787f7d1922",
+            "prompt_sha16": [
+              "ba2474560ec7c22b"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              83.25
+            ],
+            "median_tps": 83.25,
+            "aggregate_tps": 83.2,
+            "first_token_spread_ms": 0.0
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "conc": 2,
+        "single": 60.845,
+        "aggregate": 119.1,
+        "full": 6,
+        "requested": 6,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "86ebd22371bc9349b0ca6d2ea47db577872a8765940c842147c06cad473872de",
+            "prompt_sha16": [
+              "ff2cb964614f61a2",
+              "30893749986fdad1"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              63.09,
+              59.54
+            ],
+            "median_tps": 61.315,
+            "aggregate_tps": 119.1,
+            "first_token_spread_ms": 285.14814376831055
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "60ff9ee803a0385a80d08b757e684233443d77421a5449cea4fd7b7150ba61c6",
+            "prompt_sha16": [
+              "179cfe8f5aa8ec67",
+              "d50da0b46702f88c"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              61.6,
+              60.09
+            ],
+            "median_tps": 60.845,
+            "aggregate_tps": 120.2,
+            "first_token_spread_ms": 255.36608695983887
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "c2f5487990b1b7089af8077525809705a30eb6813a307a20b5df375e97df3519",
+            "prompt_sha16": [
+              "355c6632f598679f",
+              "b015bcf819bd83f7"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              61.95,
+              58.88
+            ],
+            "median_tps": 60.415000000000006,
+            "aggregate_tps": 117.8,
+            "first_token_spread_ms": 252.29907035827637
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "conc": 4,
+        "single": 41.254999999999995,
+        "aggregate": 160.9,
+        "full": 12,
+        "requested": 12,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "8449f1ecdb89e5e1311d461e4dbf7cd3ae548ed34e4b1f83bfe2ec13f08a97b0",
+            "prompt_sha16": [
+              "048bcd66ba6649a6",
+              "aea4062bd092be69",
+              "23ae85acbf71c2f4",
+              "1fad408b89724582"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              43.93,
+              40.77,
+              41.25,
+              40.51
+            ],
+            "median_tps": 41.010000000000005,
+            "aggregate_tps": 160.9,
+            "first_token_spread_ms": 352.6959419250488
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "ece8ec4fe6c68a02cd1516b8804231edb162721abbb568ec367bcf60456e4e7d",
+            "prompt_sha16": [
+              "0d1704433ff76a2a",
+              "3e7bc203e514c216",
+              "571eb80b8955f674",
+              "2ba5e196c6607a05"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              41.26,
+              42.07,
+              40.29,
+              41.71
+            ],
+            "median_tps": 41.485,
+            "aggregate_tps": 160.3,
+            "first_token_spread_ms": 267.4698829650879
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "0a166357857e43c8a02c22b5b533b293121d02730b45e4d0497c5265ed194efa",
+            "prompt_sha16": [
+              "74952a3386ecbb2d",
+              "d88a17231759ff4f",
+              "0f771705a1b1b574",
+              "d74854179efdfff9"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              41.31,
+              41.0,
+              41.03,
+              42.4
+            ],
+            "median_tps": 41.17,
+            "aggregate_tps": 163.1,
+            "first_token_spread_ms": 285.40992736816406
+          }
+        ]
+      },
+      {
+        "type": "prose",
+        "conc": 8,
+        "single": 27.025,
+        "aggregate": 208.0,
+        "full": 24,
+        "requested": 24,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "0d8ad40559431759cbc34963fb258644d426b577137edcfa6ef7364231220f7d",
+            "prompt_sha16": [
+              "044e1d9f37f73622",
+              "430aecc0e45a1617",
+              "5d10982ff916124c",
+              "26aa9b052a91f5d2",
+              "d61f46d2eb3af17e",
+              "32f0529d33ebe55c",
+              "0bb4f3656e569933",
+              "c27bf50a8c5b8957"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              27.37,
+              27.7,
+              26.29,
+              27.81,
+              27.03,
+              26.34,
+              25.75,
+              26.85
+            ],
+            "median_tps": 26.94,
+            "aggregate_tps": 203.9,
+            "first_token_spread_ms": 2463.4361267089844
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "d852262b7587c18ff7017b1c5ce34b43a27708f20a441d69a186837f7b35e211",
+            "prompt_sha16": [
+              "1862d2518819dcc0",
+              "22c956d94196293a",
+              "94c0ca75b6ea916a",
+              "a3c061622870aa39",
+              "ab08fabbfd3c6696",
+              "2525271f2e1ee3bc",
+              "5110daa0d3e41bc0",
+              "6d6d633ca43d569b"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              27.33,
+              26.71,
+              26.58,
+              27.03,
+              27.62,
+              26.76,
+              26.43,
+              28.32
+            ],
+            "median_tps": 26.895000000000003,
+            "aggregate_tps": 210.5,
+            "first_token_spread_ms": 347.4240303039551
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "1fcab35e843d46ffc195e42d5befc2f95864a3265341248a4c414ffc4fdef28c",
+            "prompt_sha16": [
+              "9aa83ef1ffda01fc",
+              "512ac74b78d8e3bb",
+              "d8c18642c31e898c",
+              "0632463229d6af72",
+              "fe380ff6fb22ad7b",
+              "8af887a40b979303",
+              "abe69ec245deae3f",
+              "0fbfb1c8d0338a28"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              26.18,
+              27.36,
+              27.12,
+              26.85,
+              27.02,
+              27.86,
+              27.74,
+              26.11
+            ],
+            "median_tps": 27.07,
+            "aggregate_tps": 208.0,
+            "first_token_spread_ms": 355.6180000305176
+          }
+        ]
+      },
+      {
+        "type": "code",
+        "conc": 1,
+        "single": 138.81,
+        "aggregate": 138.8,
+        "full": 3,
+        "requested": 3,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "6eb3cd2ad1a6a470a71cf3c3b97327d359ff30028d9fddf997f02e7cfee5a1ea",
+            "prompt_sha16": [
+              "d7fb99d361d3b970"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              137.5
+            ],
+            "median_tps": 137.5,
+            "aggregate_tps": 137.5,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "054f03600d3163595e28f208fdb8b59cb97d4717c68a47fba7e0fb12e01a3a48",
+            "prompt_sha16": [
+              "f1b3fa284818db05"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              138.81
+            ],
+            "median_tps": 138.81,
+            "aggregate_tps": 138.8,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "753503f8e2525c83fcb73203e626a0511271a8aba158efe88e8040dc836d2fd6",
+            "prompt_sha16": [
+              "65d5137dc1629901"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              139.38
+            ],
+            "median_tps": 139.38,
+            "aggregate_tps": 139.4,
+            "first_token_spread_ms": 0.0
+          }
+        ]
+      },
+      {
+        "type": "code",
+        "conc": 2,
+        "single": 100.27000000000001,
+        "aggregate": 198.2,
+        "full": 6,
+        "requested": 6,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "613630b815204afdfe1dfe4214f508bbbd35045da7fb44f0e810d4666e500174",
+            "prompt_sha16": [
+              "8a241730c676afc6",
+              "43b3015a94147855"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              100.88,
+              100.2
+            ],
+            "median_tps": 100.53999999999999,
+            "aggregate_tps": 199.1,
+            "first_token_spread_ms": 268.68391036987305
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "b6488391c650cec6e5b3037d8ec806a0b20faaba097c87029f83521952a7d112",
+            "prompt_sha16": [
+              "d180e7a2a0995d49",
+              "df840cd14c721096"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              99.81,
+              98.41
+            ],
+            "median_tps": 99.11,
+            "aggregate_tps": 196.8,
+            "first_token_spread_ms": 291.8128967285156
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "e66e7385090fe700271940c1285e2b44f83fcb3305f3d54084a08c1bc456a578",
+            "prompt_sha16": [
+              "ee924c6b79944d6b",
+              "3b55fd3072c99444"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              100.42,
+              100.34
+            ],
+            "median_tps": 100.38,
+            "aggregate_tps": 198.2,
+            "first_token_spread_ms": 271.7480659484863
+          }
+        ]
+      },
+      {
+        "type": "code",
+        "conc": 4,
+        "single": 81.12,
+        "aggregate": 312.5,
+        "full": 12,
+        "requested": 12,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "abab829422e2abdd23de8e05477edf86b86bf9a994708e0b1720d3de151d2a79",
+            "prompt_sha16": [
+              "009cdf9046d702a4",
+              "d4b9432f976bc6e5",
+              "352751b5dcbd0008",
+              "254711386f15262c"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              83.83,
+              80.72,
+              79.25,
+              79.78
+            ],
+            "median_tps": 80.25,
+            "aggregate_tps": 312.5,
+            "first_token_spread_ms": 370.00012397766113
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "f6fb070d75b940b166c8d98f8c206e78334dde7caeb74d12deedbebc4759fdbe",
+            "prompt_sha16": [
+              "8b31b2be5c47a0b1",
+              "48e091a7d2ae705f",
+              "fa4cb3513b9ee35b",
+              "51175c905314dbab"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              85.77,
+              83.05,
+              84.63,
+              81.38
+            ],
+            "median_tps": 83.84,
+            "aggregate_tps": 325.5,
+            "first_token_spread_ms": 372.6060390472412
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "b937f666297fd46b7dccfa854601f8dc891b0e588f4afdfa58bf9170b1c33279",
+            "prompt_sha16": [
+              "01d6ba68dc5c2eee",
+              "015f063b54999774",
+              "3f0905e57e3ec9a4",
+              "6dbd286504f25698"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              84.42,
+              80.86,
+              76.84,
+              79.76
+            ],
+            "median_tps": 80.31,
+            "aggregate_tps": 303.3,
+            "first_token_spread_ms": 359.30681228637695
+          }
+        ]
+      },
+      {
+        "type": "code",
+        "conc": 8,
+        "single": 66.32,
+        "aggregate": 509.2,
+        "full": 24,
+        "requested": 24,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "2d6e02b0bb2adbe99345eb62f5fbdfd189ca6f5266c9a8edcb72cb9ff99022a0",
+            "prompt_sha16": [
+              "0b1b3dd78ca8edf2",
+              "61a34d0abf11f69d",
+              "a4c374e615a268df",
+              "79e7bdd501619b73",
+              "4c332e25d19f6ded",
+              "9553da455e89e34d",
+              "741697231e5b4c77",
+              "ad5b7e33dd20f12e"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              64.22,
+              62.92,
+              66.15,
+              64.81,
+              61.9,
+              65.71,
+              66.4,
+              66.68
+            ],
+            "median_tps": 65.25999999999999,
+            "aggregate_tps": 492.9,
+            "first_token_spread_ms": 696.997880935669
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "fd9b6bedf58b003b131968651495f446810d14a159c3e1ca5aa133fb84835f5f",
+            "prompt_sha16": [
+              "0367971f73a70355",
+              "d11da9e7f18059ce",
+              "45d8d553a43a7e62",
+              "95cf088ad9d015c9",
+              "f31d890ba325990c",
+              "6c7964d8b3682040",
+              "808c774472402100",
+              "aba3a199950b81e7"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              67.36,
+              68.87,
+              66.63,
+              64.79,
+              64.66,
+              68.61,
+              64.66,
+              66.7
+            ],
+            "median_tps": 66.66499999999999,
+            "aggregate_tps": 509.2,
+            "first_token_spread_ms": 502.6371479034424
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "c3e75a664f028b10181b67ca3396e50e341e744f6fd5c888f450a3361793ef54",
+            "prompt_sha16": [
+              "763b07de0853452a",
+              "2e68c3580516d02d",
+              "bed535d718643d8e",
+              "a3c7473dd50d65a3",
+              "259067c9b783bed4",
+              "58617cf6f96e72eb",
+              "bb38b822b3e3b959",
+              "ff84d9539c2215d1"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              69.35,
+              68.56,
+              66.95,
+              66.24,
+              65.73,
+              68.3,
+              67.64,
+              65.92
+            ],
+            "median_tps": 67.295,
+            "aggregate_tps": 517.9,
+            "first_token_spread_ms": 480.3659915924072
+          }
+        ]
+      },
+      {
+        "type": "json",
+        "conc": 1,
+        "single": 130.8,
+        "aggregate": 130.8,
+        "full": 3,
+        "requested": 3,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "4780826b1db5a6f967c7b5a4df5d4adbb528bea6a05f086e5288a2e88c8a9f6c",
+            "prompt_sha16": [
+              "a08d76b029cf432c"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              132.33
+            ],
+            "median_tps": 132.33,
+            "aggregate_tps": 132.3,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "720f811406af134fc1f374e24a53efff298a6ab94e2f8b3d95bbf733adb59685",
+            "prompt_sha16": [
+              "76205238807ff1d1"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              130.8
+            ],
+            "median_tps": 130.8,
+            "aggregate_tps": 130.8,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "9a459a02385c5b2b20adf9c2e52944cc715f3921fd895b213b5d65b89f4ff9dd",
+            "prompt_sha16": [
+              "8d1eb3deadec367d"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              130.8
+            ],
+            "median_tps": 130.8,
+            "aggregate_tps": 130.8,
+            "first_token_spread_ms": 0.0
+          }
+        ]
+      },
+      {
+        "type": "json",
+        "conc": 2,
+        "single": 99.64500000000001,
+        "aggregate": 196.6,
+        "full": 6,
+        "requested": 6,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "f12862508a4f1038daa6ccf17bc80fdccd6f4d86509194b57c07c7f28e38a124",
+            "prompt_sha16": [
+              "64cb6f9bf1046a0d",
+              "2428be5e9438754b"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              95.45,
+              99.01
+            ],
+            "median_tps": 97.23,
+            "aggregate_tps": 190.9,
+            "first_token_spread_ms": 251.04880332946777
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "dba5a99ee3aed29e4cf095755ab64dbe6711852e2327ef67262be0787eb61e1f",
+            "prompt_sha16": [
+              "2cdb09746f446163",
+              "1b8df584f83884aa"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              98.31,
+              100.28
+            ],
+            "median_tps": 99.295,
+            "aggregate_tps": 196.6,
+            "first_token_spread_ms": 252.55799293518066
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "e2271f8408a81d0ba295222371bc195de69d7703df5543c2dfa6e2d682a79d3c",
+            "prompt_sha16": [
+              "016f95c0b46bd16e",
+              "53b70d86d222ce07"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              102.41,
+              102.65
+            ],
+            "median_tps": 102.53,
+            "aggregate_tps": 204.8,
+            "first_token_spread_ms": 0.19598007202148438
+          }
+        ]
+      },
+      {
+        "type": "json",
+        "conc": 4,
+        "single": 71.945,
+        "aggregate": 280.9,
+        "full": 12,
+        "requested": 12,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "6e570e73b513ec91111333f0de3da62e5e7051dd06b4b3feb8ce140632c94eb9",
+            "prompt_sha16": [
+              "e6981011aad9d913",
+              "93714b2707c9ea9c",
+              "8962dee179534881",
+              "126eddcb4ee03cf5"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              72.61,
+              70.95,
+              71.89,
+              71.3
+            ],
+            "median_tps": 71.595,
+            "aggregate_tps": 280.9,
+            "first_token_spread_ms": 299.49116706848145
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "416dd2d29fec421f38f0342fb91129c9794618406490aa7fabbee7fd783c25b8",
+            "prompt_sha16": [
+              "8bfd05607df33e68",
+              "01884e3c2c339a4d",
+              "b42e3992cdb67d3e",
+              "fcd3ab168d4571a2"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              70.75,
+              72.0,
+              70.98,
+              71.63
+            ],
+            "median_tps": 71.305,
+            "aggregate_tps": 280.1,
+            "first_token_spread_ms": 298.05612564086914
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "cef70cefa289a1aaa9f40a36a146c40206df48e702703148ea2f57939d561fcf",
+            "prompt_sha16": [
+              "ebda1cfbba707152",
+              "ad532444e3ae62c6",
+              "dbb71a87a309b3f4",
+              "3efbe9eeb33e7aca"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              72.56,
+              73.3,
+              74.45,
+              74.26
+            ],
+            "median_tps": 73.78,
+            "aggregate_tps": 290.2,
+            "first_token_spread_ms": 285.7091426849365
+          }
+        ]
+      },
+      {
+        "type": "json",
+        "conc": 8,
+        "single": 54.19,
+        "aggregate": 425.3,
+        "full": 24,
+        "requested": 24,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "a82633d596bc7cfa95a812021b362d20d4afda343a877686c43f67d7577d647a",
+            "prompt_sha16": [
+              "7d47599b2cf07151",
+              "8e83652e0349090a",
+              "e62e4b07d21d5e8e",
+              "aa7c1263b7dda855",
+              "1de6646198d0744e",
+              "33b8dab29b2849eb",
+              "576294bdd12c248d",
+              "279dbe644b25f239"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              54.45,
+              53.9,
+              53.9,
+              53.73,
+              53.8,
+              54.73,
+              54.3,
+              54.45
+            ],
+            "median_tps": 54.099999999999994,
+            "aggregate_tps": 425.3,
+            "first_token_spread_ms": 407.1998596191406
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "0ba0c9e49598aa91a95e5b738ea46589b34ee45ae5cea27baea5b9b403b0b89e",
+            "prompt_sha16": [
+              "ded8bfa63d5612aa",
+              "1341b0789cc65c85",
+              "20c0063e935917ba",
+              "07b6bae25ab87a58",
+              "1ce920df5e779bf3",
+              "bd2ecfc4944fde0f",
+              "b2fcab6487c4a360",
+              "a40e87de8d7c7c3a"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              54.08,
+              53.94,
+              53.24,
+              53.68,
+              53.35,
+              52.35,
+              52.96,
+              53.05
+            ],
+            "median_tps": 53.295,
+            "aggregate_tps": 414.5,
+            "first_token_spread_ms": 404.89888191223145
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "c9a16776c80d5c9a8c90a506a0299b990a06cd67bf0d0a78eb9332658aacf6a7",
+            "prompt_sha16": [
+              "f84f394bb8112ce7",
+              "a86e9ed5f622d941",
+              "70a0878b6c793a25",
+              "cb9673a9c779add0",
+              "b99b6b0b2492de16",
+              "4797e0c5e97c60bb",
+              "931bafc7ff8c16ba",
+              "bd070746e87b99cc"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              55.49,
+              55.15,
+              55.94,
+              56.69,
+              55.23,
+              55.94,
+              55.18,
+              55.94
+            ],
+            "median_tps": 55.715,
+            "aggregate_tps": 436.5,
+            "first_token_spread_ms": 404.8738479614258
+          }
+        ]
+      },
+      {
+        "type": "structured",
+        "conc": 1,
+        "single": 142.42,
+        "aggregate": 142.4,
+        "full": 3,
+        "requested": 3,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "125c3d8f1447fcca7dfa0657286f693f9352e4d26372eb18791f63d6a03cb938",
+            "prompt_sha16": [
+              "575d6d0e9e8a6e15"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              142.42
+            ],
+            "median_tps": 142.42,
+            "aggregate_tps": 142.4,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "f9c2094068aa8da288085bde485651b09986b618a7abb5a0a3fe5eef93a3b71b",
+            "prompt_sha16": [
+              "48bafc5602bfa126"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              117.26
+            ],
+            "median_tps": 117.26,
+            "aggregate_tps": 117.3,
+            "first_token_spread_ms": 0.0
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "6b37426b21efc2b62232597ba00b6599ebc4b2d426498bd3c3569acfcd0827b3",
+            "prompt_sha16": [
+              "79bcc9c70e4ffe8b"
+            ],
+            "completion_tokens": [
+              2048
+            ],
+            "full_mask": [
+              true
+            ],
+            "per_stream_tps": [
+              144.89
+            ],
+            "median_tps": 144.89,
+            "aggregate_tps": 144.9,
+            "first_token_spread_ms": 0.0
+          }
+        ]
+      },
+      {
+        "type": "structured",
+        "conc": 2,
+        "single": 102.97999999999999,
+        "aggregate": 201.8,
+        "full": 6,
+        "requested": 6,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "af8643de36c7c297799e5b55587e42781ad2f036516f17de1ab09122a45a031b",
+            "prompt_sha16": [
+              "5f47938f32a60c96",
+              "a8fa5de12756251a"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              121.8,
+              120.9
+            ],
+            "median_tps": 121.35,
+            "aggregate_tps": 241.8,
+            "first_token_spread_ms": 0.3159046173095703
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "f1c01bdd3874b5ab192b0fbdc2ffe8e672101a3ea5638227be16298385983cf3",
+            "prompt_sha16": [
+              "3ffec871d050be92",
+              "562750d0c94d2806"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              88.62,
+              103.38
+            ],
+            "median_tps": 96.0,
+            "aggregate_tps": 177.2,
+            "first_token_spread_ms": 0.2849102020263672
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "d19cac60670d660a17aedfbb7b8f6cdb87e2cfb159b7c44085a69219b7b00420",
+            "prompt_sha16": [
+              "9dfe56c37918cf08",
+              "346135cdb9ab6f43"
+            ],
+            "completion_tokens": [
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              102.58,
+              100.89
+            ],
+            "median_tps": 101.735,
+            "aggregate_tps": 201.8,
+            "first_token_spread_ms": 239.5777702331543
+          }
+        ]
+      },
+      {
+        "type": "structured",
+        "conc": 4,
+        "single": 67.28999999999999,
+        "aggregate": 252.0,
+        "full": 12,
+        "requested": 12,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "e5467f06b36e1efcfd7380a425c107c77a511f56be0bacb0e4ad80fb0ff7aeef",
+            "prompt_sha16": [
+              "e4e24122857ff441",
+              "e96d6c499d5e1ebb",
+              "eb736bf740991c11",
+              "39ccd537508c5b3c"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              67.46,
+              69.07,
+              64.6,
+              75.81
+            ],
+            "median_tps": 68.26499999999999,
+            "aggregate_tps": 256.1,
+            "first_token_spread_ms": 281.512975692749
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "d0490f1cdc088fb79bae5bb1f4b1d2309ea2edd2d047435ee3bf321785f0b3e3",
+            "prompt_sha16": [
+              "e5beded98f2bcdaf",
+              "cdc6886c3a12a9d3",
+              "7161150ba692a169",
+              "f72e18aedfea9efa"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              63.01,
+              79.51,
+              79.25,
+              79.25
+            ],
+            "median_tps": 79.25,
+            "aggregate_tps": 252.0,
+            "first_token_spread_ms": 257.0319175720215
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "05d985ac43390e9d71f390caa95ec6036e16ff4a31afae4c59500ea40f2fc6a7",
+            "prompt_sha16": [
+              "813a28c28a4c3a68",
+              "fa76871f8b1e6b07",
+              "c565fb26b36b7fc1",
+              "fc95ecfb81da276c"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              59.08,
+              67.12,
+              51.57,
+              54.27
+            ],
+            "median_tps": 56.675,
+            "aggregate_tps": 204.9,
+            "first_token_spread_ms": 261.2180709838867
+          }
+        ]
+      },
+      {
+        "type": "structured",
+        "conc": 8,
+        "single": 50.05,
+        "aggregate": 299.9,
+        "full": 24,
+        "requested": 24,
+        "short": 0,
+        "waves": [
+          {
+            "wave": 0,
+            "raw_sha256": "bd9a008a282bfe629d43393f9c95ad5a25b839c8efc0832bec78daac74dadd25",
+            "prompt_sha16": [
+              "6f936fa69c281ed2",
+              "64b6e7f7625b552f",
+              "7c0b23450253b4f1",
+              "e474c78f12ec3488",
+              "5c2d5f04541020f5",
+              "5f6dc9c0dfab5671",
+              "8184bc7dc5e66a1d",
+              "ac893cd613f9cbd8"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              45.87,
+              40.95,
+              37.71,
+              52.72,
+              43.39,
+              49.72,
+              48.33,
+              50.47
+            ],
+            "median_tps": 47.099999999999994,
+            "aggregate_tps": 299.9,
+            "first_token_spread_ms": 325.67501068115234
+          },
+          {
+            "wave": 1,
+            "raw_sha256": "884c18c06f041b7bbbb54c9a25a5eaabe1e29f1988f1a1d63c931794651e697d",
+            "prompt_sha16": [
+              "857515de6ab3b5b4",
+              "a965e3f51b5b6712",
+              "ba48e31b93b19750",
+              "2c6fa2d192af3764",
+              "8027a722f9860086",
+              "c56d723f2e2ef155",
+              "f21b4338d2fa2603",
+              "528dc4ad4cd6bdc1"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              45.24,
+              55.15,
+              52.79,
+              52.13,
+              54.3,
+              56.3,
+              53.34,
+              51.09
+            ],
+            "median_tps": 53.065,
+            "aggregate_tps": 359.3,
+            "first_token_spread_ms": 331.6080570220947
+          },
+          {
+            "wave": 2,
+            "raw_sha256": "4960303e00ed4be48bcf362194f54afd39a27eb9323c434e7ca56f461b3f128f",
+            "prompt_sha16": [
+              "5bc018e2e4855a79",
+              "457d885d827c3838",
+              "b7a8c829629c043a",
+              "0d2fc3949404abd0",
+              "7a325124a5867694",
+              "5522134ce94876be",
+              "ecd5847b5e8315ad",
+              "45d392a995d11826"
+            ],
+            "completion_tokens": [
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048,
+              2048
+            ],
+            "full_mask": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "per_stream_tps": [
+              50.99,
+              50.38,
+              48.29,
+              47.24,
+              50.68,
+              49.37,
+              34.76,
+              40.79
+            ],
+            "median_tps": 48.83,
+            "aggregate_tps": 276.5,
+            "first_token_spread_ms": 329.8659324645996
+          }
+        ]
+      }
+    ],
+    "cross_stack_paired_complete_waves": [
+      {
+        "type": "prose",
+        "conc": 1,
+        "luz_single": 83.77,
+        "hybrid_single": 84.34,
+        "single_delta_percent": -0.6758359023002258,
+        "luz_aggregate": 83.8,
+        "hybrid_aggregate": 84.3,
+        "aggregate_delta_percent": -0.5931198102016588,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 3,
+        "requested_streams": 3,
+        "luz_original_full_stream_median": 83.77,
+        "hybrid_original_full_stream_median": 84.34,
+        "hybrid_full_streams": 3,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "prose",
+        "conc": 2,
+        "luz_single": 60.845,
+        "hybrid_single": 59.17,
+        "single_delta_percent": 2.830826432313671,
+        "luz_aggregate": 119.1,
+        "hybrid_aggregate": 117.0,
+        "aggregate_delta_percent": 1.7948717948717885,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 6,
+        "requested_streams": 6,
+        "luz_original_full_stream_median": 60.845,
+        "hybrid_original_full_stream_median": 59.17,
+        "hybrid_full_streams": 6,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "prose",
+        "conc": 4,
+        "luz_single": 41.254999999999995,
+        "hybrid_single": 40.975,
+        "single_delta_percent": 0.6833435021354362,
+        "luz_aggregate": 160.9,
+        "hybrid_aggregate": 160.4,
+        "aggregate_delta_percent": 0.31172069825435855,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 12,
+        "requested_streams": 12,
+        "luz_original_full_stream_median": 41.254999999999995,
+        "hybrid_original_full_stream_median": 40.975,
+        "hybrid_full_streams": 12,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "prose",
+        "conc": 8,
+        "luz_single": 27.025,
+        "hybrid_single": 27.284999999999997,
+        "single_delta_percent": -0.9529045262964941,
+        "luz_aggregate": 208.0,
+        "hybrid_aggregate": 212.4,
+        "aggregate_delta_percent": -2.0715630885122405,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 24,
+        "requested_streams": 24,
+        "luz_original_full_stream_median": 27.025,
+        "hybrid_original_full_stream_median": 27.284999999999997,
+        "hybrid_full_streams": 24,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "code",
+        "conc": 1,
+        "luz_single": 138.81,
+        "hybrid_single": 136.69,
+        "single_delta_percent": 1.550954715048647,
+        "luz_aggregate": 138.8,
+        "hybrid_aggregate": 136.7,
+        "aggregate_delta_percent": 1.5362106803218811,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 3,
+        "requested_streams": 3,
+        "luz_original_full_stream_median": 138.81,
+        "hybrid_original_full_stream_median": 136.69,
+        "hybrid_full_streams": 3,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "code",
+        "conc": 2,
+        "luz_single": 100.27000000000001,
+        "hybrid_single": 97.85,
+        "single_delta_percent": 2.4731732243229665,
+        "luz_aggregate": 198.2,
+        "hybrid_aggregate": 186.8,
+        "aggregate_delta_percent": 6.102783725910044,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 6,
+        "requested_streams": 6,
+        "luz_original_full_stream_median": 100.27000000000001,
+        "hybrid_original_full_stream_median": 97.85,
+        "hybrid_full_streams": 6,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "code",
+        "conc": 4,
+        "luz_single": 81.12,
+        "hybrid_single": 82.27,
+        "single_delta_percent": -1.3978363923665915,
+        "luz_aggregate": 312.5,
+        "hybrid_aggregate": 322.5,
+        "aggregate_delta_percent": -3.100775193798455,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 12,
+        "requested_streams": 12,
+        "luz_original_full_stream_median": 81.12,
+        "hybrid_original_full_stream_median": 82.27,
+        "hybrid_full_streams": 12,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "code",
+        "conc": 8,
+        "luz_single": 65.93,
+        "hybrid_single": 70.22,
+        "single_delta_percent": -6.109370549700932,
+        "luz_aggregate": 501.04999999999995,
+        "hybrid_aggregate": 543.0,
+        "aggregate_delta_percent": -7.725598526703504,
+        "common_complete_waves": [
+          0,
+          1
+        ],
+        "ranked_full_wave_streams": 16,
+        "requested_streams": 24,
+        "luz_original_full_stream_median": 66.32,
+        "hybrid_original_full_stream_median": 68.28,
+        "hybrid_full_streams": 23,
+        "hybrid_short_streams": 1,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      }
+    ],
+    "paired_c1_code200": [
+      {
+        "type": "prose",
+        "conc": 1,
+        "luz_single": 82.29,
+        "hybrid_single": 81.39,
+        "single_delta_percent": 1.1057869517139718,
+        "luz_aggregate": 82.3,
+        "hybrid_aggregate": 81.4,
+        "aggregate_delta_percent": 1.1056511056510843,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 3,
+        "requested_streams": 3,
+        "luz_original_full_stream_median": 82.29,
+        "hybrid_original_full_stream_median": 81.39,
+        "hybrid_full_streams": 3,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      },
+      {
+        "type": "code",
+        "conc": 1,
+        "luz_single": 144.85,
+        "hybrid_single": 145.21,
+        "single_delta_percent": -0.24791681013704991,
+        "luz_aggregate": 144.8,
+        "hybrid_aggregate": 145.2,
+        "aggregate_delta_percent": -0.2754820936638924,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 3,
+        "requested_streams": 3,
+        "luz_original_full_stream_median": 144.85,
+        "hybrid_original_full_stream_median": 145.21,
+        "hybrid_full_streams": 3,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      }
+    ],
+    "paired_c1_code50": [
+      {
+        "type": "code",
+        "conc": 1,
+        "luz_single": 137.71,
+        "hybrid_single": 135.08,
+        "single_delta_percent": 1.9469943737044693,
+        "luz_aggregate": 137.7,
+        "hybrid_aggregate": 135.1,
+        "aggregate_delta_percent": 1.924500370096216,
+        "common_complete_waves": [
+          0,
+          1,
+          2
+        ],
+        "ranked_full_wave_streams": 3,
+        "requested_streams": 3,
+        "luz_original_full_stream_median": 137.71,
+        "hybrid_original_full_stream_median": 135.08,
+        "hybrid_full_streams": 3,
+        "hybrid_short_streams": 0,
+        "scope": "Paired complete waves only; original SD1 full-stream summaries retained separately",
+        "identical_prompts": true
+      }
+    ],
+    "luz_full": 180,
+    "hybrid_v2_pc_full": 89,
+    "hybrid_v2_pc_requested": 90
+  },
+  "prefill": {
+    "public_repeated": [
+      {
+        "target": 8192,
+        "luz_tps": 5964.8,
+        "hybrid_v2_tps": 5901.7,
+        "luz_delta_percent": 1.0691834556144864
+      },
+      {
+        "target": 32768,
+        "luz_tps": 6870.1,
+        "hybrid_v2_tps": 6519.7,
+        "luz_delta_percent": 5.374480420878269
+      },
+      {
+        "target": 65536,
+        "luz_tps": 6935.7,
+        "hybrid_v2_tps": 6534.2,
+        "luz_delta_percent": 6.144593064185355
+      },
+      {
+        "target": 131072,
+        "luz_tps": 6645.5,
+        "hybrid_v2_tps": 6444.7,
+        "luz_delta_percent": 3.1157385138175675
+      }
+    ],
+    "paired_generated_text": [
+      {
+        "generator_target": 32768,
+        "luz_actual_prompt_tokens": [
+          28039,
+          28324,
+          27756
+        ],
+        "hybrid_v2_actual_prompt_tokens": [
+          28039,
+          28324,
+          27756
+        ],
+        "luz_tps": 6197.151739185229,
+        "hybrid_v2_tps": 5627.162249190579,
+        "luz_delta_percent": 10.129252805472921,
+        "all_input_and_warmup_sha_equal": true
+      },
+      {
+        "generator_target": 131072,
+        "luz_actual_prompt_tokens": [
+          111122,
+          111702,
+          111284
+        ],
+        "hybrid_v2_actual_prompt_tokens": [
+          111122,
+          111702,
+          111284
+        ],
+        "luz_tps": 5948.177503770762,
+        "hybrid_v2_tps": 5603.409958189177,
+        "luz_delta_percent": 6.152816733991062,
+        "all_input_and_warmup_sha_equal": true
+      }
+    ]
+  },
+  "structured_v2": {
+    "comparison": [
+      {
+        "conc": 1,
+        "luz_single": 164.16,
+        "luz_aggregate": 164.2,
+        "hybrid_v2_single": 164.15,
+        "hybrid_v2_aggregate": 164.1,
+        "luz_vs_hybrid_v2_aggregate_percent": 0.06093845216330607,
+        "old_luz_v1_single": 142.42,
+        "old_luz_v1_aggregate": 142.4,
+        "v2_vs_v1_luz_aggregate_percent": 15.30898876404494,
+        "luz_correct_sequence": 3,
+        "hybrid_v2_correct_sequence": 3,
+        "requested_per_model": 3,
+        "identical_prompt_sha": true
+      },
+      {
+        "conc": 2,
+        "luz_single": 128.52499999999998,
+        "luz_aggregate": 254.6,
+        "hybrid_v2_single": 127.065,
+        "hybrid_v2_aggregate": 249.9,
+        "luz_vs_hybrid_v2_aggregate_percent": 1.8807523009203742,
+        "old_luz_v1_single": 102.97999999999999,
+        "old_luz_v1_aggregate": 201.8,
+        "v2_vs_v1_luz_aggregate_percent": 26.164519326065406,
+        "luz_correct_sequence": 6,
+        "hybrid_v2_correct_sequence": 6,
+        "requested_per_model": 6,
+        "identical_prompt_sha": true
+      },
+      {
+        "conc": 4,
+        "luz_single": 104.93,
+        "luz_aggregate": 414.6,
+        "hybrid_v2_single": 111.49,
+        "hybrid_v2_aggregate": 445.9,
+        "luz_vs_hybrid_v2_aggregate_percent": -7.019511101143749,
+        "old_luz_v1_single": 67.28999999999999,
+        "old_luz_v1_aggregate": 252.0,
+        "v2_vs_v1_luz_aggregate_percent": 64.52380952380953,
+        "luz_correct_sequence": 12,
+        "hybrid_v2_correct_sequence": 12,
+        "requested_per_model": 12,
+        "identical_prompt_sha": true
+      },
+      {
+        "conc": 8,
+        "luz_single": 85.63,
+        "luz_aggregate": 670.7,
+        "hybrid_v2_single": 84.85,
+        "hybrid_v2_aggregate": 669.1,
+        "luz_vs_hybrid_v2_aggregate_percent": 0.2391271857719257,
+        "old_luz_v1_single": 50.05,
+        "old_luz_v1_aggregate": 299.9,
+        "v2_vs_v1_luz_aggregate_percent": 123.64121373791268,
+        "luz_correct_sequence": 24,
+        "hybrid_v2_correct_sequence": 24,
+        "requested_per_model": 24,
+        "identical_prompt_sha": true
+      }
+    ],
+    "models": {
+      "luz": {
+        "run": "structured-v2-luz-20261015T125135",
+        "cells": [
+          {
+            "conc": 1,
+            "single": 164.16,
+            "aggregate": 164.2,
+            "full": 3,
+            "requested": 3,
+            "correct_sequence": 3,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "d1cd48a03771de14baae99c70f25f62639b55a2513db53bcc875d0f9f46e25c0",
+                "prompt_sha16": [
+                  "f45c172d807e5c29"
+                ],
+                "per_stream_tps": [
+                  160.82
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 160.8,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 0.9999988980781271
+              },
+              {
+                "wave": 1,
+                "source_sha256": "2c4f803913546d0df3eb744eb99c3116de07e66414d61882d5780fb95be48711",
+                "prompt_sha16": [
+                  "5724f8ae6ddbf614"
+                ],
+                "per_stream_tps": [
+                  164.16
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 164.2,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 1.0000015982064343
+              },
+              {
+                "wave": 2,
+                "source_sha256": "876bbe9c547026594fc732b632dec10eb240d6183e0609de20a87ac3b3171c91",
+                "prompt_sha16": [
+                  "6d53b3dae93c242d"
+                ],
+                "per_stream_tps": [
+                  164.57
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 164.6,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 0.9999966214162436
+              }
+            ]
+          },
+          {
+            "conc": 2,
+            "single": 128.52499999999998,
+            "aggregate": 254.6,
+            "full": 6,
+            "requested": 6,
+            "correct_sequence": 6,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "4a962b9c00805e25e31fe59153cdb5019af6703f514e4bf9db93c6fb4aa23109",
+                "prompt_sha16": [
+                  "209af8e737a23f04",
+                  "bd276c44f7f61868"
+                ],
+                "per_stream_tps": [
+                  129.81,
+                  128.07
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 255.4,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.04847288131713867,
+                "active_slot_utilization": 0.9903034610027955
+              },
+              {
+                "wave": 1,
+                "source_sha256": "deca8d40dea1300b4ccae770e8b76114596843633ce913e9286638ad882cdc67",
+                "prompt_sha16": [
+                  "ae67c377defde989",
+                  "ab3cb3d935c89f7d"
+                ],
+                "per_stream_tps": [
+                  129.26,
+                  127.66
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 254.6,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.04668688774108887,
+                "active_slot_utilization": 0.9909088572221395
+              },
+              {
+                "wave": 2,
+                "source_sha256": "fc4483e5a850a5aceaa8517e6ed3a5d3e1552917bf5b3afd1ae8cccf3eb4697f",
+                "prompt_sha16": [
+                  "091942d0ef967bd3",
+                  "46ad61f327161841"
+                ],
+                "per_stream_tps": [
+                  128.98,
+                  127.48
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 254.2,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.04677605628967285,
+                "active_slot_utilization": 0.9912864176068344
+              }
+            ]
+          },
+          {
+            "conc": 4,
+            "single": 104.93,
+            "aggregate": 414.6,
+            "full": 12,
+            "requested": 12,
+            "correct_sequence": 12,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "1a850124b9670b8227ea7da6d3ada64eb7b2e2fd0850fa2eee5915e4375890f7",
+                "prompt_sha16": [
+                  "043a3bff490c5f2c",
+                  "086eea1e7a2c83f6",
+                  "60c3b5f19713a53b",
+                  "17519677ce2f7d67"
+                ],
+                "per_stream_tps": [
+                  105.47,
+                  105.47,
+                  105.48,
+                  103.96
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 414.6,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.05956912040710449,
+                "active_slot_utilization": 0.9862386290465962
+              },
+              {
+                "wave": 1,
+                "source_sha256": "6da7f1da525dbce6259e4085a3af8841defccd6ba22de5b7b558541a9056fe11",
+                "prompt_sha16": [
+                  "93a830f8e427fa11",
+                  "af4d6ea61b5ce044",
+                  "2eac94fc210146a5",
+                  "8c0deb61dc602802"
+                ],
+                "per_stream_tps": [
+                  103.56,
+                  104.52,
+                  104.52,
+                  103.56
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 413.0,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.05908608436584473,
+                "active_slot_utilization": 0.9924614553024345
+              },
+              {
+                "wave": 2,
+                "source_sha256": "8589f8702e749bc15a065aadba3c8d56430bc7e29e8b452210b950087d6468c9",
+                "prompt_sha16": [
+                  "8695092bea7dc77e",
+                  "f0a2677ea0d6c9f2",
+                  "1605f30082e5173f",
+                  "05cae97c20690735"
+                ],
+                "per_stream_tps": [
+                  105.34,
+                  104.32,
+                  105.34,
+                  105.34
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 416.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.05728793144226074,
+                "active_slot_utilization": 0.9898403409110045
+              }
+            ]
+          },
+          {
+            "conc": 8,
+            "single": 85.63,
+            "aggregate": 670.7,
+            "full": 24,
+            "requested": 24,
+            "correct_sequence": 24,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "7c70a858b5a5212e477a5beeddb77869ba3d43b3eab69bf84a53be24157e78d7",
+                "prompt_sha16": [
+                  "16aa3bd6856608ba",
+                  "03b2bf0468a29996",
+                  "d38708adb561cc73",
+                  "69799477e870a687",
+                  "9a438135cb302725",
+                  "6050f933088a45f1",
+                  "6e143c5b155355c4",
+                  "f98ee3bef1ebb015"
+                ],
+                "per_stream_tps": [
+                  85.63,
+                  85.64,
+                  85.63,
+                  85.64,
+                  85.64,
+                  77.5,
+                  85.63,
+                  85.63
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 618.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.07955789566040039,
+                "active_slot_utilization": 0.9141456451523632
+              },
+              {
+                "wave": 1,
+                "source_sha256": "49e3310c5b010770cce96f8347fcee1db896ef0113added9da96a98d1061b5f3",
+                "prompt_sha16": [
+                  "041bd54b258eb2b2",
+                  "212f991146a9f362",
+                  "76ca90f4d5d7c8a1",
+                  "953f6fb8fdd9803a",
+                  "4150770464516729",
+                  "3ba666ad6c7fecc3",
+                  "00478ab56f269acf",
+                  "af8c971cc9f5de14"
+                ],
+                "per_stream_tps": [
+                  84.94,
+                  84.95,
+                  84.1,
+                  84.94,
+                  84.94,
+                  84.95,
+                  84.95,
+                  84.1
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 670.7,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0760030746459961,
+                "active_slot_utilization": 0.9894745544658402
+              },
+              {
+                "wave": 2,
+                "source_sha256": "8a984db6901f4785d2c7415597fbeb1dff0aa0ee9d0ac2be2493898532ce1139",
+                "prompt_sha16": [
+                  "3822bb9d27602f97",
+                  "6cc3d1bda46698c9",
+                  "7ec113ccd94a5f52",
+                  "4b0299f0468ebd4c",
+                  "b8121d52b7f95179",
+                  "5713dcc404902f5a",
+                  "b4a889b129891aea",
+                  "f04e2f6b57a00b15"
+                ],
+                "per_stream_tps": [
+                  85.99,
+                  85.99,
+                  85.99,
+                  85.99,
+                  85.99,
+                  86.0,
+                  84.91,
+                  85.99
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 677.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.07767295837402344,
+                "active_slot_utilization": 0.9858387798386811
+              }
+            ]
+          }
+        ]
+      },
+      "hybrid_v2": {
+        "run": "structured-v2-hybrid_v2-20261015T124250",
+        "cells": [
+          {
+            "conc": 1,
+            "single": 164.15,
+            "aggregate": 164.1,
+            "full": 3,
+            "requested": 3,
+            "correct_sequence": 3,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "633cf04391c5b8c0e7a8ec60af73c11f06b61ae2d1f31f3ee225867145e7ee9d",
+                "prompt_sha16": [
+                  "f45c172d807e5c29"
+                ],
+                "per_stream_tps": [
+                  160.55
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 160.5,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 1.0000003926895786
+              },
+              {
+                "wave": 1,
+                "source_sha256": "565e730c0ddc64ea4c0c714370758c03f7417746492b92fcfb8c32d06cb7aa76",
+                "prompt_sha16": [
+                  "5724f8ae6ddbf614"
+                ],
+                "per_stream_tps": [
+                  164.15
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 164.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 1.000001434509321
+              },
+              {
+                "wave": 2,
+                "source_sha256": "450fef916b71a59de06cca5b8d6e2f0dddd042b28041bdf15422c51b57a25b39",
+                "prompt_sha16": [
+                  "6d53b3dae93c242d"
+                ],
+                "per_stream_tps": [
+                  164.64
+                ],
+                "completion_tokens": [
+                  2048
+                ],
+                "full_mask": [
+                  true
+                ],
+                "correct_sequence": [
+                  true
+                ],
+                "single_space_format": [
+                  true
+                ],
+                "final_numbers": [
+                  "1016"
+                ],
+                "aggregate_tps": 164.6,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0,
+                "active_slot_utilization": 0.9999966153159774
+              }
+            ]
+          },
+          {
+            "conc": 2,
+            "single": 127.065,
+            "aggregate": 249.9,
+            "full": 6,
+            "requested": 6,
+            "correct_sequence": 6,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "23133f0a630e319bf0d96f719aeee228defec77a066a391b76103cc364a2d7e2",
+                "prompt_sha16": [
+                  "209af8e737a23f04",
+                  "bd276c44f7f61868"
+                ],
+                "per_stream_tps": [
+                  125.03,
+                  127.4
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 249.3,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.04820704460144043,
+                "active_slot_utilization": 0.9878240031496074
+              },
+              {
+                "wave": 1,
+                "source_sha256": "dbca596e08755a3ae512278fad58f11c5b559367719860f871280362e95f372e",
+                "prompt_sha16": [
+                  "ae67c377defde989",
+                  "ab3cb3d935c89f7d"
+                ],
+                "per_stream_tps": [
+                  136.39,
+                  136.39
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 272.8,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.00013685226440429688,
+                "active_slot_utilization": 0.9999894109466552
+              },
+              {
+                "wave": 2,
+                "source_sha256": "50f72a036b0434c2610711aeb6fa8df9a7a61ec04619a70658f72392e1ce675e",
+                "prompt_sha16": [
+                  "091942d0ef967bd3",
+                  "46ad61f327161841"
+                ],
+                "per_stream_tps": [
+                  125.34,
+                  126.73
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 249.9,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.048091888427734375,
+                "active_slot_utilization": 0.9916093703034968
+              }
+            ]
+          },
+          {
+            "conc": 4,
+            "single": 111.49,
+            "aggregate": 445.9,
+            "full": 12,
+            "requested": 12,
+            "correct_sequence": 12,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "98ebb8e11cbe4a6cac89c6ac0874478526d5d56eabc4602e8509195e6330b7a8",
+                "prompt_sha16": [
+                  "043a3bff490c5f2c",
+                  "086eea1e7a2c83f6",
+                  "60c3b5f19713a53b",
+                  "17519677ce2f7d67"
+                ],
+                "per_stream_tps": [
+                  104.97,
+                  104.97,
+                  103.59,
+                  104.97
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 413.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.058862924575805664,
+                "active_slot_utilization": 0.9871948552195674
+              },
+              {
+                "wave": 1,
+                "source_sha256": "c2e4cfa71b8632916044a6cda20a2d5af2646e52e231422e22450df6b2690701",
+                "prompt_sha16": [
+                  "93a830f8e427fa11",
+                  "af4d6ea61b5ce044",
+                  "2eac94fc210146a5",
+                  "8c0deb61dc602802"
+                ],
+                "per_stream_tps": [
+                  111.49,
+                  111.49,
+                  111.49,
+                  111.48
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 445.9,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.0012829303741455078,
+                "active_slot_utilization": 0.9999335050432405
+              },
+              {
+                "wave": 2,
+                "source_sha256": "6d48601ad8f03ec680fe830ed7d8e91fcaf8e6b089d0c11e13921556fdc38dbb",
+                "prompt_sha16": [
+                  "8695092bea7dc77e",
+                  "f0a2677ea0d6c9f2",
+                  "1605f30082e5173f",
+                  "05cae97c20690735"
+                ],
+                "per_stream_tps": [
+                  111.77,
+                  111.77,
+                  111.76,
+                  111.76
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 447.0,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.001322031021118164,
+                "active_slot_utilization": 0.9999204486072865
+              }
+            ]
+          },
+          {
+            "conc": 8,
+            "single": 84.85,
+            "aggregate": 669.1,
+            "full": 24,
+            "requested": 24,
+            "correct_sequence": 24,
+            "waves": [
+              {
+                "wave": 0,
+                "source_sha256": "1e5619abb954d7e22b16e4ea8ca5863f9b202babe1d9c2dbcd98cfccd6caa2cf",
+                "prompt_sha16": [
+                  "16aa3bd6856608ba",
+                  "03b2bf0468a29996",
+                  "d38708adb561cc73",
+                  "69799477e870a687",
+                  "9a438135cb302725",
+                  "6050f933088a45f1",
+                  "6e143c5b155355c4",
+                  "f98ee3bef1ebb015"
+                ],
+                "per_stream_tps": [
+                  84.85,
+                  84.85,
+                  84.86,
+                  84.85,
+                  84.86,
+                  83.9,
+                  84.86,
+                  84.86
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 669.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.07636880874633789,
+                "active_slot_utilization": 0.9870596637765691
+              },
+              {
+                "wave": 1,
+                "source_sha256": "858aa78c66fe8b7051091b7e47120a5be7b65bf0fcd02c904f56e09d47112f36",
+                "prompt_sha16": [
+                  "041bd54b258eb2b2",
+                  "212f991146a9f362",
+                  "76ca90f4d5d7c8a1",
+                  "953f6fb8fdd9803a",
+                  "4150770464516729",
+                  "3ba666ad6c7fecc3",
+                  "00478ab56f269acf",
+                  "af8c971cc9f5de14"
+                ],
+                "per_stream_tps": [
+                  84.65,
+                  83.78,
+                  84.65,
+                  84.65,
+                  84.65,
+                  84.65,
+                  84.66,
+                  84.65
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 668.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.07829594612121582,
+                "active_slot_utilization": 0.9878647297509514
+              },
+              {
+                "wave": 2,
+                "source_sha256": "9fbe986dda333980c96658884934814cf446dcb2a94d5d9cad229af2f3e140b4",
+                "prompt_sha16": [
+                  "3822bb9d27602f97",
+                  "6cc3d1bda46698c9",
+                  "7ec113ccd94a5f52",
+                  "4b0299f0468ebd4c",
+                  "b8121d52b7f95179",
+                  "5713dcc404902f5a",
+                  "b4a889b129891aea",
+                  "f04e2f6b57a00b15"
+                ],
+                "per_stream_tps": [
+                  85.51,
+                  84.65,
+                  85.51,
+                  85.51,
+                  85.51,
+                  85.51,
+                  85.52,
+                  85.51
+                ],
+                "completion_tokens": [
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048,
+                  2048
+                ],
+                "full_mask": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "correct_sequence": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "single_space_format": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "final_numbers": [
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016",
+                  "1016"
+                ],
+                "aggregate_tps": 675.1,
+                "mean_tokens_per_request_verify": 5.988304093567251,
+                "finish_spread_s": 0.07480406761169434,
+                "active_slot_utilization": 0.9881796021746637
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "all_full_and_correct": true,
+    "scope": "Only the benchmark counting prompt was changed; serving config, kernels and capacities were unchanged. v2-v1 differences are workload effects, not an engine speedup."
+  },
+  "quality": {
+    "b20-throughput": {
+      "functional_checks_passed": 9,
+      "single_long_input_tokens": 599440,
+      "recall": [
+        {
+          "round": "cold",
+          "elapsed_s": 151.5934636592865,
+          "three_positions_recalled": true
+        },
+        {
+          "round": "prefix_hit",
+          "elapsed_s": 2.163895845413208,
+          "three_positions_recalled": true
+        }
+      ]
+    },
+    "b32-memory": {
+      "functional_checks_passed": 9,
+      "single_long_input_tokens": 599440,
+      "recall": [
+        {
+          "round": "cold",
+          "elapsed_s": 157.99183535575867,
+          "three_positions_recalled": true
+        },
+        {
+          "round": "prefix_hit",
+          "elapsed_s": 2.1109683513641357,
+          "three_positions_recalled": true
+        }
+      ]
+    }
+  },
+  "limits": {
+    "full_c16_qualified": false,
+    "full_c16_long_context_fill": false,
+    "json_and_structured_v1": "Prompt labels without grammar; schema correctness is a separate functional check"
+  }
+}

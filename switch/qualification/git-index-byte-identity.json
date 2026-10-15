@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "added_files": 81,
+  "only_new_switch_directory": true,
+  "raw_byte_identical_qualified_and_delta_files": 22,
+  "files": [
+    {
+      "file": "switch/overrides/manifest.json",
+      "sha256": "fa91242202109a87a56255d71046d1f4a76734190e62a507b06f90c5e8a7304e"
+    },
+    {
+      "file": "switch/overrides/b20/deepseek_v4_memory_pool.py",
+      "sha256": "37fe674ceebfc5f5b2f02d09c011045b391d378335f096932780949fb7581f3d"
+    },
+    {
+      "file": "switch/overrides/b20/l2_prefetch.py",
+      "sha256": "e1776d9f65e147cd5be89d14e9389178843942a0daf5e04edb15b93aa0dd8d49"
+    },
+    {
+      "file": "switch/overrides/b20/roce_ar.py",
+      "sha256": "d25b9e77a2352d0621ee89e625d47e2a3a45a0f4c6afdc704e9f8194d509bc32"
+    },
+    {
+      "file": "switch/overrides/b20/sitecustomize.py",
+      "sha256": "ade3ae5c40fb1160d4e12b3ee6d79761136fce3be581fe956ff71b956ceeaabc"
+    },
+    {
+      "file": "switch/overrides/b20/wo_a_w8.py",
+      "sha256": "ce94d4d44acdb8f97777549bc5644a8c2bdd9941e1e4b4c0858d633db0da92b0"
+    },
+    {
+      "file": "switch/overrides/b32/kv_fp4_repack.py",
+      "sha256": "cb91f0d7c871b6d5035ff697e9ac03c79bea469aa60c1a8088699499ca1f8375"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/33a76d5b861d811b3b24622bfc8c6f2ba4a801abb658a6c5774109842365df21",
+      "sha256": "33a76d5b861d811b3b24622bfc8c6f2ba4a801abb658a6c5774109842365df21"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/4ea7f7d89c1f0ba56c692824c1799e63c2e9a6c90c2180c639a3570d912d7f33",
+      "sha256": "4ea7f7d89c1f0ba56c692824c1799e63c2e9a6c90c2180c639a3570d912d7f33"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/6165366ecb2cd756eb55b3c73bb88db9747217aca4780d66d80a87d034314ba3",
+      "sha256": "6165366ecb2cd756eb55b3c73bb88db9747217aca4780d66d80a87d034314ba3"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/623a64401af40e57adce8b59fc3be92c032d1cc875332dce51cd1540d991b8cf",
+      "sha256": "623a64401af40e57adce8b59fc3be92c032d1cc875332dce51cd1540d991b8cf"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/a203e0202eacd5550a75bed8b850900ef7feaa4cc39f19045d2a66122a6fccff",
+      "sha256": "a203e0202eacd5550a75bed8b850900ef7feaa4cc39f19045d2a66122a6fccff"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092",
+      "sha256": "ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/c5b46ad1d6499b0f7a95b5a02542e38bd3c2fb8776638c6fd7086d07fa6a0811",
+      "sha256": "c5b46ad1d6499b0f7a95b5a02542e38bd3c2fb8776638c6fd7086d07fa6a0811"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+      "sha256": "d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c"
+    },
+    {
+      "file": "switch/image-delta/blobs/sha256/d6c6c1114b4d5666f1330cebdf1d8d128ae58b66a3e2edad490ba732fd8b2103",
+      "sha256": "d6c6c1114b4d5666f1330cebdf1d8d128ae58b66a3e2edad490ba732fd8b2103"
+    },
+    {
+      "file": "switch/bench/bench.py",
+      "sha256": "819bec788412486fe014a5bef5f66ab925f8010787e898a0b17fd0f1bf8734c8"
+    },
+    {
+      "file": "switch/bench/bench_structured_v2.py",
+      "sha256": "d585ee140dd4ebdb74ae7dfc72d2e9deeace8b6c8692c37e99d510a7b7b073c2"
+    },
+    {
+      "file": "switch/bench/paired_real_prefill.py",
+      "sha256": "0ca41d4cb623b4c96dd2d2d4f385f8647df186c616deb2231ed87882b8feed3c"
+    },
+    {
+      "file": "switch/bench/sd_bench.py",
+      "sha256": "060884e418483dbd2cae742d07da20aa4b132d2a50c06f0c7d719ca2ee816f3c"
+    },
+    {
+      "file": "switch/bench/structured_v2_prompt.py",
+      "sha256": "ed84b9f906459c6ef8339fa6df6fee29b4b3c7837d09a7b0f1a30619f65d4bc0"
+    },
+    {
+      "file": "switch/bench/reference-hybrid-sd1/sd_protocol.py",
+      "sha256": "4dd30c18be565b87403266a81acd12d2e9c95e814dcae4ea00e363e3c3e99edb"
+    }
+  ],
+  "scope": "Precommit index check; count includes this new receipt after it is staged. Raw qualified overrides, benchmark sources and delta blobs were compared with Git index bytes."
+}

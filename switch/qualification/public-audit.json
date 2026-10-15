@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files_checked": 81,
+  "bytes_checked": 8825581,
+  "known_private_credentials_absent": true,
+  "site_identifiers_absent": true,
+  "private_key_and_token_patterns_absent": true,
+  "only_switch_directory_changed": true,
+  "decoded_delta_layer_file_entries_checked": 923,
+  "decoded_delta_layer_file_bytes_checked": 27706646,
+  "scope": "Git candidates including decompressed new delta-layer regular files and names. Excludes inherited base layers, ignored private configs, generated deployments, full image archives and runtime data."
+}

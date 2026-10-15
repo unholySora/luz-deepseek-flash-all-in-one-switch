@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "public_index_digest": "sha256:d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+  "docker_inspect_id": "sha256:d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+  "public_config_digest": "sha256:ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092",
+  "base_layers_identical": 71,
+  "total_layers": 77,
+  "image_config_runtime_fields_equal": true,
+  "docker_load_success": true,
+  "cpu_python_container_success": true,
+  "image_files_sha256": {
+    "/opt/dsv41/adapter/lm_cert.py": "7337d4b2f476639cbad204f38e18f18d4e1228a9d9c71c6d72a4344d481b5288",
+    "/opt/b12x-tree/b12x/comm/roce_ring/_roce_proxy.c": "93ea8b88cc46425a28bc02bfbb8b2565bb25452c27ce0fdd049497fb69e47e15"
+  },
+  "pre_generated_host_keys_absent_in_final_filesystem": true,
+  "new_image_inference_retested": false,
+  "default_model_service_changed": false
+}

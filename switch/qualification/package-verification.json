@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "python_sources_compiled": 26,
+  "qualified_overlay_hashes": 6,
+  "original_build_sources_verified": 915,
+  "config_parity": [
+    {
+      "profile": "b20-throughput",
+      "rank": 0,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b20-throughput",
+      "rank": 1,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b20-throughput",
+      "rank": 2,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b20-throughput",
+      "rank": 3,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b32-memory",
+      "rank": 0,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b32-memory",
+      "rank": 1,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b32-memory",
+      "rank": 2,
+      "all_algorithm_settings_equal": true
+    },
+    {
+      "profile": "b32-memory",
+      "rank": 3,
+      "all_algorithm_settings_equal": true
+    }
+  ],
+  "scope": "Offline source, byte identity and four-rank runtime parity. Public portable wrapper and Docker recipe have not been deployed for new performance measurements."
+}

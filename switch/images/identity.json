@@ -1,0 +1,14 @@
+{
+  "measured_image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+  "base_image_id": "sha256:f8095fa8d6ed867a9b40c5a90dbadd942bf12d80443d0b8db76ae24a36e415c1",
+  "base_tag": "dsv41-sglang-optimized:0.3.1-r3",
+  "image_archive_in_github": false,
+  "public_recipe_rebuilt_and_serving_retested": false,
+  "scope": "Measured and public index digests differ. Public delta retains base layers, changes only one module docstring, drops private provenance and adds host-key cleanup. GPU results remain those of the measured image.",
+  "public_index_digest": "sha256:d2d66bb82dc9b09780b9d791ae261b8e204239d7c077178a39af8aa6ab7f329c",
+  "public_config_digest": "sha256:ab4036ef55963003f054eb318a291174551051dfd4eb7e176149a729410bf092",
+  "base_config_digest": "sha256:a23298ed93e0dc5042e7b9634e705cbeddee849821aeb7322b8c997a92394e93",
+  "measured_config_digest": "sha256:f65b8a8806b99dcc1458433b845b64af342227c6197c8a064e585c12e3e4fdd2",
+  "image_delta_in_github": true,
+  "public_delta_docker_load_and_cpu_tested": true
+}
