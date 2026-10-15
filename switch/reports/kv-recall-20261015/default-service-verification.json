@@ -1,0 +1,50 @@
+{
+  "verified_hk": "2026-10-15T18:38:37.610742+08:00",
+  "default": "original luz-switch B20",
+  "authorization_unchanged": true,
+  "hybrid_v2_stopped": true,
+  "legacy_r6_stopped": true,
+  "hybrid_v2_worktree_clean": true,
+  "ranks": [
+    {
+      "rank": "rank2",
+      "runtime_sha256": "2fb479ac880923568a309c08ec698b2309ce37655c3cfac75eb2845d0f28e29d",
+      "image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+      "started_at": "2026-10-15T10:34:53.760031775Z",
+      "running": true,
+      "baseline_restored": true
+    },
+    {
+      "rank": "rank0",
+      "runtime_sha256": "6def75b5326b64ef19cbba4debd38ebf57305bf93217d9f843a95f47447e26dc",
+      "image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+      "started_at": "2026-10-15T10:34:54.680066746Z",
+      "running": true,
+      "baseline_restored": true
+    },
+    {
+      "rank": "rank1",
+      "runtime_sha256": "bf33cd52dcbca43f6cb547d3fa957be3627faa7759b614ce68c48ae8fcf94220",
+      "image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+      "started_at": "2026-10-15T10:34:53.425691188Z",
+      "running": true,
+      "baseline_restored": true
+    },
+    {
+      "rank": "rank3",
+      "runtime_sha256": "354ec1b90515f2485596254c2a9afbf729ab565fc6e525981c259024128bde39",
+      "image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+      "started_at": "2026-10-15T10:34:53.299324747Z",
+      "running": true,
+      "baseline_restored": true
+    }
+  ],
+  "gateway": {
+    "at_hk": "2026-10-15T18:38:54.685274+08:00",
+    "passed": true,
+    "ui_chat_answer": "42",
+    "ui_sse_completed": true,
+    "alias_first_matches_default": true,
+    "authorization_unchanged": true
+  }
+}

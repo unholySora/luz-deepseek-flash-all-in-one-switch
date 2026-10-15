@@ -1,6 +1,6 @@
 # LuZ Switch：2026-10-15 B20
 
-四台 DGX Spark、每台双 100Gb/s RoCE、通过交换机连接的部署版本。默认配置为 **600000 上下文、16 个运行请求、9600000 token KV 池**。完整速度验收覆盖 C1/C2/C4/C8；没有做 16 路长上下文同时占满验收。
+四台 DGX Spark、每台双 100Gb/s RoCE、通过交换机连接的部署版本。默认配置为 **600000 上下文、16 个运行请求、9600000 token KV 池**。完整速度验收覆盖 C1/C2/C4/C8。C1/2/4/8/12/16 的近满池驻留与召回已完成，C16 的实际输入、页图及资源结果见[独立 KV 实测报告](reports/KV-RECALL.md)。该报告的测试配置显式加入两项 streaming-session 运行时修正；后续高并发容量候选另加 prefill 每批 1 请求限制。原 B20 的速度资格范围不扩大。
 
 本目录保留与原项目并列的部署方案。原仓库的部署文件保持原样。实测源码覆盖文件保留原始字节；IP、SSH 用户、模型和工作目录改为参数化模板。首次安装请先阅读 [极详细部署手册](DEPLOYMENT-GUIDE.zh-CN.md)，面向上游的差异说明见 [LuZ技术报告](UPSTREAM-REPORT.zh-CN.md)。实验细节见 [调优说明](reports/TUNING.md)、[实测结果](reports/RESULTS.md) 和 [structured 分析](reports/STRUCTURED.md)。
 
@@ -90,8 +90,8 @@ python3 switch/bench/sd_bench.py --mode pr --sizes 8192 32768 65536 131072 \
 
 `json` 和 `structured` 是提示类别，未启用 grammar。当前 structured v2 随 `--max-tokens` 自动调整计数上限；旧v1四场景回归仍可用原bench运行，数据单独保留。`structured` 原始提示要求数到 200，却强制继续到 2048 token；因此后段可能脱离数字序列，这影响投机接受率和长尾，详见分析。功能性 JSON schema、工具调用和 C8 正确性另行检查。
 
-默认实验服务仍保留通过验收的 hybrid_v2。B20 没有证明在 prose/code 两场景稳定全面胜过它；这份发布保留可复现的已完成成果，并为后续优化提供基线。
+首次发布时默认保留 hybrid_v2；同日下午使用者明确要求改为 luz-switch，因此后续 KV 测试收尾保持原 B20 运行，hybrid_v2 停止备用。B20 尚未证明在 prose/code 两场景稳定全面胜过它。会话测试修正和 prefill1 容量候选均单独归档，未混入原 B20 默认。
 
 ## 满池 KV 召回
 
-[验收方案与操作](qualification/KV-RECALL-PLAN.zh-CN.md) 提供公版《三國志演義》背景、每流独立随机记录、分词精确的输入生成器及 session 召回评分工具。本次已离线准备 C16、约 9.551M 输入 token、112 个随机位置核验点；**尚未做满池推理**。正式结论须同时验证多流 KV 驻留、召回和四 rank 内存稳定，不能以小说情节答对或单流 600k 成功代替。
+[验收方案与操作](qualification/KV-RECALL-PLAN.zh-CN.md) 提供公版《三國志演義》背景、每流独立随机记录、分词精确的输入生成器及 session 召回评分工具。C1/2/4/8/12/16 的近满池驻留与召回已完成，C16 的实际输入、页图及资源结果见[KV 实测报告](reports/KV-RECALL.md)，同时提供[监测与会话修正部署指导](qualification/KV-MONITOR-GUIDE.zh-CN.md)。原入场 C8 的召回正确但资源余量未通过，后续另测 prefill1；报告保留两轮结果及各自范围。

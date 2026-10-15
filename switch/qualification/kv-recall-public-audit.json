@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "at_hk": "2026-10-15T18:40:36.065870+08:00",
+  "files_checked": 508,
+  "bytes_checked": 49392718,
+  "decoded_delta_entries": 923,
+  "numeric_page_archives_checked": 192,
+  "plot_metadata_checked": 1,
+  "known_credentials_absent": true,
+  "site_identifiers_and_private_token_patterns_absent": true,
+  "changes_only_under_switch": true,
+  "binary_scope": "NPZ entries restricted to numeric arrays; headers/names checked. PNG metadata checked; plotted content is anonymous measured telemetry. Known secret literals checked in every raw file."
+}

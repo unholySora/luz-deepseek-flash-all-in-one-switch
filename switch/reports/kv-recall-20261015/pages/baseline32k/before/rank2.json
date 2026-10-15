@@ -1,0 +1,132 @@
+{
+  "epoch": 1792049852.8369923,
+  "rank": 2,
+  "cache_type": "UnifiedRadixCache",
+  "allocator_type": "SWATokenToKVPoolAllocator",
+  "page_size": 256,
+  "max_total_tokens": 9600000,
+  "req_pool_size": 16,
+  "req_pool_free": 16,
+  "cuda_allocated": 100961995264,
+  "cuda_reserved": 103628668928,
+  "pools": {
+    "root": {
+      "type": "SWATokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "_size_full": 9600000,
+      "_size_swa": 125440,
+      "available_size": 120832,
+      "full_available_size": 9567744,
+      "swa_available_size": 120832
+    },
+    "full": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 9600000,
+      "page_size": 256,
+      "available_size": 9567744,
+      "free_pages_count": 37374
+    },
+    "swa": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "available_size": 120832,
+      "free_pages_count": 472
+    }
+  },
+  "full_evictable_size": 32256,
+  "full_protected_size": 0,
+  "swa_evictable_size": 4608,
+  "swa_protected_size": 0,
+  "session_held_full_tokens": 0,
+  "session_held_swa_tokens": 0,
+  "session_held_req_count": 0,
+  "session_count": 0,
+  "kvcache_type": "DeepSeekV4TokenToKVPool",
+  "kv_components": [
+    {
+      "group": "kv_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 9600000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            150004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 5616149760
+        }
+      ]
+    },
+    {
+      "group": "kv_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 4800000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            75004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 2808149760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 9600256,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            150005,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 652821760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 4800128,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            75003,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 326413056
+        }
+      ]
+    }
+  ],
+  "cross_slot_page_collisions": [],
+  "cross_slot_page_collision_count": 0,
+  "held_pages_in_free_list": [],
+  "unique_held_pages": 0,
+  "logical_non_evictable_mapping_verified": true,
+  "scope": "Committed FULL logical slot ownership plus backing-buffer samples. SWA window retirement is expected. CUDA allocator bytes are not per-session physical DRAM residency.",
+  "mapping_archive_sha256": "3cd28c9a3bb0fab7975ae155b463a8837bc6bcd27639ce1761e2f43d06841e7e",
+  "stage": "baseline32k",
+  "phase": "before",
+  "slots": [],
+  "mapping_archive": "rank2-maps.npz"
+}

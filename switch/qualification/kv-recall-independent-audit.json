@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "snapshots_verified": 192,
+  "slot_maps_reconstructed": 696,
+  "recall_correct": 609,
+  "recall_total": 609,
+  "scope": "Archived logical maps and response scoring. Does not re-run GPU inference or inspect Linux physical-page residency.",
+  "memory_windows_verified": 48
+}

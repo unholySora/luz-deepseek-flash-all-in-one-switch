@@ -1,0 +1,42 @@
+[
+  {
+    "episode": "streaming API preflight",
+    "outcome": "HTTP400 before enabling required interface",
+    "recall_scored": false
+  },
+  {
+    "episode": "original streaming row admission",
+    "outcome": "Small C16 continuations stalled with running0/waiting16/free-row0; FULL used32768",
+    "recall_scored": false
+  },
+  {
+    "episode": "original first streaming chunk cache",
+    "outcome": "128k fill stalled at SWA125184/125440 while FULL largely free",
+    "recall_scored": false
+  },
+  {
+    "episode": "configuration stop guard",
+    "outcome": "Blocked changing runtime while LuZ was running; no test requests",
+    "recall_scored": false
+  },
+  {
+    "episode": "standard-prefill C8",
+    "outcome": "56/56 recall; resource margin failed; retained as its own measured stage",
+    "recall_scored": true
+  },
+  {
+    "episode": "standard-prefill C12",
+    "outcome": "Operator stopped after one completed fill and a second in progress, after auditing C8 resource trace; no recall query wave",
+    "recall_scored": false
+  },
+  {
+    "episode": "prefill1 initial C16",
+    "outcome": "A management guard request timed out after one completed fill, before any recall query. Local resource traces and kernel scan showed no OOM/container swap. Default B20 was restored; C16 retried separately with identical numerical/runtime modules and bounded fresh-telemetry control handling.",
+    "recall_scored": false
+  },
+  {
+    "episode": "default restoration platform readiness",
+    "outcome": "Platform status briefly lagged native ready; explicit health/default audit completed and polling added",
+    "recall_scored": false
+  }
+]

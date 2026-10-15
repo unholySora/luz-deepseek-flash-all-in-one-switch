@@ -11,6 +11,7 @@ import os
 import pathlib
 import time
 import urllib.request
+import urllib.error
 import uuid
 
 
@@ -46,6 +47,8 @@ def main():
     parser.add_argument("--expect-running", type=int, default=16)
     parser.add_argument("--key-env", default="LUZ_RECALL_API_KEY")
     parser.add_argument("--hold-seconds", type=int, default=0)
+    parser.add_argument("--fill-timeout", type=int, default=1800)
+    parser.add_argument("--query-timeout", type=int, default=300)
     args = parser.parse_args()
     manifest = json.loads((args.suite / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["format"] == "luz-switch-kv-recall-v1"
@@ -61,8 +64,12 @@ def main():
         # Use a separate opener per request so concurrent calls do not share
         # mutable transport state. Proxies are disabled for local cluster APIs.
         local = urllib.request.build_opener(urllib.request.ProxyHandler({}))
-        with local.open(req, timeout=timeout) as response:
-            data = response.read().decode()
+        try:
+            with local.open(req, timeout=timeout) as response:
+                data = response.read().decode()
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode(errors='replace')
+            raise RuntimeError(f'HTTP {exc.code} {path}: {detail[:2000]}') from exc
         return data if raw else json.loads(data)
 
     def write(name, data):
@@ -75,10 +82,12 @@ def main():
             write(label + "-metrics-error.json", {"error_type": type(exc).__name__})
 
     info = api("/server_info", timeout=30)
-    selected = {k: info.get(k) for k in ["context_length", "max_total_num_tokens", "max_running_requests"]}
-    assert selected == {"context_length": manifest["context"], "max_total_num_tokens": manifest["pool"],
-                        "max_running_requests": args.expect_running}, selected
+    selected = {k: info.get(k) for k in ["context_length", "max_total_num_tokens", "max_running_requests", "enable_streaming_session"]}
     write("server-info.json", selected)
+    assert all(selected[k] == value for k,value in {"context_length": manifest["context"], "max_total_num_tokens": manifest["pool"],
+                        "max_running_requests": args.expect_running}.items()), selected
+    if selected['enable_streaming_session'] is not True:
+        raise RuntimeError('Streaming sessions are disabled or unreported; relaunch the dedicated test profile with --enable-streaming-session.')
     cases = []
     for row in manifest['cases']:
         data = (args.suite / row['file']).read_bytes()
@@ -86,6 +95,7 @@ def main():
             raise ValueError('Prepared request file checksum mismatch')
         cases.append(json.loads(data))
     prefix = "kv-recall-" + uuid.uuid4().hex
+    write('run-identity.json',{'request_id_prefix':prefix,'abort_scope':'Only requests with this unique prefix'})
     opened = []
     records = []
     all_values = {}
@@ -105,8 +115,8 @@ def main():
                 raise RuntimeError("Opening the streaming session failed")
             opened.append(sid)
             t0 = time.time()
-            response = api("/generate", {"input_ids": case["input_ids"], "session_params": {"id": sid},
-                                         "sampling_params": {"temperature": 0, "max_new_tokens": 32}, "stream": False})
+            response = api("/generate", {"rid":sid+'-fill',"input_ids": case["input_ids"], "session_params": {"id": sid},
+                                         "sampling_params": {"temperature": 0, "max_new_tokens": 32}, "stream": False},timeout=args.fill_timeout)
             write(f"fill-{case['stream']:02d}.json", response)
             meta = response.get("meta_info", {})
             finish = meta.get("finish_reason", {})
@@ -125,8 +135,8 @@ def main():
         def query(pair):
             case, sid = pair
             t0 = time.time()
-            response = api("/generate", {"input_ids": case["query_ids"], "session_params": {"id": sid},
-                                         "sampling_params": {"temperature": 0, "max_new_tokens": 512}, "stream": False})
+            response = api("/generate", {"rid":sid+'-query',"input_ids": case["query_ids"], "session_params": {"id": sid},
+                                         "sampling_params": {"temperature": 0, "max_new_tokens": 512}, "stream": False},timeout=args.query_timeout)
             write(f"query-{case['stream']:02d}.json", response)
             text = response.get("text", "")
             others = {k: values - {case["expected"][k]} for k, values in all_values.items()}
@@ -156,6 +166,10 @@ def main():
         print(json.dumps(summary), flush=True)
     finally:
         cleanup = []
+        try:
+            api('/abort_request',{'rid':prefix},raw=True,timeout=30)
+        except Exception:
+            pass
         for sid in opened:
             try:
                 api("/close_session", {"session_id": sid}, raw=True, timeout=30)

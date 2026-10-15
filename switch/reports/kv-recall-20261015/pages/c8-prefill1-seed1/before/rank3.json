@@ -1,0 +1,141 @@
+{
+  "epoch": 1792053759.2868366,
+  "rank": 3,
+  "cache_type": "UnifiedRadixCache",
+  "allocator_type": "SWATokenToKVPoolAllocator",
+  "page_size": 256,
+  "max_total_tokens": 9600000,
+  "req_pool_size": 16,
+  "req_pool_free": 16,
+  "cuda_allocated": 100933811200,
+  "cuda_reserved": 102944997376,
+  "cuda_peak_allocated": 100967297536,
+  "cuda_peak_reserved": 103970504704,
+  "peak_reset": {
+    "command": "smoke16-prefill1-20261015T164142-plateau-7c1e5cbe",
+    "epoch": 1792053725.7125702
+  },
+  "running_req_count": 0,
+  "waiting_req_count": 0,
+  "peak_running_req_count": 16,
+  "pools": {
+    "root": {
+      "type": "SWATokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "_size_full": 9600000,
+      "_size_swa": 125440,
+      "available_size": 121344,
+      "full_available_size": 9571328,
+      "swa_available_size": 121344
+    },
+    "full": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 9600000,
+      "page_size": 256,
+      "available_size": 9571328,
+      "free_pages_count": 37388
+    },
+    "swa": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "available_size": 121344,
+      "free_pages_count": 474
+    }
+  },
+  "full_evictable_size": 28672,
+  "full_protected_size": 0,
+  "swa_evictable_size": 4096,
+  "swa_protected_size": 0,
+  "session_held_full_tokens": 0,
+  "session_held_swa_tokens": 0,
+  "session_held_req_count": 0,
+  "session_count": 0,
+  "kvcache_type": "DeepSeekV4TokenToKVPool",
+  "kv_components": [
+    {
+      "group": "kv_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 9600000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            150004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 5616149760
+        }
+      ]
+    },
+    {
+      "group": "kv_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 4800000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            75004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 2808149760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 9600256,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            150005,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 652821760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 4800128,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            75003,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 326413056
+        }
+      ]
+    }
+  ],
+  "cross_slot_page_collisions": [],
+  "cross_slot_page_collision_count": 0,
+  "held_pages_in_free_list": [],
+  "unique_held_pages": 0,
+  "logical_non_evictable_mapping_verified": true,
+  "scope": "Committed FULL logical slot ownership plus backing-buffer samples. SWA window retirement is expected. CUDA allocator bytes are not per-session physical DRAM residency.",
+  "mapping_archive_sha256": "d22824b73443a9617e77ac82f3b3130afff33652278da19643d6c0ca301acee5",
+  "stage": "c8-prefill1-seed1",
+  "phase": "before",
+  "slots": [],
+  "mapping_archive": "rank3-maps.npz"
+}

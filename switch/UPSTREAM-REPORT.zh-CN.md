@@ -6,7 +6,7 @@
 
 本次将四台GB10的LuZ部署移植到交换机双rail网络，完成初始化修复、原生INDEX-K与V4 extra-KV页适配、WO-A预取窗口、flat RoCE、head白名单和调度入场调整。原始prefill差距并没有在同口径复测中成立；decode初测的明显落后主要与实际初始化/回退路径及每次verify的有效输出有关。
 
-B20保持600000总上下文、MRR16、实际9600000 token KV池，完成C1/2/4/8四场景三轮180条完整2048输出，另通过C8功能与单路599440-token召回。没有做完整C16吞吐或16路长文同时占满。
+B20保持600000总上下文、MRR16、实际9600000 token KV池，完成C1/2/4/8四场景三轮180条完整2048输出，另通过C8功能与单路599440-token召回。原速度版本没有完整C16吞吐。后续独立[KV驻留与召回实测](reports/KV-RECALL.md)记录多路长文结果、两个会话运行时缺陷及修正，以及 prefill 每批 1 请求的内存候选；未用该测试扩大原版的速度或 streaming-session 资格。
 
 本次生产式试验使用固定自定义镜像及本地UL checkpoint；上游文档描述的发布栈、环网拓扑与本站环境并不完全相同。因此相对文档的差异是跨现场复核，不能被解释为“只更换交换机”的单变量收益。脱敏构建模板亦未以新构建镜像重新做线上性能验收。
 
@@ -117,6 +117,6 @@ B20晚期C8 code头节点GPU cycle中位约80.1ms，单独暴露MoE约42.4ms、d
 - `qualification/package-verification.json`：四rank算法参数与原试验语义一致性，及915源码/6覆盖字节核验。
 - `images/`：镜像身份及单独镜像包checksum，镜像文件不传GitHub。
 - [镜像增量与重建说明](image-delta/README.zh-CN.md)：完整复用基础71层，实测只新增5个约5.4MB压缩层；GitHub发布脱敏增量，另加小型host-key清理层。分发版index不同，计算代码未改；Docker load与CPU检查通过，未重跑GPU矩阵。
-- [满池KV召回方案](qualification/KV-RECALL-PLAN.zh-CN.md)：公版小说背景加随机记录；已离线生成约9.551M token、16流、112核验点，尚未运行满池推理。需以session/page驻留证据配合召回评分验收。
+- [满池KV召回方案](qualification/KV-RECALL-PLAN.zh-CN.md)和[实际执行报告](reports/KV-RECALL.md)：公版小说加每流随机记录，四 rank 完整逻辑页映射与 backing 抽样、device cache 复用、串值、逐位置召回和内存。另有[监测与修正部署指导](qualification/KV-MONITOR-GUIDE.zh-CN.md)。
 
-未重跑上游GSM8K/qeval的完整题库，不声称语言质量分数全面等同。本站数值用例、功能检查、单路长文召回与C8速度各自说明对应范围。默认服务最后恢复hybrid_v2，未通过一次名义快分擅自切换生产默认。
+未重跑上游GSM8K/qeval的完整题库，不声称语言质量分数全面等同。本站数值用例、功能检查、单路长文召回与C8速度各自说明对应范围。首次发布收尾恢复hybrid_v2；同日下午使用者明确要求默认改为luz-switch，因此后续KV测试收尾恢复原B20正式配置并保持运行，hybrid_v2停止备用。两个session测试修正和prefill1容量候选均未混入默认生产配置。

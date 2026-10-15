@@ -1,0 +1,73 @@
+{
+  "base": "b20-admit-interval1",
+  "probe_only": false,
+  "image_unchanged": true,
+  "weights_kv_sampling_math_unchanged": true,
+  "scheduler_admission_change": "Opt-in full-row streaming continuation admission; baseline B20 smoke16 deadlocked before this fix",
+  "diagnostic_interface_change": "--enable-streaming-session; required to hold independent full KV histories across recall requests",
+  "qualified_sitecustomize_sha256": "ade3ae5c40fb1160d4e12b3ee6d79761136fce3be581fe956ff71b956ceeaabc",
+  "diagnostic_sitecustomize_sha256": "a7999b2a1458ae10b6a3f0e585ca4f7d1faca2e3b7ce077988fbfe8681cff932",
+  "probe_sha256": "a8531b1e046754a7c05b3f6bb54096c83e6e2aad4c0163d2ea981cb189a023ae",
+  "session_row_admission_sha256": "68fd9ef4d5ffd9be44fdde73797c0331f059b088f93a98f366a2b8f4b637610d",
+  "session_first_chunk_cache_change": "First streaming turn without a held slot delegates chunk maintenance to native cache for SWA retirement",
+  "session_chunk_cache_sha256": "1b00891d3d16a4ac15cfb34f8acaee208fcb684d3fc1082f969abd5238e45f53",
+  "prefill_max_requests": 1,
+  "nodes": [
+    {
+      "node": "rank2",
+      "runtime_sha256": "5a15d20458394edee8772f3e5fd3aefcdc94e6637eb4460525f21b500914492d"
+    },
+    {
+      "node": "rank0",
+      "runtime_sha256": "175d9cad65d8ec96afd1560bdc6cbf8a34a2b4672300f42cb8fed31e8ab06cb0"
+    },
+    {
+      "node": "rank1",
+      "runtime_sha256": "504e8fafdb47518f0ca5337002de4a27a09ef5fd46ce732e293dc9ed9bd44ae9"
+    },
+    {
+      "node": "rank3",
+      "runtime_sha256": "73e3ee8c743e8c94f76b80746d8c65a836fa0be1b2a6b86f7eb9f456e22b3cd4"
+    }
+  ],
+  "control_path_change": {
+    "transport_read_retries": 1,
+    "resource_max_age_seconds": 10,
+    "refresh_all_ranks_after_recovery": true,
+    "cpu_checks": 8,
+    "controller_sha256": "2f039f7b3354e8f4ed09e33be4114fa6a30ffd0e69e5181bef5873362f426f1c"
+  },
+  "base_image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+  "target": {
+    "context_length": 600000,
+    "max_running_requests": 16,
+    "max_total_num_tokens": 9600000
+  },
+  "source_view": "Source paths as visible in the running container, including declared bind mounts; not pristine image-layer extraction.",
+  "image_source_sha256": {
+    "session/streaming_session.py": "bf73c5866c1d592673a58f9e5a5d9627d0586cfefbaab48d9796e5e6992a20dc",
+    "session/session_controller.py": "3dffcf40893a3b0ba175bd2c9d3d0678c12c4307641e8b2e3107a787e661e1ab",
+    "managers/scheduler.py": "40935043666906d467cae24127586c473faf9c37f3fe54d1010ca4ff70b388eb",
+    "mem_cache/memory_pool.py": "47e13954eb8b06836a5279fedd1f79f03dbd40245819ae152af3a02f3887c1ac",
+    "mem_cache/common.py": "c7eb492978794bbd4015043199f36927faf591ab4009f90d03455f36ed5f764f",
+    "mem_cache/deepseek_v4_memory_pool.py": "37fe674ceebfc5f5b2f02d09c011045b391d378335f096932780949fb7581f3d",
+    "layers/attention/deepseek_v4_backend.py": "16456ba7b4ede29d66a8fc4605770fbc6901ca45b00755f30302840fe2738ee3"
+  },
+  "kernel_investigation_source_sha256": {
+    "sglang/kernels/ops/attention/flash_mla_sm120.py": "8e8cb8e74a6931bcec3cd1d514f79ef24f9dbfa0d62e532531c9a35f884f7709",
+    "sglang/kernels/ops/attention/dsv4/index_logits.py": "bbed2d9166ef1dd0d5d402ea42b5a2ec65f18163e50ed78f4b44e0635a41fa9c",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/dense_blocks.py": "daea34642c28210a33618421f50ee9d7b8857fb075d42c5a8750244e9eb152ad",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/full_topk.py": "50f02c70473dd8c49bb52244fea8a1d4ff27be6ee24d41384ff777aaf5e72aee",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/scoring.py": "86ecc8fd977d0b336ddcdec5ba9eae453c0bdbf8d81c636358c9f95b8e0bbcf8",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/sparse_table.py": "528fb9bd40d965845c0a912bd4352631211f38b37811570c28ceee03120654d8",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/types.py": "f8a69694c56e5fa0e1efaa03a94dc1927be4cc91f1f54c9c682e4c46d34ffe02",
+    "sglang/srt/layers/attention/dsv4/v41_indexer/__init__.py": "bc48aaf92c1f8863b97888d5bea86eaa3fef457a894e49fd25af93280e24ae50"
+  },
+  "files": {
+    "probe": "a8531b1e046754a7c05b3f6bb54096c83e6e2aad4c0163d2ea981cb189a023ae",
+    "row_admission": "68fd9ef4d5ffd9be44fdde73797c0331f059b088f93a98f366a2b8f4b637610d",
+    "first_chunk": "1b00891d3d16a4ac15cfb34f8acaee208fcb684d3fc1082f969abd5238e45f53",
+    "barrier_worker": "4161f3a6575eaf52ef3a4c0876db0e30aaa8fab57c89ada69d0ef9fe520ea014",
+    "memory_watch": "98b4eb0ebe46d00d6ffbb76369267ddad9fb0cfcd30e69cffed8a195393ebeff"
+  }
+}

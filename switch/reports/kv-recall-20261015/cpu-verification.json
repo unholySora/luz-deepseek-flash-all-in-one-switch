@@ -1,0 +1,53 @@
+{
+  "http": {
+    "passed": true,
+    "tests": 3,
+    "scope": "Loopback preflight and scoped transport/cleanup only; no GPU",
+    "test_sha256": "937553192e0386fecddd7ba3a329106446f8afe6c3bd0298fb7ea6aa3947daa8",
+    "runner_sha256": "32820f56377ee5ea3b99fe2e8e4a63ec5d6974e98a2e58e88e4b211a5a9434dd",
+    "receipt_recorded_hk": "2026-10-15T15:54:12.009853+08:00"
+  },
+  "row_admission": {
+    "passed": true,
+    "tests": 10,
+    "real_allocator_source": "memory_pool.py:ReqToTokenPool.alloc+alloc_rows",
+    "numeric_or_gpu_qualification": false
+  },
+  "first_chunk": {
+    "passed": true,
+    "tests": 7,
+    "actual_streaming_source": true,
+    "scope": "Dispatch contracts only; native SWA reclamation and long-context GPU recall still require runtime qualification."
+  },
+  "probe": {
+    "passed": true,
+    "real_cpu_torch": true,
+    "valid_map_verified": true,
+    "cross_slot_alias_detected": true,
+    "held_free_overlap_detected": true,
+    "input_mappings_not_mutated": true,
+    "gpu_test": false
+  },
+  "memory_margin_gate": {
+    "passed": true,
+    "tests": 2,
+    "known_low_C8_vetoed": true,
+    "stable_C4_accepted": true,
+    "scope": "Read-only re-evaluation of archived real per-rank traces; no live allocation or serving mutations."
+  },
+  "guard_transport": {
+    "passed": true,
+    "tests": 8,
+    "checks": [
+      "single transport timeout recovered",
+      "persistent transport timeout fails closed",
+      "nontransport failure is not retried",
+      "fresh resource sample accepted",
+      "stale rejected",
+      "fatal rejected",
+      "probe error rejected",
+      "transport recovery refreshes entire fleet before freshness check"
+    ],
+    "scope": "Actual controller functions, CPU-only injected transport responses; no serving/model mutation."
+  }
+}

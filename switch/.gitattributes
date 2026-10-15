@@ -5,3 +5,8 @@ image-context/** -text -whitespace
 bench/** -text -whitespace
 qualification/** -text -whitespace
 image-delta/blobs/** binary
+# Evidence hashes cover original archive/image/telemetry bytes.
+reports/kv-recall-20261015/** -text -whitespace
+*.npz binary
+*.png binary
+*.jsonl -text -whitespace

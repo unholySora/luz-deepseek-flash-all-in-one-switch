@@ -1,0 +1,688 @@
+[
+  {
+    "at_hk": "2026-10-15T15:26:20.022881+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792049179.1905808,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 46, 2411, [N/A], 12.02, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792049179.1414442,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 52, 2411, [N/A], 12.13, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792049179.1025524,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 51, 2411, [N/A], 11.56, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792049179.1667836,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 48, 2411, [N/A], 11.18, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T15:31:56.236281+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792049515.3705015,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 38, 2405, [N/A], 11.29, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792049515.3512506,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 43, 2405, [N/A], 11.02, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792049515.3777523,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 43, 2411, [N/A], 10.39, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792049515.363674,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 39, 2405, [N/A], 10.05, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T15:39:59.750364+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792049998.9076185,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 59, 2483, [N/A], 59.11, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792049998.8731427,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 66, 2463, [N/A], 61.36, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792049998.822117,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 66, 2483, [N/A], 62.90, 71\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792049998.8591366,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 62, 2502, [N/A], 61.04, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T16:00:35.737479+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792051234.840475,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 59, 2496, [N/A], 59.83, 82\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792051234.8182147,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 66, 2476, [N/A], 62.25, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792051234.757366,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 68, 2509, [N/A], 63.06, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792051234.7824447,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 64, 2502, [N/A], 61.71, 82\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T16:22:09.006258+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792052528.0683641,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 56, 2483, [N/A], 58.13, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792052527.9773936,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 65, 2457, [N/A], 63.93, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792052527.987207,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 66, 2476, [N/A], 63.47, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792052528.0118718,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 64, 2515, [N/A], 62.01, 96\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T17:43:11.285388+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792057390.0169106,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 39, 2405, [N/A], 11.85, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792057390.3000617,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 46, 2411, [N/A], 12.12, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792057390.2239912,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 46, 2411, [N/A], 11.60, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792057390.1695676,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 42, 2418, [N/A], 11.30, 18\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  },
+  {
+    "at_hk": "2026-10-15T18:38:54.577346+08:00",
+    "nodes": [
+      {
+        "rank": "rank2",
+        "epoch": 1792060733.5072098,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 39, 2405, [N/A], 11.42, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank0",
+        "epoch": 1792060733.4347498,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 45, 2411, [N/A], 11.46, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank1",
+        "epoch": 1792060733.3710902,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 45, 2411, [N/A], 10.72, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      },
+      {
+        "rank": "rank3",
+        "epoch": 1792060733.358855,
+        "nvml_fields": [
+          "name",
+          "memory_total_MiB",
+          "memory_used_MiB",
+          "memory_free_MiB",
+          "temperature_C",
+          "SM_MHz",
+          "MEM_MHz",
+          "power_W",
+          "utilization_percent"
+        ],
+        "nvml": {
+          "exit_code": 0,
+          "stdout": "NVIDIA GB10, [N/A], [N/A], [N/A], 41, 2405, [N/A], 10.24, 0\n",
+          "stderr": ""
+        },
+        "kernel_events": [],
+        "kernel_scan_ok": true,
+        "kernel_scan_error": null
+      }
+    ],
+    "scope": "NVML global telemetry; unsupported UMA fields remain N/A. Not per-session physical residency."
+  }
+]

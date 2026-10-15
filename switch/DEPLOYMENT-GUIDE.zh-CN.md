@@ -580,7 +580,7 @@ python3 switch/qualification/needle_600k.py --output /tmp/luz-needle-001
 
 该 client 会先用服务器 tokenizer 调整输入，放置三处记录，再分别测 cold 与 prefix-hit。cold 与 prefix-hit 时间分开保存，不能取缓存命中时间冒充长文首次 prefill。
 
-这仍是单路长文检查；若未来要宣称 C16 满池可用，需要另行设计逐请求输入/输出余量、同时占用和正确性验收。
+这仍是单路长文检查。后续独立的[KV 驻留/召回实测](reports/KV-RECALL.md)记录逐请求余量、同时占用、各位置召回和资源结果；复现该测试需使用[独立监测与会话修正指导](qualification/KV-MONITOR-GUIDE.zh-CN.md)，不能只启用本段单路脚本就扩大资格。
 
 ## 17. Decode 复测：旧基线和 structured v2
 
@@ -698,7 +698,7 @@ python3 switch/tools/configure.py --cluster switch/cluster.private.json \
 
 平台需要的 SSH/API 授权由其现有凭据管理机制保存。若平台会自动反复调用生成型健康检查，应将这些请求对 benchmark 的影响计入控制条件；本次 LuZ 禁用了 health endpoint generation，hybrid_v2 保留自身配置。
 
-切换默认模型前，先确认新模型容量、功能和实际端点都验收通过。本发布实验最后恢复的是原已验收的 hybrid_v2，因为 LuZ 尚未证明 C1 prose/code 两场景稳定全面胜出；部署目录的存在不代表平台默认模型已经自动切换。
+切换默认模型前，先确认所需功能和实际端点已验收。首次发布收尾曾恢复 hybrid_v2；同日下午使用者明确选择 luz-switch，因此后续 KV 测试收尾恢复原 B20 配置并保持为默认，hybrid_v2 停止备用。此操作不代表 LuZ 已在 C1 prose/code 两场景稳定全面胜出；两个会话测试修正和 prefill1 候选独立归档，未混入原 B20 默认。部署目录的存在也不代表平台会自动选择它。
 
 ## 22. 常见故障与排查顺序
 

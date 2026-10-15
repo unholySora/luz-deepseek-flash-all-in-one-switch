@@ -1,0 +1,98 @@
+[
+  {
+    "series": "resources-20261015T153601",
+    "interval_seconds": 2,
+    "rank": "rank2",
+    "file": "memory/resources-20261015T153601/rank2.jsonl",
+    "sha256": "48249701792694900a39f15cb71b49c8c7e6a865c762853cec1fc52d0e3d0f4c",
+    "samples": 1497
+  },
+  {
+    "series": "resources-20261015T153601",
+    "interval_seconds": 2,
+    "rank": "rank0",
+    "file": "memory/resources-20261015T153601/rank0.jsonl",
+    "sha256": "47200ff364c09e55d07d9ef6f447cd15265ab08f1e8d1186fe8a70cc26971602",
+    "samples": 1498
+  },
+  {
+    "series": "resources-20261015T153601",
+    "interval_seconds": 2,
+    "rank": "rank1",
+    "file": "memory/resources-20261015T153601/rank1.jsonl",
+    "sha256": "ab77751cb01ca4e6c8be344688778619cea17eec2dc467be86f54de0c2ae1ff5",
+    "samples": 1498
+  },
+  {
+    "series": "resources-20261015T153601",
+    "interval_seconds": 2,
+    "rank": "rank3",
+    "file": "memory/resources-20261015T153601/rank3.jsonl",
+    "sha256": "09c5e399cc595ce969c0ec9c2816541e31be04226ea41904d0571f5d3ded7101",
+    "samples": 1498
+  },
+  {
+    "series": "resources-20261015T164138",
+    "interval_seconds": 0.5,
+    "rank": "rank2",
+    "file": "memory/resources-20261015T164138/rank2.jsonl",
+    "sha256": "878c2073ff2e7890a404fb5a9cbf98ce5d219ff26a1946cfc0ac2c4c582fe164",
+    "samples": 6948
+  },
+  {
+    "series": "resources-20261015T164138",
+    "interval_seconds": 0.5,
+    "rank": "rank0",
+    "file": "memory/resources-20261015T164138/rank0.jsonl",
+    "sha256": "788c0e243cae0adb13628e62bea04e79323156eb642d56a8e51d67923617e804",
+    "samples": 6957
+  },
+  {
+    "series": "resources-20261015T164138",
+    "interval_seconds": 0.5,
+    "rank": "rank1",
+    "file": "memory/resources-20261015T164138/rank1.jsonl",
+    "sha256": "e989ac3386625b2a207dfddc8e49b2d8cb6bae3625b11e252d1f0b44b2087c79",
+    "samples": 6957
+  },
+  {
+    "series": "resources-20261015T164138",
+    "interval_seconds": 0.5,
+    "rank": "rank3",
+    "file": "memory/resources-20261015T164138/rank3.jsonl",
+    "sha256": "d3a0c29d090684cae67c48cf2127bd7899e0616b5d12b7e59397d5a94d1a6281",
+    "samples": 6959
+  },
+  {
+    "series": "resources-20261015T175208",
+    "interval_seconds": 0.5,
+    "rank": "rank2",
+    "file": "memory/resources-20261015T175208/rank2.jsonl",
+    "sha256": "6378c0cc6c6674fa86dc13fb7698b89475c957ecccd13bbc7385617ce685ba03",
+    "samples": 5074
+  },
+  {
+    "series": "resources-20261015T175208",
+    "interval_seconds": 0.5,
+    "rank": "rank0",
+    "file": "memory/resources-20261015T175208/rank0.jsonl",
+    "sha256": "c2d2935a8022bb5d009fcb0b4d0495c9760bf5a706edab40e91cc6d4a0dc423f",
+    "samples": 5078
+  },
+  {
+    "series": "resources-20261015T175208",
+    "interval_seconds": 0.5,
+    "rank": "rank1",
+    "file": "memory/resources-20261015T175208/rank1.jsonl",
+    "sha256": "70582a91b13984c8c7de1a3b09399623f6fc70eeb7f0db1e2f58cbb821429cc3",
+    "samples": 5079
+  },
+  {
+    "series": "resources-20261015T175208",
+    "interval_seconds": 0.5,
+    "rank": "rank3",
+    "file": "memory/resources-20261015T175208/rank3.jsonl",
+    "sha256": "c4d4ee75d90351754957a234c6d436c77a6ea756e8e57f4ca0133a91750fafcb",
+    "samples": 5080
+  }
+]

@@ -1,0 +1,447 @@
+{
+  "epoch": 1792049873.478894,
+  "rank": 1,
+  "cache_type": "UnifiedRadixCache",
+  "allocator_type": "SWATokenToKVPoolAllocator",
+  "page_size": 256,
+  "max_total_tokens": 9600000,
+  "req_pool_size": 16,
+  "req_pool_free": 15,
+  "cuda_allocated": 101024024576,
+  "cuda_reserved": 103037272064,
+  "pools": {
+    "root": {
+      "type": "SWATokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "_size_full": 9600000,
+      "_size_swa": 125440,
+      "available_size": 116480,
+      "full_available_size": 9534720,
+      "swa_available_size": 116480
+    },
+    "full": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 9600000,
+      "page_size": 256,
+      "available_size": 9534720,
+      "free_pages_count": 37245
+    },
+    "swa": {
+      "type": "PagedTokenToKVPoolAllocator",
+      "size": 125440,
+      "page_size": 256,
+      "available_size": 116480,
+      "free_pages_count": 455
+    }
+  },
+  "full_evictable_size": 32256,
+  "full_protected_size": 32512,
+  "swa_evictable_size": 8192,
+  "swa_protected_size": 256,
+  "session_held_full_tokens": 512,
+  "session_held_swa_tokens": 512,
+  "session_held_req_count": 1,
+  "session_count": 1,
+  "kvcache_type": "DeepSeekV4TokenToKVPool",
+  "kv_components": [
+    {
+      "group": "kv_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 9600000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            150004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 5616149760
+        }
+      ]
+    },
+    {
+      "group": "kv_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4SingleKVPool",
+      "page_size": 64,
+      "size": 4800000,
+      "buffers": [
+        {
+          "name": "kv_buffer[0]",
+          "shape": [
+            75004,
+            37440
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 2808149760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 1,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 9600256,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            150005,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 652821760
+        }
+      ]
+    },
+    {
+      "group": "index_pools",
+      "ratio": 2,
+      "type": "DeepSeekV4IndexerPool",
+      "page_size": 64,
+      "size": 4800128,
+      "buffers": [
+        {
+          "name": "index_k_with_scale_buffer[0]",
+          "shape": [
+            75003,
+            4352
+          ],
+          "dtype": "torch.uint8",
+          "bytes": 326413056
+        }
+      ]
+    }
+  ],
+  "cross_slot_page_collisions": [],
+  "cross_slot_page_collision_count": 0,
+  "held_pages_in_free_list": [],
+  "unique_held_pages": 129,
+  "logical_non_evictable_mapping_verified": true,
+  "scope": "Committed FULL logical slot ownership plus backing-buffer samples. SWA window retirement is expected. CUDA allocator bytes are not per-session physical DRAM residency.",
+  "mapping_archive_sha256": "eefee4db21cd8a0120606005430a9976ce80e42865ece7db8b9155e1f32a72a3",
+  "stage": "baseline32k",
+  "phase": "after-query",
+  "slots": [
+    {
+      "id": "stream0",
+      "row": 1,
+      "committed": 32846,
+      "allocated": 32846,
+      "cache_protected": 32512,
+      "holds_kv": true,
+      "max_evicted_seqlen": 32512,
+      "mapping_sha256": "28bc861cee33dc22e393784394b243f5a308ca9be13fce195597d1a5cc8c5c80",
+      "mapping_dtype": "int32",
+      "token_min": 5632,
+      "token_max": 65357,
+      "aligned_offsets": true,
+      "unique_pages": 129,
+      "page_count_expected": 129,
+      "mapping_array": "slot0_pages",
+      "duplicate_pages_within_slot": 0,
+      "samples": [
+        {
+          "position": 378,
+          "logical_location": 40570,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 633,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 978,
+              "sha256": "bdbac23c6a2bed6e6f5469ee814cad699f516374b16b848dcc239d9bcddc5bf6"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 316,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 979,
+              "sha256": "bb3474cc47b2ffaf1879a26ef319cc7dc997da481acdab7f6de11681525087c1"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 633,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1008,
+              "sha256": "1ac986499c5de672b6ee099c0dd9b8454b2a008928e96b6da93e387eaa8b2dd0"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 316,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1018,
+              "sha256": "720cfe44ba15a393f45a120cbe246dca753c3cfdf74638b59947538c45538409"
+            }
+          ]
+        },
+        {
+          "position": 3325,
+          "logical_location": 24317,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 379,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 978,
+              "sha256": "53dd7e8dedc249ae965e842e8e615a1044ed5c6d383f5391d20a1070357933c1"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 189,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 987,
+              "sha256": "e238c8ff2955ec722242f7a3c59f8784ea58ab0b81c754beea85b8c3d435c3d8"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 379,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1000,
+              "sha256": "a0ebb0843befd6d61cc2c8789a4bba4a43dad535194cfc6f5c39b64548532da6"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 189,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1020,
+              "sha256": "32d29ea7dd4396c8bf91b12749f2f63f4dbbb3aa8a989cb545a42e469d1d430c"
+            }
+          ]
+        },
+        {
+          "position": 8275,
+          "logical_location": 40787,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 637,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 983,
+              "sha256": "cdf7aff6c200bae987b6af02064d90139597e1bef3a55bb25a47855b75022028"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 318,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 983,
+              "sha256": "3d8a2c3b61c32ba07a52dc6b674220a3e22d9571fd714b2c7124aa324b8ee9c9"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 637,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1001,
+              "sha256": "8864e53762a02b0441c0d7a56929fd49c15ee4a3cc05eb8a075f4850875f2a84"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 318,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1011,
+              "sha256": "d0248698ba652b8ba5ab287372ca00fc3f4a171460f633ab954595f050237ce7"
+            }
+          ]
+        },
+        {
+          "position": 16264,
+          "logical_location": 48776,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 762,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 967,
+              "sha256": "90d159dccfe4c9d5be3894b53a460a766c6cffe7a8e7de25888d079312c18632"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 381,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 974,
+              "sha256": "c6ac48628625f058bb8257fff20de41c4ef2b8577153c1e5e4663a1c6f847aad"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 762,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1006,
+              "sha256": "d0ce08b0ec3f61e20efcc32d59783be61d13f23a9c9819d8e29c4d98425c5aff"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 381,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1013,
+              "sha256": "856f48a6ec6ad0f7b64e63cd130a22725b4eea36e4ddfc20c54c2384a67c05a5"
+            }
+          ]
+        },
+        {
+          "position": 24303,
+          "logical_location": 56815,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 887,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 978,
+              "sha256": "7342e5257e527f1662b8256ebf6187e9ae877a4df9693ff3db53363b018d1aae"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 443,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 989,
+              "sha256": "0e8ae2f779a4870a2190f8d4366c67e43b983a3c70e8d58bb791a574b31a73d3"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 887,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 993,
+              "sha256": "07d39ac62be76f102964bb8e461763c6330b6b6e4baafe244c000f26d2fbfdf2"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 443,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1017,
+              "sha256": "7e5f95afb436d34b75f423d0b08e1225bf0fad275aa8ca963feb059351944c42"
+            }
+          ]
+        },
+        {
+          "position": 29256,
+          "logical_location": 61768,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 965,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 976,
+              "sha256": "7cf976bacfefdbbe8eac17de4716dfbe76b5292b768a8f210cada17119df598a"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 482,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 981,
+              "sha256": "af4a669095badc22b02a3799ed18dacd43152edf7584b27fc8878dc37d1cadd6"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 965,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 991,
+              "sha256": "06c28a0256c8e9a27e4572043fb23137d78c084b201e4ad2452d6163e01ac2d4"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 482,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1016,
+              "sha256": "696173e2c007152c9bfdcef2db158360328d9be3915d76259b79dd52484c8321"
+            }
+          ]
+        },
+        {
+          "position": 32290,
+          "logical_location": 64802,
+          "components": [
+            {
+              "group": "kv_pools",
+              "ratio": 1,
+              "buffer": "kv_buffer[0]",
+              "page": 1012,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 970,
+              "sha256": "231667faa7d1382274892a950df4b5b6ce4a37e31a387d4557ccbccfb9fb108a"
+            },
+            {
+              "group": "kv_pools",
+              "ratio": 2,
+              "buffer": "kv_buffer[0]",
+              "page": 506,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 983,
+              "sha256": "31527763cdcc56de44597f4b0efef4e16009e8c59aa65c04757babfe0a9a11f2"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 1,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 1012,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 999,
+              "sha256": "63027ad6646465590ef1be03c05494726c2c81bab631f44e24c0c5e92ab208b4"
+            },
+            {
+              "group": "index_pools",
+              "ratio": 2,
+              "buffer": "index_k_with_scale_buffer[0]",
+              "page": 506,
+              "sample_bytes": 1024,
+              "nonzero_bytes": 1016,
+              "sha256": "7fe8e9a5cda49efb71f0cfe0d2b90a1d4a0bd834ff54804a9781651d502d1fb9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mapping_archive": "rank1-maps.npz"
+}

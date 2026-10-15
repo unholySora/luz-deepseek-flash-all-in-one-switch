@@ -1,5 +1,7 @@
 # LuZ Switch B20 实测结果
 
+> 后续独立 KV 验收见 [KV-RECALL](KV-RECALL.md)，进一步方向见 [NEXT-STEPS](NEXT-STEPS.zh-CN.md)。本页四场景 2048-token 速度数据保留原 B20 资格范围，召回测试的约百 token 输出不用于替换排名。
+
 2026-10-15；四台GB10、交换机双rail；LuZ 600k/C16/9.6M，hybrid_v2 800k/C10/8M。decode为完整2048输出、temperature0、thinking off；单路取完整流中位，聚合取完整波次union窗口中位。单位tok/s。
 
 ## 更新后的四场景展示表
@@ -60,6 +62,6 @@ hybrid_v2旧prose/code控制89/90完整，一条C8 code在1941 token以stop结�
 
 B20功能9/9通过，单路599440输入两轮三处召回均正确。速度与质量窗口四容器无OOM-kill、容器swap峰值0；宿主仍有既有swap及少量活动。完整decode窗口头节点最低可用约8.11GiB，近600k窗口约7.32GiB。实际余量受宿主页缓存和实例状态影响。
 
-尚未完整C16测试；未重跑上游全部语言评测题库。新构建镜像和参数化包装器只有离线一致性校验，以上成绩对应记录的实测image ID。
+本页速度窗口未做完整C16吞吐；后续多路长文驻留/召回另见[KV实测](KV-RECALL.md)，测试配置和范围独立。未重跑上游全部语言评测题库。新构建镜像和参数化包装器只有离线一致性校验，以上速度成绩对应记录的实测image ID。
 
 源码、输入版本、逐波数值与匿名统计见[results.json](results.json)。[部署手册](../DEPLOYMENT-GUIDE.zh-CN.md)、[上游报告](../UPSTREAM-REPORT.zh-CN.md)、[structured原因与新口径](STRUCTURED.md)另列。

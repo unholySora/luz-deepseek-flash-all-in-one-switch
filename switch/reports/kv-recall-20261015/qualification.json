@@ -1,0 +1,12 @@
+{
+  "qualified": true,
+  "profile": "B20 numerical/KV configuration with streaming, two explicit session repairs, read-only probe and prefill_max_requests=1 candidate",
+  "production_default": "original B20",
+  "restored": true,
+  "kernel_scan_passed": true,
+  "uncompleted_jobs": [],
+  "page_evidence_files": 384,
+  "page_evidence_bytes": 17742893,
+  "runtime_status": "ladder-complete",
+  "resource_stop_reasons": []
+}

@@ -1,0 +1,33 @@
+{
+  "base": "b20-admit-interval1",
+  "probe_only": false,
+  "image_unchanged": true,
+  "weights_kv_sampling_math_unchanged": true,
+  "scheduler_admission_change": "Opt-in full-row streaming continuation admission; baseline B20 smoke16 deadlocked before this fix",
+  "diagnostic_interface_change": "--enable-streaming-session; required to hold independent full KV histories across recall requests",
+  "qualified_sitecustomize_sha256": "ade3ae5c40fb1160d4e12b3ee6d79761136fce3be581fe956ff71b956ceeaabc",
+  "diagnostic_sitecustomize_sha256": "a7999b2a1458ae10b6a3f0e585ca4f7d1faca2e3b7ce077988fbfe8681cff932",
+  "probe_sha256": "a8531b1e046754a7c05b3f6bb54096c83e6e2aad4c0163d2ea981cb189a023ae",
+  "session_row_admission_sha256": "68fd9ef4d5ffd9be44fdde73797c0331f059b088f93a98f366a2b8f4b637610d",
+  "session_first_chunk_cache_change": "First streaming turn without a held slot delegates chunk maintenance to native cache for SWA retirement",
+  "session_chunk_cache_sha256": "1b00891d3d16a4ac15cfb34f8acaee208fcb684d3fc1082f969abd5238e45f53",
+  "prefill_max_requests": 1,
+  "nodes": [
+    {
+      "node": "rank2",
+      "runtime_sha256": "5a15d20458394edee8772f3e5fd3aefcdc94e6637eb4460525f21b500914492d"
+    },
+    {
+      "node": "rank0",
+      "runtime_sha256": "175d9cad65d8ec96afd1560bdc6cbf8a34a2b4672300f42cb8fed31e8ab06cb0"
+    },
+    {
+      "node": "rank1",
+      "runtime_sha256": "504e8fafdb47518f0ca5337002de4a27a09ef5fd46ce732e293dc9ed9bd44ae9"
+    },
+    {
+      "node": "rank3",
+      "runtime_sha256": "73e3ee8c743e8c94f76b80746d8c65a836fa0be1b2a6b86f7eb9f456e22b3cd4"
+    }
+  ]
+}
