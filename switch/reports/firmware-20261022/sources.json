@@ -1,0 +1,852 @@
+{
+  "published_date": "2026-10-26",
+  "scope": "Numeric benchmark output and the exact benchmark instrument; no private deployment inventories or access credentials.",
+  "files": [
+    {
+      "path": "raw/old-20261020/de-code-c1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-code-c1.json",
+      "sha256": "090a917ce5e2eed2e56e19a75cf2dd43e05997240e418eca1afdc9216d867c47",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-code-c2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-code-c2.json",
+      "sha256": "62260bab2ebb37ddd176eb1674642c21427142abb53f179d19999ddee18fcfa8",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-code-c4.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-code-c4.json",
+      "sha256": "8be5df6888bc10b8f4acd2aa735194d03ab61725fa5dda31c139f6f08bdd3cfe",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-code-c8.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-code-c8.json",
+      "sha256": "447d881eb5ce207da14fbde9f2c781098942432dc682e6b63cd3dd096489dfdf",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-json-c1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-json-c1.json",
+      "sha256": "5eeeb2f1b09a244b338961505babe929beb0c77cb31ea005f351b8494640da60",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-json-c2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-json-c2.json",
+      "sha256": "568e059488a5ff4f1a2dd5d783a16e579037e03143f9e646fc401284ff598fd1",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-json-c4.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-json-c4.json",
+      "sha256": "d410f3ed0afd61c99f9ebaac5306706867903d7744e13bcdf59254c569c3b756",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-json-c8.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-json-c8.json",
+      "sha256": "a1e9b779258c81294ee22e99f403c32bfefd609f41db4f8d214d52ef4ce6ff03",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-prose-c1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-prose-c1.json",
+      "sha256": "ee5f17f56e0c8841da100f0f32d4302cb148334af12bff40356053af132ee1ed",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-prose-c2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-prose-c2.json",
+      "sha256": "5e3b6dbdce14c36aedf1609fb5128cb855f82d84701e434d84eed484ba9c56d6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-prose-c4.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-prose-c4.json",
+      "sha256": "a9866218e2cbcf26a1c446ecbb1a819539c0de49b26eb1f5df0db717ddf4380c",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-prose-c8.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-prose-c8.json",
+      "sha256": "5e6c326d0f416537f688168c26e4075b35f2ab6f034afa97ba753c493202cae3",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-structured-c1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-structured-c1.json",
+      "sha256": "a48b7c3148e3751ba1aab7420e34615596f8ab201d7e1f7e8abe97519b02a71d",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-structured-c2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-structured-c2.json",
+      "sha256": "35163a5247998a0e447fa0b24a6e3b5023a006c78f5330ff191e087c5a83bed4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-structured-c4.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-structured-c4.json",
+      "sha256": "19164b4d674090c4daf8c1741a1f4c7eec77393327d52acabffc0b680b5416d4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/de-structured-c8.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "de-structured-c8.json",
+      "sha256": "180ce4cc378415c6c547dad08340bd54070d7ef673402bd7684495e33bd32674",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-131072-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-131072-1.json",
+      "sha256": "9de5ace9e09a2023bb97ec1d38c81353960ee05182cf0d4ad555f5e93be405cd",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-131072-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-131072-2.json",
+      "sha256": "7c1327dea5a290b241ba938dac306f80b051cf8f853388bd481493216da4e783",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-131072-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-131072-3.json",
+      "sha256": "158befc2eb4aac6309052953e7a6aadc70482d0cb3c3e4e180bee9295bbce66c",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-16384-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-16384-1.json",
+      "sha256": "4c3170cae1fefe732af02e4dba1ed56ddbfb1f4c27399a20790b911d4c72a9d8",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-16384-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-16384-2.json",
+      "sha256": "9687182d0c7590accf9d32209173eac3bb9d055939f6bc5b39634789d99ffbcd",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-16384-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-16384-3.json",
+      "sha256": "23cb9e41029daacac3f833bcc45fe529a246ffd87e5ac64e10cc6d32072c5b0b",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-262144-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-262144-1.json",
+      "sha256": "3439e9ea238293b4e2754ef01a5f6ceee575f93d45a57da332ae0fb9d06e4489",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-262144-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-262144-2.json",
+      "sha256": "ebc6a9c106d1842e15b830162ee04b3bed08ed24d6720aa5fdfa8b4a059007f4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-262144-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-262144-3.json",
+      "sha256": "fc78dbee12eb2f9e26b2fdff7559dc9174983481b98bf4d657c4ad5d25353253",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-32768-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-32768-1.json",
+      "sha256": "4d48373f7b27a954e47ffcb7a49cd2d0f491bf7e1b1871bbd4d3869e5d168fa6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-32768-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-32768-2.json",
+      "sha256": "a02a19e58dc5aac0bdb4f974f54c545037cc0880d628ebda2cc5357de7d07dbe",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-32768-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-32768-3.json",
+      "sha256": "c8be08829b67eee5d2358c7ab3d7205d739a6e2167db03f064def6d76198c4a6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-524288-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-524288-1.json",
+      "sha256": "3c07eb18f8e54e49aa9dc315236174f86f060ed7c93018af3213ec53a67b625f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-524288-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-524288-2.json",
+      "sha256": "a620b683fe4c6d6eac946e31ae2d132e04384a6ff739c625904d5939c508ea34",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-524288-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-524288-3.json",
+      "sha256": "48f178a0d70c9f1e80e5a8befcb0135b806159f7cc5ec17aca51715ea91e4f4b",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-65536-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-65536-1.json",
+      "sha256": "fcd5cee55b04c7cf3c735530787005b6e2d4dff67f58c18ceb890ff8a1edbbec",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-65536-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-65536-2.json",
+      "sha256": "3ddf7258b1d9740d6fcdf357d9abf9aba8c22d13caf2e051e404aed0391ae0f4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-65536-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-65536-3.json",
+      "sha256": "f1920b4e095f4b4362747425b02d886c23ae13622798d764e5f7327e9ac16cd8",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-8192-1.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-8192-1.json",
+      "sha256": "407584b7d7f74a05adb17d171c5b88ae17d90fb5a88cccac8adddf46bd378ca6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-8192-2.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-8192-2.json",
+      "sha256": "dc3b32d718e9b3f29b7a42ac1aed0e7920e4e07fbf7311822f215e96f4cdec44",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/old-20261020/pr-8192-3.json",
+      "source_set": "B20 old firmware, complete matrix",
+      "source_file": "pr-8192-3.json",
+      "sha256": "833028ad9436d4799ecc56ab6091d6f4250a131732f94e9403be24160f694986",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c1-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c1-t1.json",
+      "sha256": "ff7cd389dbb6c5503a9daeaaf40ccc70f9f81bbcad9f8914570d902d6228df5f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c1-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c1-t2.json",
+      "sha256": "f7ea752a790f4e149e511da4c24eca4e02793f665154a4def5ff58f475274e9b",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c1-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c1-t3.json",
+      "sha256": "7c4b26a72535f3e822ba94604a51ba0ab571c235223c60c6146490c221f8489f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c2-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c2-t1.json",
+      "sha256": "5f45280e2db6a1fcb86266ef252195cee7c552a6751462d825cf78c4b52a6b6a",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c2-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c2-t2.json",
+      "sha256": "ebba43108024bfc5325c314c9028c965ae445cb0f7cbf54ca046f98ca2197013",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c2-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c2-t3.json",
+      "sha256": "ca724d68b0228b6666bc68fe2c2eaebd36437a48cbeff085832982c1c2e8e6ac",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c4-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c4-t1.json",
+      "sha256": "30fb8356d38a8a40a5ada2fbfd0abf0dc1370e734a2b041cdb895275bdca50e9",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c4-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c4-t2.json",
+      "sha256": "2de319d68b1949e34b0a358eb7958dd82465b2a6032f3feb43d69b0af3241496",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c4-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c4-t3.json",
+      "sha256": "a4698128a9cf864666b85e682dd3508332cd9f26ad2ca58eccc0ded13125bbfe",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c8-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c8-t1.json",
+      "sha256": "fc3d234744e0921403c4f5a51612092d566d4a2f01a2ebc7600b96b09bb1edcf",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c8-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c8-t2.json",
+      "sha256": "46583183bb7fadfa9f2b862d192b8157108d71b5f9613c59e5672221a96ad010",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-code-c8-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-code-c8-t3.json",
+      "sha256": "b7f0f5c6049cd53292165ca57ea5ec9c3195d610f3504b84324eeeb56ab14f76",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c1-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c1-t1.json",
+      "sha256": "123d1552c29c493f2f1491a55fdfd4e910c2d3dfcc300dea4d58c014bcd9af66",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c1-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c1-t2.json",
+      "sha256": "d40eeb1a1f8491bf24358e772038c05541fa539157da87ec531806339479ceff",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c1-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c1-t3.json",
+      "sha256": "cb6d63c4ce82a21bbe29e64e106461868591edc9688e79faafbacf71c67523a1",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c2-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c2-t1.json",
+      "sha256": "93b65d698796f97302fe5416ddcf0d0bf106a5a9d39c91c01e0598642d0b52d5",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c2-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c2-t2.json",
+      "sha256": "b2fbdd8c5148482d9e835f5d5fa9b61999f2982e7683405a37356ef79b4fd957",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c2-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c2-t3.json",
+      "sha256": "e46c8127bf162d872b8a361aae778d404d8639756b1897161e56df304c9a9175",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c4-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c4-t1.json",
+      "sha256": "6c826e40d9a89223dab5b73a19c68a8b9e4a0ff7180cfa0fcc7ab89cbf422be4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c4-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c4-t2.json",
+      "sha256": "a34d99b124d15a1c2e8c956976187a53f2fd5d5035bfc34873c56b0db0d68dcb",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c4-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c4-t3.json",
+      "sha256": "bff71e9c3ee961706cd194a39419f3516cf94d9d38ef702629442d37663b5c77",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c8-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c8-t1.json",
+      "sha256": "a811d8a5eb10278e1df9f2dbb9ce248bf5db8abc07bad1c3a2549ff9d373e0fa",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c8-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c8-t2.json",
+      "sha256": "104352a5f0e558b17842a2be06385a96614781ba089337bc29e043bdf2f6eec4",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-json-c8-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-json-c8-t3.json",
+      "sha256": "bf2cbbb25be21cf3a6dde025006ee6a2257c50aadb398c6b1f01dd05800de4ea",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c1-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c1-t1.json",
+      "sha256": "e0ad40e684024837200cd11a598621321d1d8826b00024b76edaa9f769fd668d",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c1-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c1-t2.json",
+      "sha256": "12289f75e57ca0edb524de835dba6ba07239e983a8b9aef65253da354b27ab70",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c1-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c1-t3.json",
+      "sha256": "72196384e462c39810b065b1da1ccd3f16ec275f8421269dfe72754aff91e94f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c2-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c2-t1.json",
+      "sha256": "1820aafcf3839487aae359a2995c6cf6c8d084a8a16f9fd132761146b8ca4eec",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c2-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c2-t2.json",
+      "sha256": "dd27243acd8ce15f9fcf9435e0d33b7af93ec044ca7f0cf78aecdaee87cffbc9",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c2-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c2-t3.json",
+      "sha256": "abe00565d2b785b50c7477b4ec0fb778ddd77bc4ead5372a936f70197e5370ff",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c4-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c4-t1.json",
+      "sha256": "59b8df120f904f366bdf7607b53e2c06b6306b65df3b14dc2522fae5732d41fc",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c4-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c4-t2.json",
+      "sha256": "2537fb3d7da3dce7dc93bab52832ae9d657af328d174462117b89c5e6f86a354",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c4-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c4-t3.json",
+      "sha256": "00c303cfbd0bc7f0045792b7df663808293e61ff7a5bfef7e73b40ad9ac6f270",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c8-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c8-t1.json",
+      "sha256": "b8272d3f752391bc2c9ff10f73728f0726eb5b68ce1b481c1aeb15b437de9199",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c8-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c8-t2.json",
+      "sha256": "841293e84c53ae980f070a88ff976faa8949725e197396a7dcbc36ffd5127925",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-prose-c8-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-prose-c8-t3.json",
+      "sha256": "61e334b6f797cd6b809a5e7de6ad936f3a2aaf052a968907b99e0f9d5a7996b6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c1-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c1-t1.json",
+      "sha256": "ebf68b28d9ab09e32c99a489607e1537f53788a3995604347d40b0b9f7ad6939",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c1-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c1-t2.json",
+      "sha256": "2f11c95435eef567110e79d5fe020e309aeab2ba5985f0fb59b917a653605470",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c1-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c1-t3.json",
+      "sha256": "de39bf1979e7a62d2360fb1ac9df8dc74e23a2e51618c59c886ba0322ef8a66d",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c2-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c2-t1.json",
+      "sha256": "99a01477ee72710a753e783dc299ab47cddcd8a9dfb28bf8b83dc226a33e0319",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c2-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c2-t2.json",
+      "sha256": "37c3bb3498bd58ce431f89168bfbaa5aaf1761e1ec1a1fd092dc2786e4d9d9fa",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c2-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c2-t3.json",
+      "sha256": "000ab9dbca54295418dac1878735e58a79b71e6caf431877e318874d7496911f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c4-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c4-t1.json",
+      "sha256": "159c2f930004327ac059b29d215c3f8fb4ef4b46507a6aa7734da38b827fcd3e",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c4-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c4-t2.json",
+      "sha256": "c3cdc1c65cecc389ad65609ddbfdf634725082e96a9bd37fce7a02b33d19eae5",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c4-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c4-t3.json",
+      "sha256": "1742dd95771fffc24b740f774a7f78fc2e31763438724145425bf36c10a48235",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c8-t1.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c8-t1.json",
+      "sha256": "78d9d0adce72c286a24c2531237115619a997bad0b46e4758a945bba1a739cbf",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c8-t2.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c8-t2.json",
+      "sha256": "618ac5484923e66de6f2a9f66ecfb598339324505dc9158d25a4a9c7c79e69bd",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/de-structured-c8-t3.json",
+      "source_set": "B20 new firmware, complete matrix including eight reused invocations",
+      "source_file": "de-structured-c8-t3.json",
+      "sha256": "194d52450601dd426f45dbe0c0e7d2d42292749c4298a9e00267e209135dd785",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-262144-t1.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-262144-t1.json",
+      "sha256": "8f346e065e44f7a4457d21e48253b6e581e56955091fe700d568978dea2a0e8a",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-262144-t2.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-262144-t2.json",
+      "sha256": "d1925d4aab6880074193adbd32db4f26dda9998510f5b71db0ccd7ab36a13cc1",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-262144-t3.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-262144-t3.json",
+      "sha256": "58ea2212e754088351e234db8cd41d691da18f1f26a56dd439503a51c1e44cf0",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-65536-t1.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-65536-t1.json",
+      "sha256": "3cd8d0539457764c816459350665db000ea720be3f399ac863207ef7be0b825e",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-65536-t2.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-65536-t2.json",
+      "sha256": "79e1e0747e5e8c9b89c4cfde6dc7206173f6725b36e1f1766e0c9d26cf446bd6",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-65536-t3.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-65536-t3.json",
+      "sha256": "e377e0a418d9d16aecaf0dd00d18957db5f244e2f14fdf47760d743130741da3",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-8192-t1.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-8192-t1.json",
+      "sha256": "f799410dcd10c862da8b018c8af6a4bbaca33675d4a1bbbfb00871f776b1d18d",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-8192-t2.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-8192-t2.json",
+      "sha256": "03ed763b68d4179fb42811ac9cf6915aba4bafa0a0b0cbd4635354ff324087ef",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/new-20261022/pr-8192-t3.json",
+      "source_set": "B20 new firmware, preceding prefill window",
+      "source_file": "pr-8192-t3.json",
+      "sha256": "cd6f52fe62ce1b5d628bd4fcd4f225f07360250e92e38487fc951b69250e2e8f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c1-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c1-t1.json",
+      "sha256": "806c9b444e5eef38e57fe47f459edd8ebcc50d95567e5fa3de5fdb49b6c1e44b",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c1-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c1-t2.json",
+      "sha256": "323fc75770bf563f4c98c998048ad9987e7f47eb968ba6f928cde4c96b6180b3",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c1-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c1-t3.json",
+      "sha256": "ca58135598d2b6e25b84274c1416268b58f6484fb35ebe69b6fd35a5bf8ba262",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c2-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c2-t1.json",
+      "sha256": "f32cbbe7856a0de3280f473a3fb4766cff154cf07cea1e1da2d9103dac7c0867",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c2-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c2-t2.json",
+      "sha256": "c45573bd8d89590c5bbe4d69e53a14af38d47f7bacfb24c5ad022573ea444f8e",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-code-c2-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-code-c2-t3.json",
+      "sha256": "0539ac2e483f4a9c623f0d556aa5a427a8d9a955e424f8113f1b1c371f6f3571",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c1-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c1-t1.json",
+      "sha256": "ff2cb2f53c48be6ecf4b67e8ba76c8d008fa69734fb6acbd15edf253d54d7318",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c1-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c1-t2.json",
+      "sha256": "61459c21f6e41bc074c847214cf2f47c5fed50f140f061f009599dc72fbe304d",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c1-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c1-t3.json",
+      "sha256": "e4d32a64967c362f6feca91cd8b2076f208cc8c7872d88297509b87b1e7a8613",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c2-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c2-t1.json",
+      "sha256": "94c1b2c129552c71e12f56947677e556a9bdac26bc7bac7a2e2e353138680abe",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c2-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c2-t2.json",
+      "sha256": "ba0b96524fddda6a87a8ec13cf7744bde86cea3e15b20930414d662a1b410a08",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-json-c2-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-json-c2-t3.json",
+      "sha256": "9e04e3e38d6981377174ce5bf110b5ea8b3c20c4674cdcc8390274779001353f",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c1-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c1-t1.json",
+      "sha256": "812f83fe60d50b431da307204fb5401d83cd9dfa3346054297550105a451f6cd",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c1-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c1-t2.json",
+      "sha256": "de0adc6687ea058fc9b9a6e9e58c28ec545a80d1c9f27aae772f749dd72cf978",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c1-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c1-t3.json",
+      "sha256": "3ab0c7d319cee7db615df2eed35ed0263e2913ccf7eefc6258294e98fae317a8",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c2-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c2-t1.json",
+      "sha256": "3aaf678f4bea9d4d44d1c9b52e4ed40dc51e788e99130801533a1fdd2bb7ef3c",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c2-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c2-t2.json",
+      "sha256": "77dd075a9c5f30350402919949d2c8c26ec6997a5e3c8117f6c42c7e743aa4a5",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-prose-c2-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-prose-c2-t3.json",
+      "sha256": "05fc5a64ea15c25bb9f583910b6a4407f6b63bb9de0992a5845d599b2d7566fb",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c1-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c1-t1.json",
+      "sha256": "5bacd12889246941c92e793c284f26b2bc4a92f5923e7dda68a5a7dbe87cd7b3",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c1-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c1-t2.json",
+      "sha256": "d538bc3ac2c8de1fa6ea11a7f97b5343c0cea645c122d64bba4ec8245f0d4d26",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c1-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c1-t3.json",
+      "sha256": "46197a6cf204bb4c9fcc287eed72c3d13401abd75aafa2c1213bcc728aa009cf",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c2-t1.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c2-t1.json",
+      "sha256": "704ca01700e970c2140af665528512df82999f6d2a9b6f1894b6ca7929c91f09",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c2-t2.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c2-t2.json",
+      "sha256": "a6ef3eb329f9378601f3b7ebae423f04a4579b78f7e92358e4be7f57983752d3",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "raw/same-capacity-20261021/de-structured-c2-t3.json",
+      "source_set": "B20 old firmware, C1/C2 same-capacity auxiliary baseline",
+      "source_file": "de-structured-c2-t3.json",
+      "sha256": "01e02894ae82d90769c5912e5c5a12c5fca92c6abf5e8552f5b1426afd4980a9",
+      "original_bytes_preserved": true
+    },
+    {
+      "path": "benchmark/sd_bench.py",
+      "source_set": "New-firmware benchmark instrument; old instrument differs only in CRLF",
+      "source_file": "sd_bench.py",
+      "sha256": "201715688d7cee2b4a7e76eb0167b8ed7eef7272600fbe23c9d166dd53f56776",
+      "original_bytes_preserved": true
+    }
+  ],
+  "raw_samples_contain": [
+    "per-round reported throughput",
+    "per-stream reported throughput",
+    "completion lengths",
+    "prefill reported TTFT and token counts"
+  ],
+  "raw_samples_do_not_contain": [
+    "full completion text",
+    "per-token SSE timestamps",
+    "per-request finish_reason"
+  ],
+  "summary_is_sanitized": true,
+  "summary_sanitization": "Private locations and host identities omitted; metric values preserved, hosts represented by TP rank."
+}

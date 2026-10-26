@@ -1,0 +1,75 @@
+{
+ "label": "firmware-full-DE-20261022/de-json-c2-t3",
+ "de": [
+  {
+   "type": "json",
+   "conc": 2,
+   "per": 123.15,
+   "per_all": [
+    123.15,
+    123.13
+   ],
+   "agg": 246.25,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 2,
+   "per": 111.66,
+   "per_all": [
+    111.65,
+    111.66
+   ],
+   "agg": 223.29,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 2,
+   "per": 111.61,
+   "per_all": [
+    111.61,
+    111.6
+   ],
+   "agg": 223.2,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 2,
+   "per": 111.84,
+   "per_all": [
+    111.8,
+    111.84
+   ],
+   "agg": 223.6,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 2,
+   "per": 123.02,
+   "per_all": [
+    123.02,
+    123.02
+   ],
+   "agg": 246.0,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}

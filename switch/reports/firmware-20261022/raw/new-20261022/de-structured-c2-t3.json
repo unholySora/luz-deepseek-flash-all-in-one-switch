@@ -1,0 +1,75 @@
+{
+ "label": "firmware-full-DE-20261022/de-structured-c2-t3",
+ "de": [
+  {
+   "type": "structured",
+   "conc": 2,
+   "per": 133.95,
+   "per_all": [
+    133.93,
+    133.95
+   ],
+   "agg": 267.82,
+   "completion": [
+    200,
+    200
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 2,
+   "per": 133.86,
+   "per_all": [
+    133.81,
+    133.86
+   ],
+   "agg": 267.58,
+   "completion": [
+    200,
+    200
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 2,
+   "per": 134.39,
+   "per_all": [
+    134.35,
+    134.39
+   ],
+   "agg": 268.68,
+   "completion": [
+    200,
+    200
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 2,
+   "per": 134.32,
+   "per_all": [
+    134.27,
+    134.32
+   ],
+   "agg": 268.53,
+   "completion": [
+    200,
+    200
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 2,
+   "per": 133.97,
+   "per_all": [
+    133.97,
+    133.96
+   ],
+   "agg": 267.88,
+   "completion": [
+    200,
+    200
+   ]
+  }
+ ]
+}

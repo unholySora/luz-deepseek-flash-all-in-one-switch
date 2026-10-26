@@ -1,5 +1,9 @@
 # LuZ Switch：2026-10-15 B20
 
+**性能资料更新（2026-10-26）：** 已归档 [10/22 新固件完整性能及旧固件 B20 对照](reports/FIRMWARE-PERFORMANCE-20261022.zh-CN.md)。1017-UL / 400-token 口径覆盖 C1/C2/C4/C8 四场景，共 240 轮、900 个正式请求；prefill 为 8K/64K/256K。C1 prose/code/json/structured 为 90.94/142.45/144.44/169.27 token/s，C8 聚合为 257.50/347.52*/557.65/319.41* token/s。`*` 含短于 400 token 的请求，保留实际长度。与 10/20 完整旧基线的聚合速度比几何平均为 +4.84%，不作为固件因果收益。原始数值、测试时两项 USB-PD 待确认状态及复核工具均在新报告中。
+
+此更新不修改下方部署配置或历史验收；下方 2048-token 重测命令对应 10/15 旧报告，新固件 400-token 口径的命令和冻结量具见新报告第 9 节。
+
 四台 DGX Spark、每台双 100Gb/s RoCE、通过交换机连接的部署版本。默认配置为 **600000 上下文、16 个运行请求、9600000 token KV 池**。完整速度验收覆盖 C1/C2/C4/C8。C1/2/4/8/12/16 的近满池驻留与召回已完成，C16 的实际输入、页图及资源结果见[独立 KV 实测报告](reports/KV-RECALL.md)。该报告的测试配置显式加入两项 streaming-session 运行时修正；后续高并发容量候选另加 prefill 每批 1 请求限制。原 B20 的速度资格范围不扩大。
 
 本目录保留与原项目并列的部署方案。原仓库的部署文件保持原样。实测源码覆盖文件保留原始字节；IP、SSH 用户、模型和工作目录改为参数化模板。首次安装请先阅读 [极详细部署手册](DEPLOYMENT-GUIDE.zh-CN.md)，面向上游的差异说明见 [LuZ技术报告](UPSTREAM-REPORT.zh-CN.md)。实验细节见 [调优说明](reports/TUNING.md)、[实测结果](reports/RESULTS.md) 和 [structured 分析](reports/STRUCTURED.md)。

@@ -1,0 +1,65 @@
+{
+ "label": "B20/de-json-c1",
+ "de": [
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 134.62,
+   "per_all": [
+    134.62
+   ],
+   "agg": 134.62,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.51,
+   "per_all": [
+    138.51
+   ],
+   "agg": 138.51,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.45,
+   "per_all": [
+    138.45
+   ],
+   "agg": 138.45,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.55,
+   "per_all": [
+    138.55
+   ],
+   "agg": 138.55,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.45,
+   "per_all": [
+    138.45
+   ],
+   "agg": 138.45,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

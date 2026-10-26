@@ -1,0 +1,65 @@
+{
+ "label": "firmware-speed-check-20261022/de-structured-c1",
+ "de": [
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 166.05,
+   "per_all": [
+    166.05
+   ],
+   "agg": 166.05,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.27,
+   "per_all": [
+    169.27
+   ],
+   "agg": 169.27,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 168.66,
+   "per_all": [
+    168.66
+   ],
+   "agg": 168.66,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.74,
+   "per_all": [
+    169.74
+   ],
+   "agg": 169.74,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.87,
+   "per_all": [
+    169.87
+   ],
+   "agg": 169.87,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

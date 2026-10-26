@@ -1,0 +1,65 @@
+{
+ "label": "B20/de-prose-c1",
+ "de": [
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 85.38,
+   "per_all": [
+    85.38
+   ],
+   "agg": 85.38,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 86.38,
+   "per_all": [
+    86.38
+   ],
+   "agg": 86.38,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 87.62,
+   "per_all": [
+    87.62
+   ],
+   "agg": 87.62,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 87.41,
+   "per_all": [
+    87.41
+   ],
+   "agg": 87.41,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 87.54,
+   "per_all": [
+    87.54
+   ],
+   "agg": 87.54,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

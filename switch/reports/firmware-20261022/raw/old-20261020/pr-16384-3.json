@@ -1,0 +1,14 @@
+{
+ "label": "B20/pr-16384-3",
+ "pr": [
+  {
+   "target": 16384,
+   "prompt_tokens": 16392,
+   "ttft_s": 2.51,
+   "tok_s": 6530.6,
+   "prompt_chars": 65535,
+   "chars_per_token": 3.998,
+   "filler": "repeated"
+  }
+ ]
+}

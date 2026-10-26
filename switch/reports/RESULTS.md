@@ -1,5 +1,7 @@
 # LuZ Switch B20 实测结果
 
+> **较新结果：** [2026-10-22 新固件 / 1017-UL 完整性能及旧固件对照](FIRMWARE-PERFORMANCE-20261022.zh-CN.md)，2026-10-26 公开归档。该报告为 400-token、按实际输出长度计速，附全部 16 格 DE、三档新 PR、10/20 主对照和 10/21 同容量辅助对照。本页保留 10/15 的较早权重与 2048-token / structured v2 历史结果，二者不能直接合并排名。
+
 > 后续独立 KV 验收见 [KV-RECALL](KV-RECALL.md)，进一步方向见 [NEXT-STEPS](NEXT-STEPS.zh-CN.md)。本页四场景 2048-token 速度数据保留原 B20 资格范围，召回测试的约百 token 输出不用于替换排名。
 
 2026-10-15；四台GB10、交换机双rail；LuZ 600k/C16/9.6M，hybrid_v2 800k/C10/8M。decode为完整2048输出、temperature0、thinking off；单路取完整流中位，聚合取完整波次union窗口中位。单位tok/s。

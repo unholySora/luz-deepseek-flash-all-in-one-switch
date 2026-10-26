@@ -1,0 +1,75 @@
+{
+ "label": "B20-600k-C16-20261021/de-code-c2-t1",
+ "de": [
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 95.5,
+   "per_all": [
+    95.5,
+    95.5
+   ],
+   "agg": 190.99,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 97.93,
+   "per_all": [
+    97.93,
+    97.92
+   ],
+   "agg": 195.84,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 96.73,
+   "per_all": [
+    96.73,
+    96.3
+   ],
+   "agg": 186.09,
+   "completion": [
+    373,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 98.63,
+   "per_all": [
+    98.63,
+    98.21
+   ],
+   "agg": 189.77,
+   "completion": [
+    373,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 98.05,
+   "per_all": [
+    98.03,
+    98.05
+   ],
+   "agg": 196.06,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}

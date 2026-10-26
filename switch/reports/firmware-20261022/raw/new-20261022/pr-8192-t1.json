@@ -1,0 +1,14 @@
+{
+ "label": "firmware-speed-check-20261022/pr-8192-t1",
+ "pr": [
+  {
+   "target": 8192,
+   "prompt_tokens": 8201,
+   "ttft_s": 1.411,
+   "tok_s": 5814.2,
+   "prompt_chars": 32767,
+   "chars_per_token": 3.995,
+   "filler": "repeated"
+  }
+ ]
+}

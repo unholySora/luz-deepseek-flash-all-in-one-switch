@@ -1,6 +1,23 @@
 # LuZ-deepseek-flash-all-in-one-switch
 在LuZ-deepseek-flash-all-in-one的基础上完成的交换机方案，见/switch
 
+## 交换机方案：新固件实测（10/22 测量，10/26 归档）
+
+**B20 / 1017-UL，四台 GB10、双 100G RoCE、600k 上下文 / C16 上限 / 9.6M KV 池。** 已完成 C1/C2/C4/C8 × prose/code/json/structured，共 240 轮、900 个正式请求，并合并 8K/64K/256K prefill。以下单位为 token/s：
+
+| 场景 | C1 每流 | C8 每流 | C8 聚合 |
+|---|---:|---:|---:|
+| prose | 90.94 | 34.22 | 257.50 |
+| code* | 142.45 | 45.96 | 347.52 |
+| json | 144.44 | 70.99 | 557.65 |
+| structured* | 169.27 | 86.40 | 319.41 |
+
+Prefill 8K / 64K / 256K：**5,814.2 / 6,896.9 / 5,940.1 token/s**。与 10/20 旧固件完整 B20 矩阵相比，16 格聚合速度变化为 +3.24%～+11.92%，速度比等权几何平均 +4.84%；这是跨日、不同容量配置的观察差值，不是已证明的固件单变量收益。
+
+`*` C8 含少于 400 token 的输出，按实际长度计速；structured 是计数提示，未启用 grammar。测试时两项 USB-PD 活动版本尚待确认。本组使用 1017-UL / 400-token 口径，不能直接与下方上游结果或仓库旧 2048-token 表比较。
+
+[完整新旧对照、短流与固件说明](switch/reports/FIRMWARE-PERFORMANCE-20261022.zh-CN.md) · [原始数值与校验](switch/reports/firmware-20261022/) · [交换机部署](switch/README.md) · [10/15 历史报告](switch/reports/RESULTS.md)
+
 # LuZ-deepseek-flash-all-in-one
 
 **LuZ-0.3.1** —— DeepSeek-V4.1-Flash @ **4×NVIDIA DGX Spark（GB10，SM121）TP4

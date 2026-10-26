@@ -1,0 +1,65 @@
+{
+ "label": "B20-600k-C16-20261021/de-structured-c1-t3",
+ "de": [
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.63,
+   "per_all": [
+    162.63
+   ],
+   "agg": 162.63,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.46,
+   "per_all": [
+    162.46
+   ],
+   "agg": 162.46,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.86,
+   "per_all": [
+    162.86
+   ],
+   "agg": 162.86,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.43,
+   "per_all": [
+    162.43
+   ],
+   "agg": 162.43,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.68,
+   "per_all": [
+    162.68
+   ],
+   "agg": 162.68,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "label": "B20/de-structured-c1",
+ "de": [
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 159.38,
+   "per_all": [
+    159.38
+   ],
+   "agg": 159.38,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.92,
+   "per_all": [
+    162.92
+   ],
+   "agg": 162.92,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 162.26,
+   "per_all": [
+    162.26
+   ],
+   "agg": 162.26,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 163.25,
+   "per_all": [
+    163.25
+   ],
+   "agg": 163.25,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 161.95,
+   "per_all": [
+    161.95
+   ],
+   "agg": 161.95,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

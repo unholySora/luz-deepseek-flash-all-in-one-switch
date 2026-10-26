@@ -1,0 +1,14 @@
+{
+ "label": "B20/pr-524288-1",
+ "pr": [
+  {
+   "target": 524288,
+   "prompt_tokens": 524296,
+   "ttft_s": 116.098,
+   "tok_s": 4516.0,
+   "prompt_chars": 2097151,
+   "chars_per_token": 4.0,
+   "filler": "repeated"
+  }
+ ]
+}

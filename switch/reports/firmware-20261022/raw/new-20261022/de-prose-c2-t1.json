@@ -1,0 +1,75 @@
+{
+ "label": "firmware-speed-check-20261022/de-prose-c2",
+ "de": [
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 64.95,
+   "per_all": [
+    62.3,
+    64.95
+   ],
+   "agg": 124.6,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.96,
+   "per_all": [
+    63.27,
+    65.96
+   ],
+   "agg": 126.54,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.86,
+   "per_all": [
+    63.17,
+    65.86
+   ],
+   "agg": 126.32,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 67.33,
+   "per_all": [
+    67.33,
+    64.87
+   ],
+   "agg": 129.74,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.69,
+   "per_all": [
+    63.02,
+    65.69
+   ],
+   "agg": 126.03,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}

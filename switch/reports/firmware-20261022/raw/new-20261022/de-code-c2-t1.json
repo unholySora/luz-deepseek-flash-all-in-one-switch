@@ -1,0 +1,75 @@
+{
+ "label": "firmware-speed-check-20261022/de-code-c2",
+ "de": [
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 99.95,
+   "per_all": [
+    99.94,
+    99.95
+   ],
+   "agg": 199.87,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.47,
+   "per_all": [
+    102.47,
+    102.46
+   ],
+   "agg": 204.91,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.72,
+   "per_all": [
+    102.7,
+    102.72
+   ],
+   "agg": 205.4,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.66,
+   "per_all": [
+    102.64,
+    102.66
+   ],
+   "agg": 205.27,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.63,
+   "per_all": [
+    102.61,
+    102.63
+   ],
+   "agg": 205.23,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}

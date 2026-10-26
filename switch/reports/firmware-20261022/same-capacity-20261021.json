@@ -1,0 +1,171 @@
+{
+  "measurement_date": "2026-10-21",
+  "capacity": [
+    600000,
+    16,
+    9600000
+  ],
+  "scope": "C1/C2 only; not a complete C1/C2/C4/C8 matrix",
+  "DE": {
+    "prose-c1": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 87.44,
+      "per_stream_median": 87.44,
+      "trial_aggregate_medians": [
+        87.33,
+        87.44,
+        87.48
+      ],
+      "trial_per_medians": [
+        87.33,
+        87.44,
+        87.48
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "code-c1": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 136.69,
+      "per_stream_median": 136.69,
+      "trial_aggregate_medians": [
+        136.75,
+        136.69,
+        136.57
+      ],
+      "trial_per_medians": [
+        136.75,
+        136.69,
+        136.57
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "json-c1": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 138.42,
+      "per_stream_median": 138.42,
+      "trial_aggregate_medians": [
+        138.41,
+        138.52,
+        138.42
+      ],
+      "trial_per_medians": [
+        138.41,
+        138.52,
+        138.42
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "structured-c1": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 162.63,
+      "per_stream_median": 162.63,
+      "trial_aggregate_medians": [
+        162.78,
+        162.63,
+        162.63
+      ],
+      "trial_per_medians": [
+        162.78,
+        162.63,
+        162.63
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "prose-c2": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 121.07,
+      "per_stream_median": 63.15,
+      "trial_aggregate_medians": [
+        121.0,
+        121.07,
+        121.15
+      ],
+      "trial_per_medians": [
+        63.07,
+        63.15,
+        63.16
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "code-c2": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 195.7,
+      "per_stream_median": 97.93,
+      "trial_aggregate_medians": [
+        190.99,
+        195.84,
+        195.7
+      ],
+      "trial_per_medians": [
+        97.93,
+        97.94,
+        97.86
+      ],
+      "completion_min": 373,
+      "completion_max": 400,
+      "short_completions": 3
+    },
+    "json-c2": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 214.22,
+      "per_stream_median": 107.12,
+      "trial_aggregate_medians": [
+        214.01,
+        214.22,
+        236.34
+      ],
+      "trial_per_medians": [
+        107.02,
+        107.12,
+        118.19
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0
+    },
+    "structured-c2": {
+      "trials": 3,
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 257.0,
+      "per_stream_median": 128.55,
+      "trial_aggregate_medians": [
+        256.12,
+        257.17,
+        257.0
+      ],
+      "trial_per_medians": [
+        128.11,
+        128.65,
+        128.55
+      ],
+      "completion_min": 200,
+      "completion_max": 200,
+      "short_completions": 30
+    }
+  }
+}

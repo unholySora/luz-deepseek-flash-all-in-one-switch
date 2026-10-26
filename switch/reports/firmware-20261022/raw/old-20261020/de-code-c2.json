@@ -1,0 +1,75 @@
+{
+ "label": "B20/de-code-c2",
+ "de": [
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 95.97,
+   "per_all": [
+    95.97,
+    95.74
+   ],
+   "agg": 185.0,
+   "completion": [
+    373,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 97.3,
+   "per_all": [
+    97.3,
+    97.3
+   ],
+   "agg": 194.59,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 97.86,
+   "per_all": [
+    97.86,
+    97.86
+   ],
+   "agg": 195.69,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 98.25,
+   "per_all": [
+    98.25,
+    98.25
+   ],
+   "agg": 196.49,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 98.67,
+   "per_all": [
+    98.67,
+    98.35
+   ],
+   "agg": 190.05,
+   "completion": [
+    373,
+    400
+   ]
+  }
+ ]
+}

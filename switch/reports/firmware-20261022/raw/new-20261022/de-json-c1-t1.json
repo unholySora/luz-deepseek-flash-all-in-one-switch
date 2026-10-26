@@ -1,0 +1,65 @@
+{
+ "label": "firmware-speed-check-20261022/de-json-c1",
+ "de": [
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 139.82,
+   "per_all": [
+    139.82
+   ],
+   "agg": 139.82,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 144.89,
+   "per_all": [
+    144.89
+   ],
+   "agg": 144.89,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 144.1,
+   "per_all": [
+    144.1
+   ],
+   "agg": 144.1,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 144.29,
+   "per_all": [
+    144.29
+   ],
+   "agg": 144.29,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 144.34,
+   "per_all": [
+    144.34
+   ],
+   "agg": 144.34,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "label": "firmware-speed-check-20261022/de-prose-c1",
+ "de": [
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 89.33,
+   "per_all": [
+    89.33
+   ],
+   "agg": 89.33,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 90.37,
+   "per_all": [
+    90.37
+   ],
+   "agg": 90.37,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 91.23,
+   "per_all": [
+    91.23
+   ],
+   "agg": 91.23,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 91.1,
+   "per_all": [
+    91.1
+   ],
+   "agg": 91.1,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 1,
+   "per": 90.84,
+   "per_all": [
+    90.84
+   ],
+   "agg": 90.84,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

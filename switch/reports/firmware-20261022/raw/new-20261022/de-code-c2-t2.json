@@ -1,0 +1,75 @@
+{
+ "label": "firmware-full-DE-20261022/de-code-c2-t2",
+ "de": [
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.44,
+   "per_all": [
+    102.43,
+    102.44
+   ],
+   "agg": 204.85,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.83,
+   "per_all": [
+    102.83,
+    102.82
+   ],
+   "agg": 205.64,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.64,
+   "per_all": [
+    102.61,
+    102.64
+   ],
+   "agg": 205.23,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.55,
+   "per_all": [
+    102.54,
+    102.55
+   ],
+   "agg": 205.07,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 2,
+   "per": 102.75,
+   "per_all": [
+    102.73,
+    102.75
+   ],
+   "agg": 205.46,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}

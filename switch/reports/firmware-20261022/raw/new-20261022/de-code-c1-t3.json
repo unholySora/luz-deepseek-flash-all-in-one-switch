@@ -1,0 +1,65 @@
+{
+ "label": "firmware-full-DE-20261022/de-code-c1-t3",
+ "de": [
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.06,
+   "per_all": [
+    142.06
+   ],
+   "agg": 142.06,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.46,
+   "per_all": [
+    142.46
+   ],
+   "agg": 142.46,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.35,
+   "per_all": [
+    142.35
+   ],
+   "agg": 142.35,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.62,
+   "per_all": [
+    142.62
+   ],
+   "agg": 142.62,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.45,
+   "per_all": [
+    142.45
+   ],
+   "agg": 142.45,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

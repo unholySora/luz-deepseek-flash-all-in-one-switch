@@ -1,0 +1,65 @@
+{
+ "label": "B20/de-code-c1",
+ "de": [
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 130.41,
+   "per_all": [
+    130.41
+   ],
+   "agg": 130.41,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 136.51,
+   "per_all": [
+    136.51
+   ],
+   "agg": 136.51,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 136.7,
+   "per_all": [
+    136.7
+   ],
+   "agg": 136.7,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 136.68,
+   "per_all": [
+    136.68
+   ],
+   "agg": 136.68,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 136.7,
+   "per_all": [
+    136.7
+   ],
+   "agg": 136.7,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

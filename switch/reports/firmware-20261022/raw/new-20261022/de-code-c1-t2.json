@@ -1,0 +1,65 @@
+{
+ "label": "firmware-full-DE-20261022/de-code-c1-t2",
+ "de": [
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 143.02,
+   "per_all": [
+    143.02
+   ],
+   "agg": 143.02,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.44,
+   "per_all": [
+    142.44
+   ],
+   "agg": 142.44,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.48,
+   "per_all": [
+    142.48
+   ],
+   "agg": 142.48,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.19,
+   "per_all": [
+    142.19
+   ],
+   "agg": 142.19,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "code",
+   "conc": 1,
+   "per": 142.19,
+   "per_all": [
+    142.19
+   ],
+   "agg": 142.19,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

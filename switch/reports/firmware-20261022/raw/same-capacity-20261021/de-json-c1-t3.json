@@ -1,0 +1,65 @@
+{
+ "label": "B20-600k-C16-20261021/de-json-c1-t3",
+ "de": [
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.3,
+   "per_all": [
+    138.3
+   ],
+   "agg": 138.3,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.56,
+   "per_all": [
+    138.56
+   ],
+   "agg": 138.56,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.1,
+   "per_all": [
+    138.1
+   ],
+   "agg": 138.1,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.99,
+   "per_all": [
+    138.99
+   ],
+   "agg": 138.99,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "json",
+   "conc": 1,
+   "per": 138.42,
+   "per_all": [
+    138.42
+   ],
+   "agg": 138.42,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

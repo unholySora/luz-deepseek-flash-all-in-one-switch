@@ -1,0 +1,65 @@
+{
+ "label": "firmware-full-DE-20261022/de-structured-c1-t3",
+ "de": [
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.79,
+   "per_all": [
+    169.79
+   ],
+   "agg": 169.79,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.67,
+   "per_all": [
+    169.67
+   ],
+   "agg": 169.67,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 170.1,
+   "per_all": [
+    170.1
+   ],
+   "agg": 170.1,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.88,
+   "per_all": [
+    169.88
+   ],
+   "agg": 169.88,
+   "completion": [
+    400
+   ]
+  },
+  {
+   "type": "structured",
+   "conc": 1,
+   "per": 169.03,
+   "per_all": [
+    169.03
+   ],
+   "agg": 169.03,
+   "completion": [
+    400
+   ]
+  }
+ ]
+}

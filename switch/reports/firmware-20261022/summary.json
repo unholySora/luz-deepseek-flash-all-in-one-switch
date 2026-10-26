@@ -1,0 +1,3192 @@
+{
+  "measurement_date": "2026-10-22",
+  "published_date": "2026-10-26",
+  "model": "deepseek-1017-ul-luz",
+  "weights": "DeepSeek-V4.1-Flash-1017 + existing UL overlay; unchanged between the compared runs",
+  "measured_image_id": "sha256:3aca5abc11376e522c0c72852d2cea3030eab11c45c2555544ce8f21632b894a",
+  "capacity": {
+    "context_length": 600000,
+    "max_running_requests": 16,
+    "max_total_num_tokens": 9600000
+  },
+  "protocol": {
+    "upstream_sha256": "201715688d7cee2b4a7e76eb0167b8ed7eef7272600fbe23c9d166dd53f56776",
+    "concurrencies": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "scenes": [
+      "prose",
+      "code",
+      "json",
+      "structured"
+    ],
+    "max_tokens": 400,
+    "warmups_per_invocation": 2,
+    "independent_invocations": 3,
+    "rounds_per_invocation": 5,
+    "DE_invocations": 48,
+    "DE_rounds": 240,
+    "DE_requests": 900,
+    "reused_invocations": 8,
+    "new_invocations": 40,
+    "statistic": "median of three independent invocation medians; upstream upper-median per-stream statistic is retained",
+    "decode_formula": "(completion_tokens-1)/(last_visible-first_visible)",
+    "prefill_formula": "usage.prompt_tokens/TTFT, repeated filler, fresh salts, three trials",
+    "PR_source": "preceding speed-check-20261022; 8K/64K/256K; no additional PR measurements"
+  },
+  "windows": {
+    "new": {
+      "started": "2026-10-22T14:53:11.800601+08:00",
+      "time": "2026-10-22T15:13:19.951000+08:00"
+    },
+    "reused": {
+      "started": "2026-10-22T14:43:19.297009+08:00",
+      "time": "2026-10-22T14:49:12.655366+08:00"
+    }
+  },
+  "DE": {
+    "prose-c1": {
+      "scene": "prose",
+      "concurrency": 1,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 90.84,
+          "per_stream_median": 90.84,
+          "aggregate_samples": [
+            89.33,
+            90.37,
+            91.23,
+            91.1,
+            90.84
+          ],
+          "per_stream_samples": [
+            89.33,
+            90.37,
+            91.23,
+            91.1,
+            90.84
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c1-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 90.94,
+          "per_stream_median": 90.94,
+          "aggregate_samples": [
+            90.8,
+            90.94,
+            90.98,
+            91.22,
+            90.8
+          ],
+          "per_stream_samples": [
+            90.8,
+            90.94,
+            90.98,
+            91.22,
+            90.8
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c1-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 90.97,
+          "per_stream_median": 90.97,
+          "aggregate_samples": [
+            90.97,
+            90.94,
+            90.91,
+            90.97,
+            91.1
+          ],
+          "per_stream_samples": [
+            90.97,
+            90.94,
+            90.91,
+            90.97,
+            91.1
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c1-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 90.94,
+      "per_stream_median": 90.94,
+      "trial_aggregate_range": [
+        90.84,
+        90.97
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 15
+      }
+    },
+    "code-c1": {
+      "scene": "code",
+      "concurrency": 1,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 142.63,
+          "per_stream_median": 142.63,
+          "aggregate_samples": [
+            136.0,
+            142.81,
+            142.68,
+            142.46,
+            142.63
+          ],
+          "per_stream_samples": [
+            136.0,
+            142.81,
+            142.68,
+            142.46,
+            142.63
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c1-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 142.44,
+          "per_stream_median": 142.44,
+          "aggregate_samples": [
+            143.02,
+            142.44,
+            142.48,
+            142.19,
+            142.19
+          ],
+          "per_stream_samples": [
+            143.02,
+            142.44,
+            142.48,
+            142.19,
+            142.19
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c1-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 142.45,
+          "per_stream_median": 142.45,
+          "aggregate_samples": [
+            142.06,
+            142.46,
+            142.35,
+            142.62,
+            142.45
+          ],
+          "per_stream_samples": [
+            142.06,
+            142.46,
+            142.35,
+            142.62,
+            142.45
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c1-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 142.45,
+      "per_stream_median": 142.45,
+      "trial_aggregate_range": [
+        142.44,
+        142.63
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 15
+      }
+    },
+    "json-c1": {
+      "scene": "json",
+      "concurrency": 1,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 144.29,
+          "per_stream_median": 144.29,
+          "aggregate_samples": [
+            139.82,
+            144.89,
+            144.1,
+            144.29,
+            144.34
+          ],
+          "per_stream_samples": [
+            139.82,
+            144.89,
+            144.1,
+            144.29,
+            144.34
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c1-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 144.44,
+          "per_stream_median": 144.44,
+          "aggregate_samples": [
+            144.51,
+            144.27,
+            144.44,
+            144.34,
+            144.69
+          ],
+          "per_stream_samples": [
+            144.51,
+            144.27,
+            144.44,
+            144.34,
+            144.69
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c1-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 144.44,
+          "per_stream_median": 144.44,
+          "aggregate_samples": [
+            144.38,
+            144.68,
+            144.82,
+            144.44,
+            144.42
+          ],
+          "per_stream_samples": [
+            144.38,
+            144.68,
+            144.82,
+            144.44,
+            144.42
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c1-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 144.44,
+      "per_stream_median": 144.44,
+      "trial_aggregate_range": [
+        144.29,
+        144.44
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 15
+      }
+    },
+    "structured-c1": {
+      "scene": "structured",
+      "concurrency": 1,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 169.27,
+          "per_stream_median": 169.27,
+          "aggregate_samples": [
+            166.05,
+            169.27,
+            168.66,
+            169.74,
+            169.87
+          ],
+          "per_stream_samples": [
+            166.05,
+            169.27,
+            168.66,
+            169.74,
+            169.87
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c1-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 169.13,
+          "per_stream_median": 169.13,
+          "aggregate_samples": [
+            169.84,
+            168.95,
+            168.65,
+            169.74,
+            169.13
+          ],
+          "per_stream_samples": [
+            169.84,
+            168.95,
+            168.65,
+            169.74,
+            169.13
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c1-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 169.79,
+          "per_stream_median": 169.79,
+          "aggregate_samples": [
+            169.79,
+            169.67,
+            170.1,
+            169.88,
+            169.03
+          ],
+          "per_stream_samples": [
+            169.79,
+            169.67,
+            170.1,
+            169.88,
+            169.03
+          ],
+          "completion_vectors": [
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ],
+            [
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c1-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 15,
+      "aggregate_median": 169.27,
+      "per_stream_median": 169.27,
+      "trial_aggregate_range": [
+        169.13,
+        169.79
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 15
+      }
+    },
+    "prose-c2": {
+      "scene": "prose",
+      "concurrency": 2,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 126.32,
+          "per_stream_median": 65.86,
+          "aggregate_samples": [
+            124.6,
+            126.54,
+            126.32,
+            129.74,
+            126.03
+          ],
+          "per_stream_samples": [
+            64.95,
+            65.96,
+            65.86,
+            67.33,
+            65.69
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c2-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 126.43,
+          "per_stream_median": 65.92,
+          "aggregate_samples": [
+            126.5,
+            126.12,
+            126.28,
+            126.43,
+            132.86
+          ],
+          "per_stream_samples": [
+            65.93,
+            65.74,
+            65.85,
+            65.92,
+            68.97
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c2-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 126.48,
+          "per_stream_median": 65.92,
+          "aggregate_samples": [
+            126.51,
+            126.39,
+            126.48,
+            126.43,
+            126.48
+          ],
+          "per_stream_samples": [
+            65.95,
+            65.9,
+            65.92,
+            65.91,
+            65.92
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c2-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 126.43,
+      "per_stream_median": 65.92,
+      "trial_aggregate_range": [
+        126.32,
+        126.48
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 30
+      }
+    },
+    "code-c2": {
+      "scene": "code",
+      "concurrency": 2,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 205.23,
+          "per_stream_median": 102.63,
+          "aggregate_samples": [
+            199.87,
+            204.91,
+            205.4,
+            205.27,
+            205.23
+          ],
+          "per_stream_samples": [
+            99.95,
+            102.47,
+            102.72,
+            102.66,
+            102.63
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c2-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 205.23,
+          "per_stream_median": 102.64,
+          "aggregate_samples": [
+            204.85,
+            205.64,
+            205.23,
+            205.07,
+            205.46
+          ],
+          "per_stream_samples": [
+            102.44,
+            102.83,
+            102.64,
+            102.55,
+            102.75
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c2-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 205.05,
+          "per_stream_median": 102.6,
+          "aggregate_samples": [
+            205.25,
+            205.05,
+            196.45,
+            198.04,
+            205.15
+          ],
+          "per_stream_samples": [
+            102.65,
+            102.54,
+            102.2,
+            102.8,
+            102.6
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              373,
+              400
+            ],
+            [
+              373,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c2-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 205.23,
+      "per_stream_median": 102.63,
+      "trial_aggregate_range": [
+        205.05,
+        205.23
+      ],
+      "completion_min": 373,
+      "completion_max": 400,
+      "short_completions": 2,
+      "completion_histogram": {
+        "373": 2,
+        "400": 28
+      }
+    },
+    "json-c2": {
+      "scene": "json",
+      "concurrency": 2,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 241.17,
+          "per_stream_median": 120.61,
+          "aggregate_samples": [
+            215.01,
+            223.65,
+            241.17,
+            245.8,
+            246.3
+          ],
+          "per_stream_samples": [
+            107.52,
+            111.84,
+            120.61,
+            122.93,
+            123.18
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c2-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 246.12,
+          "per_stream_median": 123.07,
+          "aggregate_samples": [
+            223.2,
+            246.2,
+            246.39,
+            223.02,
+            246.12
+          ],
+          "per_stream_samples": [
+            111.62,
+            123.13,
+            123.22,
+            111.52,
+            123.07
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c2-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 223.6,
+          "per_stream_median": 111.84,
+          "aggregate_samples": [
+            246.25,
+            223.29,
+            223.2,
+            223.6,
+            246.0
+          ],
+          "per_stream_samples": [
+            123.15,
+            111.66,
+            111.61,
+            111.84,
+            123.02
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ],
+            [
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c2-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 241.17,
+      "per_stream_median": 120.61,
+      "trial_aggregate_range": [
+        223.6,
+        246.12
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 30
+      }
+    },
+    "structured-c2": {
+      "scene": "structured",
+      "concurrency": 2,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": true,
+          "aggregate_median": 267.8,
+          "per_stream_median": 133.96,
+          "aggregate_samples": [
+            267.15,
+            269.4,
+            267.8,
+            267.5,
+            269.08
+          ],
+          "per_stream_samples": [
+            133.62,
+            134.74,
+            133.96,
+            133.8,
+            134.57
+          ],
+          "completion_vectors": [
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c2-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 268.26,
+          "per_stream_median": 134.17,
+          "aggregate_samples": [
+            268.11,
+            268.35,
+            268.14,
+            268.43,
+            268.26
+          ],
+          "per_stream_samples": [
+            134.12,
+            134.24,
+            134.11,
+            134.25,
+            134.17
+          ],
+          "completion_vectors": [
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c2-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 267.88,
+          "per_stream_median": 133.97,
+          "aggregate_samples": [
+            267.82,
+            267.58,
+            268.68,
+            268.53,
+            267.88
+          ],
+          "per_stream_samples": [
+            133.95,
+            133.86,
+            134.39,
+            134.32,
+            133.97
+          ],
+          "completion_vectors": [
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ],
+            [
+              200,
+              200
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c2-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 30,
+      "aggregate_median": 267.88,
+      "per_stream_median": 133.97,
+      "trial_aggregate_range": [
+        267.8,
+        268.26
+      ],
+      "completion_min": 200,
+      "completion_max": 200,
+      "short_completions": 30,
+      "completion_histogram": {
+        "200": 30
+      }
+    },
+    "prose-c4": {
+      "scene": "prose",
+      "concurrency": 4,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 171.77,
+          "per_stream_median": 45.09,
+          "aggregate_samples": [
+            181.02,
+            170.41,
+            171.6,
+            171.77,
+            173.29
+          ],
+          "per_stream_samples": [
+            46.91,
+            44.79,
+            45.09,
+            45.13,
+            44.38
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c4-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 171.91,
+          "per_stream_median": 45.19,
+          "aggregate_samples": [
+            183.2,
+            171.91,
+            163.18,
+            164.72,
+            171.96
+          ],
+          "per_stream_samples": [
+            47.45,
+            45.19,
+            41.53,
+            42.95,
+            45.19
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c4-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 177.93,
+          "per_stream_median": 45.63,
+          "aggregate_samples": [
+            167.41,
+            178.29,
+            171.93,
+            177.93,
+            178.05
+          ],
+          "per_stream_samples": [
+            43.46,
+            46.11,
+            45.19,
+            46.59,
+            45.63
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c4-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 60,
+      "aggregate_median": 171.91,
+      "per_stream_median": 45.19,
+      "trial_aggregate_range": [
+        171.77,
+        177.93
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 60
+      }
+    },
+    "code-c4": {
+      "scene": "code",
+      "concurrency": 4,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 256.13,
+          "per_stream_median": 67.49,
+          "aggregate_samples": [
+            258.83,
+            249.75,
+            256.13,
+            258.31,
+            252.57
+          ],
+          "per_stream_samples": [
+            67.49,
+            64.14,
+            68.31,
+            68.74,
+            65.62
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c4-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 255.58,
+          "per_stream_median": 66.84,
+          "aggregate_samples": [
+            258.75,
+            258.58,
+            255.58,
+            253.42,
+            255.21
+          ],
+          "per_stream_samples": [
+            68.83,
+            68.81,
+            65.29,
+            66.84,
+            66.68
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c4-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 256.17,
+          "per_stream_median": 65.8,
+          "aggregate_samples": [
+            258.62,
+            255.86,
+            258.54,
+            255.72,
+            256.17
+          ],
+          "per_stream_samples": [
+            68.84,
+            65.76,
+            68.84,
+            65.72,
+            65.8
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c4-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 60,
+      "aggregate_median": 256.13,
+      "per_stream_median": 66.84,
+      "trial_aggregate_range": [
+        255.58,
+        256.17
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 60
+      }
+    },
+    "json-c4": {
+      "scene": "json",
+      "concurrency": 4,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 343.6,
+          "per_stream_median": 86.81,
+          "aggregate_samples": [
+            331.18,
+            343.14,
+            380.46,
+            343.6,
+            357.62
+          ],
+          "per_stream_samples": [
+            83.88,
+            86.81,
+            96.3,
+            85.94,
+            89.43
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c4-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 362.03,
+          "per_stream_median": 91.57,
+          "aggregate_samples": [
+            362.03,
+            342.41,
+            329.64,
+            386.02,
+            362.99
+          ],
+          "per_stream_samples": [
+            91.57,
+            86.74,
+            82.42,
+            97.72,
+            91.84
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c4-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 363.69,
+          "per_stream_median": 92.01,
+          "aggregate_samples": [
+            361.19,
+            363.69,
+            328.23,
+            404.31,
+            371.55
+          ],
+          "per_stream_samples": [
+            91.48,
+            92.01,
+            82.08,
+            101.1,
+            94.04
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c4-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 60,
+      "aggregate_median": 362.03,
+      "per_stream_median": 91.57,
+      "trial_aggregate_range": [
+        343.6,
+        363.69
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 60
+      }
+    },
+    "structured-c4": {
+      "scene": "structured",
+      "concurrency": 4,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 249.96,
+          "per_stream_median": 100.61,
+          "aggregate_samples": [
+            248.28,
+            250.57,
+            248.88,
+            250.24,
+            249.96
+          ],
+          "per_stream_samples": [
+            99.47,
+            101.12,
+            100.25,
+            101.2,
+            100.61
+          ],
+          "completion_vectors": [
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c4-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 249.75,
+          "per_stream_median": 100.81,
+          "aggregate_samples": [
+            249.47,
+            250.17,
+            248.9,
+            250.05,
+            249.75
+          ],
+          "per_stream_samples": [
+            100.75,
+            100.88,
+            100.81,
+            100.9,
+            100.65
+          ],
+          "completion_vectors": [
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c4-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 249.91,
+          "per_stream_median": 100.82,
+          "aggregate_samples": [
+            250.34,
+            249.91,
+            249.97,
+            249.83,
+            249.89
+          ],
+          "per_stream_samples": [
+            100.92,
+            100.64,
+            100.96,
+            100.29,
+            100.82
+          ],
+          "completion_vectors": [
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ],
+            [
+              400,
+              100,
+              100,
+              100
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c4-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 60,
+      "aggregate_median": 249.91,
+      "per_stream_median": 100.81,
+      "trial_aggregate_range": [
+        249.75,
+        249.96
+      ],
+      "completion_min": 100,
+      "completion_max": 400,
+      "short_completions": 45,
+      "completion_histogram": {
+        "100": 45,
+        "400": 15
+      }
+    },
+    "prose-c8": {
+      "scene": "prose",
+      "concurrency": 8,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 257.5,
+          "per_stream_median": 33.68,
+          "aggregate_samples": [
+            259.37,
+            257.5,
+            244.44,
+            258.2,
+            252.38
+          ],
+          "per_stream_samples": [
+            34.83,
+            33.3,
+            32.8,
+            34.28,
+            33.68
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c8-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 255.68,
+          "per_stream_median": 34.22,
+          "aggregate_samples": [
+            249.3,
+            251.09,
+            267.09,
+            267.77,
+            255.68
+          ],
+          "per_stream_samples": [
+            33.38,
+            34.22,
+            35.38,
+            35.55,
+            33.51
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c8-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 259.5,
+          "per_stream_median": 34.93,
+          "aggregate_samples": [
+            264.51,
+            261.33,
+            259.07,
+            259.5,
+            250.18
+          ],
+          "per_stream_samples": [
+            35.51,
+            34.93,
+            34.21,
+            35.47,
+            33.28
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-prose-c8-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 120,
+      "aggregate_median": 257.5,
+      "per_stream_median": 34.22,
+      "trial_aggregate_range": [
+        255.68,
+        259.5
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 120
+      }
+    },
+    "code-c8": {
+      "scene": "code",
+      "concurrency": 8,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 342.09,
+          "per_stream_median": 45.31,
+          "aggregate_samples": [
+            337.4,
+            339.51,
+            344.11,
+            348.15,
+            342.09
+          ],
+          "per_stream_samples": [
+            43.52,
+            45.31,
+            44.53,
+            45.57,
+            46.78
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              390,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              344,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              328,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c8-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 348.27,
+          "per_stream_median": 45.96,
+          "aggregate_samples": [
+            351.09,
+            351.36,
+            348.27,
+            345.06,
+            342.45
+          ],
+          "per_stream_samples": [
+            45.18,
+            45.96,
+            46.3,
+            46.38,
+            44.69
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              385
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              329,
+              400
+            ],
+            [
+              400,
+              400,
+              386,
+              400,
+              400,
+              400,
+              298,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c8-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 347.52,
+          "per_stream_median": 46.87,
+          "aggregate_samples": [
+            347.52,
+            366.34,
+            345.12,
+            351.08,
+            344.96
+          ],
+          "per_stream_samples": [
+            46.75,
+            47.45,
+            47.1,
+            46.36,
+            46.87
+          ],
+          "completion_vectors": [
+            [
+              373,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              390,
+              385
+            ],
+            [
+              373,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              329,
+              346
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              298,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-code-c8-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 120,
+      "aggregate_median": 347.52,
+      "per_stream_median": 45.96,
+      "trial_aggregate_range": [
+        342.09,
+        348.27
+      ],
+      "completion_min": 298,
+      "completion_max": 400,
+      "short_completions": 20,
+      "completion_histogram": {
+        "298": 8,
+        "328": 1,
+        "329": 2,
+        "344": 1,
+        "346": 1,
+        "373": 2,
+        "385": 2,
+        "386": 1,
+        "390": 2,
+        "400": 100
+      }
+    },
+    "json-c8": {
+      "scene": "json",
+      "concurrency": 8,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 540.66,
+          "per_stream_median": 69.09,
+          "aggregate_samples": [
+            547.73,
+            527.37,
+            560.07,
+            540.66,
+            523.91
+          ],
+          "per_stream_samples": [
+            69.32,
+            65.95,
+            70.05,
+            69.09,
+            67.03
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c8-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 557.65,
+          "per_stream_median": 70.99,
+          "aggregate_samples": [
+            534.5,
+            555.75,
+            567.75,
+            557.65,
+            590.97
+          ],
+          "per_stream_samples": [
+            68.27,
+            70.14,
+            70.99,
+            71.3,
+            74.85
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c8-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 560.29,
+          "per_stream_median": 71.56,
+          "aggregate_samples": [
+            531.68,
+            560.29,
+            565.61,
+            580.04,
+            532.21
+          ],
+          "per_stream_samples": [
+            67.91,
+            71.65,
+            71.56,
+            73.41,
+            68.12
+          ],
+          "completion_vectors": [
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ],
+            [
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400,
+              400
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-json-c8-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 120,
+      "aggregate_median": 557.65,
+      "per_stream_median": 70.99,
+      "trial_aggregate_range": [
+        540.66,
+        560.29
+      ],
+      "completion_min": 400,
+      "completion_max": 400,
+      "short_completions": 0,
+      "completion_histogram": {
+        "400": 120
+      }
+    },
+    "structured-c8": {
+      "scene": "structured",
+      "concurrency": 8,
+      "trials": [
+        {
+          "trial": 1,
+          "reused": false,
+          "aggregate_median": 319.09,
+          "per_stream_median": 86.4,
+          "aggregate_samples": [
+            316.07,
+            319.09,
+            318.54,
+            319.78,
+            319.76
+          ],
+          "per_stream_samples": [
+            84.24,
+            86.4,
+            85.92,
+            86.43,
+            86.41
+          ],
+          "completion_vectors": [
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c8-t1.json"
+        },
+        {
+          "trial": 2,
+          "reused": false,
+          "aggregate_median": 319.74,
+          "per_stream_median": 86.43,
+          "aggregate_samples": [
+            319.4,
+            319.81,
+            320.15,
+            319.74,
+            319.68
+          ],
+          "per_stream_samples": [
+            86.43,
+            86.27,
+            86.54,
+            86.5,
+            86.38
+          ],
+          "completion_vectors": [
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c8-t2.json"
+        },
+        {
+          "trial": 3,
+          "reused": false,
+          "aggregate_median": 319.41,
+          "per_stream_median": 86.27,
+          "aggregate_samples": [
+            319.81,
+            319.37,
+            319.41,
+            320.23,
+            319.41
+          ],
+          "per_stream_samples": [
+            86.35,
+            86.25,
+            86.02,
+            86.82,
+            86.27
+          ],
+          "completion_vectors": [
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ],
+            [
+              400,
+              50,
+              100,
+              50,
+              200,
+              50,
+              100,
+              50
+            ]
+          ],
+          "source_file": "raw/new-20261022/de-structured-c8-t3.json"
+        }
+      ],
+      "rounds": 15,
+      "requests": 120,
+      "aggregate_median": 319.41,
+      "per_stream_median": 86.4,
+      "trial_aggregate_range": [
+        319.09,
+        319.74
+      ],
+      "completion_min": 50,
+      "completion_max": 400,
+      "short_completions": 105,
+      "completion_histogram": {
+        "50": 60,
+        "100": 30,
+        "200": 15,
+        "400": 15
+      }
+    }
+  },
+  "PR": {
+    "8192": {
+      "median_tok_s": 5814.2,
+      "median_TTFT_s": 1.411,
+      "samples": [
+        {
+          "target": 8192,
+          "prompt_tokens": 8201,
+          "ttft_s": 1.411,
+          "tok_s": 5814.2,
+          "prompt_chars": 32767,
+          "chars_per_token": 3.995,
+          "filler": "repeated"
+        },
+        {
+          "target": 8192,
+          "prompt_tokens": 8199,
+          "ttft_s": 1.37,
+          "tok_s": 5985.2,
+          "prompt_chars": 32767,
+          "chars_per_token": 3.996,
+          "filler": "repeated"
+        },
+        {
+          "target": 8192,
+          "prompt_tokens": 8201,
+          "ttft_s": 1.502,
+          "tok_s": 5459.3,
+          "prompt_chars": 32767,
+          "chars_per_token": 3.995,
+          "filler": "repeated"
+        }
+      ]
+    },
+    "65536": {
+      "median_tok_s": 6896.9,
+      "median_TTFT_s": 9.504,
+      "samples": [
+        {
+          "target": 65536,
+          "prompt_tokens": 65545,
+          "ttft_s": 9.472,
+          "tok_s": 6920.2,
+          "prompt_chars": 262143,
+          "chars_per_token": 3.999,
+          "filler": "repeated"
+        },
+        {
+          "target": 65536,
+          "prompt_tokens": 65544,
+          "ttft_s": 9.523,
+          "tok_s": 6882.6,
+          "prompt_chars": 262143,
+          "chars_per_token": 3.999,
+          "filler": "repeated"
+        },
+        {
+          "target": 65536,
+          "prompt_tokens": 65545,
+          "ttft_s": 9.504,
+          "tok_s": 6896.9,
+          "prompt_chars": 262143,
+          "chars_per_token": 3.999,
+          "filler": "repeated"
+        }
+      ]
+    },
+    "262144": {
+      "median_tok_s": 5940.1,
+      "median_TTFT_s": 44.132,
+      "samples": [
+        {
+          "target": 262144,
+          "prompt_tokens": 262153,
+          "ttft_s": 44.34,
+          "tok_s": 5912.4,
+          "prompt_chars": 1048575,
+          "chars_per_token": 4.0,
+          "filler": "repeated"
+        },
+        {
+          "target": 262144,
+          "prompt_tokens": 262151,
+          "ttft_s": 44.132,
+          "tok_s": 5940.1,
+          "prompt_chars": 1048575,
+          "chars_per_token": 4.0,
+          "filler": "repeated"
+        },
+        {
+          "target": 262144,
+          "prompt_tokens": 262153,
+          "ttft_s": 44.098,
+          "tok_s": 5944.7,
+          "prompt_chars": 1048575,
+          "chars_per_token": 4.0,
+          "filler": "repeated"
+        }
+      ]
+    }
+  },
+  "resources": {
+    "new_window": [
+      {
+        "node": "rank2",
+        "samples": 599,
+        "min_available_gib": 10.172954559326172,
+        "max_host_swap_mib": 104.8515625,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 1,
+        "pswpin_delta": 152,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank0",
+        "samples": 599,
+        "min_available_gib": 8.76736068725586,
+        "max_host_swap_mib": 50.34765625,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 0,
+        "pswpin_delta": 122,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank1",
+        "samples": 599,
+        "min_available_gib": 10.377464294433594,
+        "max_host_swap_mib": 1.74609375,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 68,
+        "pswpin_delta": 0,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank3",
+        "samples": 599,
+        "min_available_gib": 10.705406188964844,
+        "max_host_swap_mib": 210.7265625,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 0,
+        "pswpin_delta": 96,
+        "oom_kill_delta": 0,
+        "fatal": null
+      }
+    ],
+    "reused_window": [
+      {
+        "node": "rank2",
+        "samples": 189,
+        "min_available_gib": 10.546501159667969,
+        "max_host_swap_mib": 95.66796875,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 22973,
+        "pswpin_delta": 43,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank0",
+        "samples": 189,
+        "min_available_gib": 8.697490692138672,
+        "max_host_swap_mib": 50.36328125,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 3,
+        "pswpin_delta": 3,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank1",
+        "samples": 189,
+        "min_available_gib": 10.655826568603516,
+        "max_host_swap_mib": 1.48828125,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 2,
+        "pswpin_delta": 0,
+        "oom_kill_delta": 0,
+        "fatal": null
+      },
+      {
+        "node": "rank3",
+        "samples": 189,
+        "min_available_gib": 10.494682312011719,
+        "max_host_swap_mib": 210.8359375,
+        "max_cgroup_swap_bytes": 0,
+        "pswpout_delta": 1,
+        "pswpin_delta": 15,
+        "oom_kill_delta": 0,
+        "fatal": null
+      }
+    ]
+  },
+  "firmware_at_measurement": [
+    {
+      "node": "rank2",
+      "bios_version": "5.36_0ACUM028",
+      "kernel": "6.17.0-1032-nvidia",
+      "driver": "580.178.04",
+      "gpu_vbios": "9A.0B.34.00.00",
+      "host_page_size": 4096,
+      "components": [
+        {
+          "component": "EC",
+          "expected": "0x03000d07",
+          "actual": "0x03000d07",
+          "matches": true
+        },
+        {
+          "component": "SoC",
+          "expected": "0x02009e0f",
+          "actual": "0x02009e0f",
+          "matches": true
+        },
+        {
+          "component": "USB-PD",
+          "expected": "0x00000519",
+          "actual": "0x00000519",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "node": "rank0",
+      "bios_version": "5.36_0ACUM028",
+      "kernel": "6.17.0-1032-nvidia",
+      "driver": "580.178.04",
+      "gpu_vbios": "9A.0B.34.00.00",
+      "host_page_size": 4096,
+      "components": [
+        {
+          "component": "EC",
+          "expected": "0x03000d07",
+          "actual": "0x03000d07",
+          "matches": true
+        },
+        {
+          "component": "SoC",
+          "expected": "0x02009e0f",
+          "actual": "0x02009e0f",
+          "matches": true
+        },
+        {
+          "component": "USB-PD",
+          "expected": "0x00000519",
+          "actual": "0x00000516",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "node": "rank1",
+      "bios_version": "01.53.05.01",
+      "kernel": "6.17.0-1032-nvidia",
+      "driver": "580.178.04",
+      "gpu_vbios": "9A.0B.2D.00.00",
+      "host_page_size": 4096,
+      "components": [
+        {
+          "component": "EC",
+          "expected": "0x0a000001",
+          "actual": "0x0a000001",
+          "matches": true
+        },
+        {
+          "component": "SoC",
+          "expected": "0x05000003",
+          "actual": "0x05000003",
+          "matches": true
+        },
+        {
+          "component": "USB-PD",
+          "expected": "0x00000516",
+          "actual": "0x00000516",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "node": "rank3",
+      "bios_version": "01.53.05.01",
+      "kernel": "6.17.0-1032-nvidia",
+      "driver": "580.178.04",
+      "gpu_vbios": "9A.0B.2D.00.00",
+      "host_page_size": 4096,
+      "components": [
+        {
+          "component": "EC",
+          "expected": "0x0a000001",
+          "actual": "0x0a000001",
+          "matches": true
+        },
+        {
+          "component": "SoC",
+          "expected": "0x05000003",
+          "actual": "0x05000003",
+          "matches": true
+        },
+        {
+          "component": "USB-PD",
+          "expected": "0x00000516",
+          "actual": "0x00000001",
+          "matches": false
+        }
+      ]
+    }
+  ],
+  "firmware_status_scope": "Historical test-time snapshot; later cold boots and firmware investigations are outside this benchmark.",
+  "firmware_targets_confirmed_at_measurement": 10,
+  "firmware_targets_total": 12,
+  "firmware_activation_complete_at_measurement": false,
+  "PD_active_version_unconfirmed_at_measurement": [
+    "rank0",
+    "rank3"
+  ],
+  "no_logged_external_platform_inference": true,
+  "service_healthy_after": true,
+  "container_image_runtime_unchanged": true,
+  "causal_firmware_gain_proven": false,
+  "later_cold_boot_performance_included": false
+}

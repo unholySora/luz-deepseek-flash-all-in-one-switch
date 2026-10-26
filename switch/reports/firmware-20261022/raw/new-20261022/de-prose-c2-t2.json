@@ -1,0 +1,75 @@
+{
+ "label": "firmware-full-DE-20261022/de-prose-c2-t2",
+ "de": [
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.93,
+   "per_all": [
+    63.25,
+    65.93
+   ],
+   "agg": 126.5,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.74,
+   "per_all": [
+    63.06,
+    65.74
+   ],
+   "agg": 126.12,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.85,
+   "per_all": [
+    63.14,
+    65.85
+   ],
+   "agg": 126.28,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 65.92,
+   "per_all": [
+    63.22,
+    65.92
+   ],
+   "agg": 126.43,
+   "completion": [
+    400,
+    400
+   ]
+  },
+  {
+   "type": "prose",
+   "conc": 2,
+   "per": 68.97,
+   "per_all": [
+    68.97,
+    66.43
+   ],
+   "agg": 132.86,
+   "completion": [
+    400,
+    400
+   ]
+  }
+ ]
+}
